@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.DuoSvgImageView android:id="@id/speak_button" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/btn_white" />
+    <ImageView android:id="@id/speak_meter" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/microphone_meter_blue_wide" android:scaleType="fitXY" />
+    <org.apmem.tools.layouts.FlowLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="40.0dip" android:layout_height="40.0dip">
+            <com.duolingo.view.DuoSvgImageView android:id="@id/speak_icon_inactive" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" app:svgSrc="@raw/microphone_inactive" />
+            <com.duolingo.view.DuoSvgImageView android:id="@id/speak_icon_active" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" app:svgSrc="@raw/microphone_active" />
+            <ProgressBar android:id="@id/speak_working_spinner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminateDrawable="@drawable/gradient_ring_blue" style="?android:attr/progressBarStyleLarge" />
+        </RelativeLayout>
+        <com.duolingo.typeface.widget.DuoTextView android:textAppearance="@style/ChallengeBoldText" android:id="@id/speak_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="4.0dip" android:text="@string/speak_button_record" />
+    </org.apmem.tools.layouts.FlowLayout>
+</merge>

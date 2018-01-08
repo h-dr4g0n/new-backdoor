@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/coach_root" android:background="@color/new_gray_lightest" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.1" />
+    <com.duolingo.view.CoachGoalSelectionView android:id="@id/coach_goal_choice" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.1" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/duo_coach_goal_setup" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.duolingo.view.DuoSvgImageView android:gravity="center" android:id="@id/duo" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_weight="0.4" app:svgSrc="@raw/coach_front" />
+        <com.duolingo.typeface.widget.DuoTextView android:gravity="center" android:layout_gravity="center" android:id="@id/duo_speech_bubble_lesson_end" android:background="@drawable/speech_bubble_white_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/coach_change_later_reassurance" android:layout_weight="0.6" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.1" />
+    <FrameLayout android:id="@id/button_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.typeface.widget.DuoTextView android:id="@id/continue_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_continue" app:buttonColor="@color/green_leaf" style="@style/SubmitButtonStyle" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?selectableItemBackground" android:paddingTop="@dimen/huge_margin" android:paddingBottom="@dimen/small_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.view.DuoSvgImageView android:id="@id/comment_avatar" android:layout_width="@dimen/club_event_comment_detail_avatar_size" android:layout_height="@dimen/club_event_comment_detail_avatar_size" android:layout_marginLeft="@dimen/large_margin" android:layout_marginRight="@dimen/large_margin" android:layout_alignParentLeft="@bool/ltr_enabled" android:layout_alignParentStart="true" />
+    <LinearLayout android:gravity="end" android:id="@id/time_or_spinner" android:paddingLeft="@dimen/small_margin" android:paddingRight="@dimen/large_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="@bool/ltr_enabled" android:paddingStart="@dimen/small_margin" android:paddingEnd="@dimen/large_margin" android:layout_alignParentEnd="true">
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_event_time_font_size" android:textColor="@color/new_gray_light" android:id="@id/comment_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ProgressBar android:id="@id/progress_bar" android:layout_width="@dimen/club_event_comment_icon_size" android:layout_height="wrap_content" android:indeterminate="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/time_or_spinner" android:layout_toRightOf="@id/comment_avatar" android:layout_alignParentTop="true" android:layout_toStartOf="@id/time_or_spinner" android:layout_toEndOf="@id/comment_avatar">
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_event_comment_detail_font_size" android:textStyle="bold" android:textColor="@color/new_gray" android:id="@id/comment_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small_margin" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_event_comment_detail_font_size" android:autoLink="all" android:id="@id/comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_event_comment_detail_font_size" android:textStyle="bold" android:textColor="@color/red" android:id="@id/error_message" android:paddingTop="@dimen/large_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

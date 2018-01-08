@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:dither="true" android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/card_btn_corner" />
+    <solid android:color="@color/white" />
+    <padding android:left="@dimen/choice_token_padding" android:top="@dimen/choice_token_padding_top" android:right="@dimen/choice_token_padding" android:bottom="@dimen/choice_token_padding" />
+</shape>

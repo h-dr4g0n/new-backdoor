@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/large_font_size" android:textColor="@color/btn_light_text_colors" android:id="@id/schools_ad_title" android:background="@color/blue" android:padding="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/schools_ad_new" android:layout_alignParentTop="true" />
+    <com.duolingo.view.DuoSvgImageView android:id="@id/schools_children" android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitCenter" android:layout_below="@id/schools_ad_title" app:svgSrc="@raw/children" app:aspectRatio="3.3333333" />
+    <com.duolingo.view.DuoScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:id="@id/schools_ad_blurb" android:padding="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/schools_ad_blurb" android:layout_alignParentTop="true" />
+    </com.duolingo.view.DuoScrollView>
+</LinearLayout>

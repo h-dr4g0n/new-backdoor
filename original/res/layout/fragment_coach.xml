@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.LessonLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/coach_container_left" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textStyle="bold" android:gravity="center_vertical" android:layout_gravity="center|left" android:id="@id/duo_speech_bubble_in_lesson_left" android:background="@drawable/coach_speech_left" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lesson_coach_speech_bubble_margin" android:layout_marginBottom="@dimen/lesson_coach_speech_bubble_margin" />
+        <com.duolingo.view.DuoOutfitView android:layout_gravity="center|left" android:id="@id/coach_view_left" android:visibility="invisible" android:layout_width="@dimen/lesson_coach_size" android:layout_height="@dimen/lesson_coach_size" app:outfitPos="cheer" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/coach_container_right" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textStyle="bold" android:gravity="center_vertical" android:layout_gravity="center|right" android:id="@id/duo_speech_bubble_in_lesson_right" android:background="@drawable/coach_speech_right" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/lesson_coach_speech_bubble_margin" android:layout_marginBottom="@dimen/lesson_coach_speech_bubble_margin" />
+        <com.duolingo.view.DuoOutfitView android:layout_gravity="center|right" android:id="@id/coach_view_right" android:visibility="invisible" android:layout_width="@dimen/lesson_coach_size" android:layout_height="@dimen/lesson_coach_size" app:outfitPos="cheer" />
+    </FrameLayout>
+</com.duolingo.view.LessonLinearLayout>

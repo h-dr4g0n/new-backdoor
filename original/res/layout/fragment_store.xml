@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/store_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.duolingo.view.StorePremiumOfferView android:id="@id/premium_offer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.view.StorePremiumDiscountOfferView android:id="@id/premium_discount_offer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.view.StorePremiumNewYearsOfferView android:id="@id/premium_new_years_offer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.view.StoreSectionView android:id="@id/special_offers_section" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.view.StoreSectionView android:id="@id/power_ups_section" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.view.StoreSectionView android:id="@id/outfits_section" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.view.StoreSectionView android:id="@id/bonus_skills_section" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.view.StoreSectionView android:id="@id/gem_items_section" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@id/progress_container" android:background="@color/black10" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyleLarge" />
+    </RelativeLayout>
+</FrameLayout>

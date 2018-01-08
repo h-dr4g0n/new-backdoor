@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.typeface.widget.DuoTextView android:textStyle="bold" android:textColor="@color/blue" android:gravity="center" android:id="@id/gems" android:paddingTop="@dimen/big_margin" android:paddingBottom="@dimen/big_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.duolingo.view.DuoSvgImageView android:id="@id/icon" android:paddingTop="@dimen/big_margin" android:paddingBottom="@dimen/big_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.duolingo.typeface.widget.DuoTextView android:textStyle="bold" android:textColor="@color/new_gray_dark" android:gravity="center" android:id="@id/price" android:paddingTop="@dimen/big_margin" android:paddingBottom="@dimen/big_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

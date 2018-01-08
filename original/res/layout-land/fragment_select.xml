@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.LessonLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/challenge_select" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.tools.AutoScaleTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ChallengeTitle" />
+    <include android:id="@id/speaker_spacer" layout="@layout/lesson_element_spacer" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/play_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.45" style="@style/ListenButtonWideStyle">
+            <com.duolingo.view.DuoSvgImageView android:layout_width="32.0dip" android:layout_height="24.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/generic_margin" android:scaleType="fitCenter" app:svgSrc="@raw/speaker_white" app:flipRtl="true" />
+            <com.duolingo.typeface.widget.DuoTextView android:textAppearance="@style/ChallengeBoldText" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/button_listen" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/lesson_element_spacer" />
+    <com.duolingo.view.SelectChallengeSelectionView android:id="@id/selection" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.duolingo.view.LessonLinearLayout>

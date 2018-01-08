@@ -1,0 +1,40 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: original.apk
+compressionType: false
+doNotCompress:
+- arsc
+- zip
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '25'
+sharedLibrary: false
+unknownFiles:
+  androidannotations-api.properties: '8'
+  build-data.properties: '8'
+  logback.xml: '8'
+  protobuf.meta: '8'
+  error_prone/Annotations.gwt.xml: '8'
+  fabric/com.amazonaws.aws-android-sdk-core.properties: '8'
+  fabric/com.crashlytics.sdk.android.beta.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics-core.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics-ndk.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics.properties: '8'
+  fabric/com.mopub.sdk.android.mopub.properties: '8'
+  fabric/io.fabric.sdk.android.fabric.properties: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  org/red5/io/flv/FLVMetaData.xsd: '8'
+  org/red5/io/flv/FLVMetaData_Template.xml: '8'
+  third_party/java_src/error_prone/project/annotations/Annotations.gwt.xml: '8'
+  third_party/java_src/error_prone/project/annotations/Google_internal.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.1
+versionInfo:
+  versionCode: '518'
+  versionName: 3.64.2

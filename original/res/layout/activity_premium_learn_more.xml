@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/gradient_linear_blue_reverse" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.DuoSvgImageView android:id="@id/stars_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:svgSrc="@raw/stars_bg" />
+    <com.duolingo.view.AdjustHeightBoundsImageView android:id="@id/top_edge_duo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="130.0dip" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/button_container" android:layout_below="@id/top_edge_duo">
+        <com.duolingo.view.AdjustHeightBoundsImageView android:id="@id/top_duo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/huge_margin" android:layout_weight="1.0" />
+        <com.duolingo.view.DuoSvgImageView android:layout_gravity="bottom|center" android:id="@id/duolingo_plus_logo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/premium_duo_plus_logo_height" app:svgSrc="@raw/duolingo_branded_plus_logo" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:textColor="@color/white" android:gravity="center" android:id="@id/sales_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/huge_margin" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/larger_font_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/sales_headline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/huge_margin" />
+        <RelativeLayout android:gravity="center" android:id="@id/center_duo_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/margin_50" android:layout_marginRight="@dimen/margin_50" android:minWidth="400.0dip" android:layout_weight="1.0">
+            <com.duolingo.view.AdjustHeightBoundsImageView android:id="@id/center_duo" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.view.DuoSvgImageView android:id="@id/center_duo_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="@dimen/large_margin" android:layout_below="@id/center_duo" app:svgSrc="@raw/duo_shadow" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/huge_margin" android:layout_alignParentBottom="true">
+        <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/blue" android:id="@id/learn_more_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/huge_margin" android:text="@string/action_learn_more_caps" style="@style/App_ButtonStyle" />
+        <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/white" android:id="@id/no_thanks" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_no_thanks_caps" style="@style/App_ButtonFlat" />
+    </LinearLayout>
+</RelativeLayout>

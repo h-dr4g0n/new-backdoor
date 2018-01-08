@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.DuoSvgImageView android:id="@id/download_icon_blue" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:svgSrc="@raw/offline_download" />
+    <com.duolingo.view.DuoSvgImageView android:id="@id/download_icon_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:svgSrc="@raw/download_icon_skill" />
+    <com.duolingo.view.DuoSvgImageView android:id="@id/check_mark_icon_blue" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:svgSrc="@raw/offline_complete" />
+    <com.duolingo.view.DuoSvgImageView android:id="@id/check_mark_icon_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:svgSrc="@raw/offline_complete_white" />
+    <ProgressBar android:id="@id/progress_blue" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminate="true" android:indeterminateTint="@color/blue" style="?android:attr/progressBarStyleLarge" />
+    <ProgressBar android:id="@id/progress_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminate="true" android:indeterminateTint="@color/white" style="?android:attr/progressBarStyleLarge" />
+</merge>

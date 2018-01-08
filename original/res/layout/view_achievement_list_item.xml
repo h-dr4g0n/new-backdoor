@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.DuoLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:padding="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.view.DuoLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/large_margin">
+                <com.duolingo.view.DuoSvgImageView android:gravity="center_vertical" android:id="@id/achievement_icon" android:layout_width="@dimen/achievement_list_icon_size" android:layout_height="@dimen/achievement_list_icon_size" android:layout_marginTop="@dimen/big_margin" android:layout_marginBottom="@dimen/big_margin" />
+                <com.duolingo.view.AchievementBannerView android:gravity="center_vertical" android:id="@id/achievement_icon_banner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/achievement_list_icon_banner_size" />
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/achievement_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/large_margin">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small_margin">
+                    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/achievement_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+                    <com.duolingo.typeface.widget.DuoTextView android:textStyle="bold" android:textColor="@color/new_gray" android:gravity="center" android:id="@id/achievement_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_margin" android:layout_toRightOf="@id/achievement_name" />
+                </RelativeLayout>
+                <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:gravity="center_vertical" android:id="@id/achievement_description" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.duolingo.app.profile.AchievementProgressBarView android:id="@id/achievement_progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_margin" app:progressBarHeight="@dimen/achievement_progress_bar_height" app:progressBarColor="@color/green_leaf" app:progressBarShine="false" />
+            </LinearLayout>
+        </com.duolingo.view.DuoLinearLayout>
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/xsmall_font_size" android:textStyle="bold" android:textColor="@color/white" android:id="@id/achievement_new_badge" android:background="@drawable/new_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/large_margin" android:text="@string/achievement_new" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:background="@color/new_gray_lighter" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_margin="0.0dip" />
+</com.duolingo.view.DuoLinearLayout>

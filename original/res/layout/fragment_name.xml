@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.LessonLinearLayout android:orientation="vertical" android:id="@id/challenge_name" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.tools.AutoScaleTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_name" style="@style/ChallengeTitle" />
+    <include android:id="@id/title_spacer" layout="@layout/lesson_element_spacer" />
+    <com.duolingo.view.DuoSvgImageView android:id="@id/image_svg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitCenter" android:layout_weight="1.0" />
+    <com.duolingo.view.ImageFlopLayout android:id="@id/linear_selection_container" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" style="@style/NamePortraitWrapperStyle">
+            <ImageView android:id="@id/image1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.7" style="@style/NameImageViewStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top" android:orientation="vertical" style="@style/NamePortraitWrapperStyle">
+            <ImageView android:id="@id/image2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.7" style="@style/NameImageViewStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" style="@style/NamePortraitWrapperStyle">
+            <ImageView android:id="@id/image3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.7" style="@style/NameImageViewStyle" />
+        </LinearLayout>
+    </com.duolingo.view.ImageFlopLayout>
+    <include android:id="@id/articles_spacer" layout="@layout/lesson_element_spacer" />
+    <com.duolingo.tools.FlexibleTableLayout android:id="@id/articles_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:horizontalSpacing="5.0dip" />
+    <include layout="@layout/lesson_element_spacer" />
+    <com.duolingo.typeface.widget.DuoEditText android:id="@id/word_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="text" android:imeOptions="flagNoExtractUi" android:imeActionLabel="@string/button_submit" android:imeActionId="@id/submit_action" />
+</com.duolingo.view.LessonLinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.DuoSvgImageView android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="fitCenter" app:iconScale="0.8" app:layout_rowWeight="1.0" app:layout_columnWeight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

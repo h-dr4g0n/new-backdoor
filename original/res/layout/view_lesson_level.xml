@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.PercentFrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:horizontalPadding="@fraction/activity_horizontal_padding_percent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.duolingo.typeface.widget.DuoTextView android:textAppearance="@style/LessonEndTitle" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_below="@id/title" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <com.duolingo.view.LevelTextView android:textColor="@color/bright_gold_text" android:gravity="center" android:layout_gravity="center" android:id="@id/level" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.6" app:medal_stroke_color="@color/gold_shade" app:medal_has_flag="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.duolingo.view.PercentFrameLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_overflow">
+        <item>@string/action_settings</item>
+        <item>@string/action_feedback</item>
+        <item>@string/action_logout</item>
+    </string-array>
+    <string-array name="leaderboard_menu">
+        <item>@string/action_find_friend</item>
+        <item>@string/action_invite_friend</item>
+    </string-array>
+    <string-array name="picture_options">
+        <item>@string/pick_picture_take</item>
+        <item>@string/pick_picture_find</item>
+    </string-array>
+    <string-array name="react_bye">
+        <item>@string/react_sad</item>
+        <item>@string/react_oh_no</item>
+        <item>@string/react_dont_leave</item>
+        <item>@string/react_im_sad</item>
+        <item>@string/react_come_back</item>
+        <item>@string/react_traitor</item>
+        <item>@string/react_unfortunate</item>
+    </string-array>
+    <string-array name="react_congratulate">
+        <item>@string/react_thats_awesome</item>
+        <item>@string/react_great_job</item>
+        <item>@string/react_so_studious</item>
+        <item>@string/react_on_fire</item>
+        <item>@string/react_amazing</item>
+        <item>@string/react_thats_great</item>
+        <item>@string/react_keep_it_up</item>
+        <item>@string/react_so_smart</item>
+        <item>@string/react_keep_learning</item>
+        <item>@string/react_thanks</item>
+        <item>@string/react_good_work</item>
+        <item>@string/react_cool</item>
+        <item>@string/react_doing_well</item>
+    </string-array>
+    <string-array name="react_jeer">
+        <item>@string/react_im_ahead</item>
+        <item>@string/react_champion</item>
+        <item>@string/react_unbeatable</item>
+        <item>@string/react_undefeated</item>
+        <item>@string/react_next_time</item>
+        <item>@string/react_cant_catch_me</item>
+        <item>@string/react_cant_beat_me</item>
+        <item>@string/react_you_beat_me</item>
+    </string-array>
+    <string-array name="react_welcome">
+        <item>@string/react_welcome</item>
+        <item>@string/react_happy_youre_here</item>
+        <item>@string/react_clubs_rule</item>
+        <item>@string/react_im_excited</item>
+        <item>@string/react_nice_to_have_you</item>
+        <item>@string/react_thats_awesome</item>
+        <item>@string/react_hello</item>
+    </string-array>
+    <string-array name="report_comment_reasons">
+        <item>@string/report_comment_inappropriate</item>
+        <item>@string/report_comment_spam</item>
+    </string-array>
+    <string-array name="settings_daily_goals">
+        <item>@string/setting_casual_goal</item>
+        <item>@string/setting_regular_goal</item>
+        <item>@string/setting_serious_goal</item>
+        <item>@string/setting_insane_goal</item>
+    </string-array>
+    <string-array name="weekdays_short">
+        <item>@string/weekday_short_sunday</item>
+        <item>@string/weekday_short_monday</item>
+        <item>@string/weekday_short_tuesday</item>
+        <item>@string/weekday_short_wednesday</item>
+        <item>@string/weekday_short_thursday</item>
+        <item>@string/weekday_short_friday</item>
+        <item>@string/weekday_short_saturday</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.StoreItemView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StoreItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/view_store_item_merge" />
+    <com.duolingo.view.CircleIconImageView android:layout_gravity="center_horizontal" android:id="@id/store_item_image" android:layout_width="85.0dip" android:layout_height="85.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="10.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_marginStart="0.0dip" android:layout_marginEnd="10.0dip" app:iconScale="0.67" app:aspectRatio="1.0" />
+</com.duolingo.view.StoreItemView>

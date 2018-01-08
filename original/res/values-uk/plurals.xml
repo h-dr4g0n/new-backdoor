@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="one">%1$s та %2$d інші</item>
+        <item quantity="few">%1$s та ще %2$d</item>
+        <item quantity="many">%1$s та %2$d інших</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="one">Опануйте %d навичку курсу</item>
+        <item quantity="few">Опануйте %d навички курсу</item>
+        <item quantity="many">Опануйте %d навичок курсу</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="one">Витратьте %d самоцвіт</item>
+        <item quantity="few">Витратьте %d самоцвіти</item>
+        <item quantity="many">Витратьте %d самоцвітів</item>
+    </plurals>
+    <plurals name="achievement_requirement_gold_skills">
+        <item quantity="one">Отримайте золотий статус для %d навички</item>
+        <item quantity="few">Отримайте золотий статус для %d навичок</item>
+        <item quantity="many">Отримайте золотий статус для %d навичок</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="one">Виконайте %d урок або практичне завдання без помилок</item>
+        <item quantity="few">Виконайте %d уроки або практичне завдання без помилок</item>
+        <item quantity="many">Виконайте %d уроків або практичних завдань без помилок</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="one">Витратьте %d лінгот</item>
+        <item quantity="few">Витратьте %d лінготи</item>
+        <item quantity="many">Витратьте %d лінготів</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="one">Протримайтесь на відрізку %d день</item>
+        <item quantity="few">Протримайтесь на відрізку %d дні</item>
+        <item quantity="many">Протримайтесь на відрізку %d днів</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="one">Отримайте %d бал за день</item>
+        <item quantity="few">Отримайте %d бали за день</item>
+        <item quantity="many">Отримайте %d балів за день</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="one">Ви опанували %d навичку курсу</item>
+        <item quantity="few">Ви опанували %d навичку курсу</item>
+        <item quantity="many">Ви опанували %d навичок курсу</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="one">Ви витратили %d самоцвіт</item>
+        <item quantity="few">Ви витратили %d самоцвіти</item>
+        <item quantity="many">Ви витратили %d самоцвітів</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gold_skills">
+        <item quantity="one">У вас %d навичка має золотий статус одночасно</item>
+        <item quantity="few">У вас %d навички мають золотий статус одночасно</item>
+        <item quantity="many">У вас %d навичок мають золотий статус одночасно</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="one">Ви пройшли %d урок або практичне завдання без помилок</item>
+        <item quantity="few">Ви пройшли %d уроки або практичних завдання без помилок</item>
+        <item quantity="many">Ви пройшли %d уроків або практичних завдань без помилок</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="one">Ви витратили %d лінгот</item>
+        <item quantity="few">Ви витратили %d лінготи</item>
+        <item quantity="many">Ви витратили %d лінготів</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="one">Ви протрималися на відрізку %d день</item>
+        <item quantity="few">Ви протрималися на відрізку %d дні</item>
+        <item quantity="many">Ви протрималися на відрізку %d днів</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="one">Ви заробили %d бал за день</item>
+        <item quantity="few">Ви заробили %d бали за день</item>
+        <item quantity="many">Ви заробили %d балів за день</item>
+    </plurals>
+    <plurals name="badgeicon_banner_lesson">
+        <item quantity="one">Залишився &lt;font color=\"#ffbf23\">&lt;b>%d урок&lt;/b>&lt;/font> до досягнення цілі</item>
+        <item quantity="few">Залишилося &lt;font color=\"#ffbf23\">&lt;b>%d уроки&lt;/b>&lt;/font> до досягнення цілі</item>
+        <item quantity="many">Залишилося &lt;font color=\"#ffbf23\">&lt;b>%d уроків&lt;/b>&lt;/font> до досягнення цілі</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="one">Ваша відповідь містить описку.</item>
+        <item quantity="few">Ваша відповідь містить описки.</item>
+        <item quantity="many">описок</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="one">Отримайте іншу можливість, щоб зберегти свої здобутки за %d-денний відрізок.</item>
+        <item quantity="few">Отримайте іншу можливість, щоб зберегти свої здобутки за %d-денний відрізок.</item>
+        <item quantity="many">Отримайте іншу можливість, щоб зберегти свої здобутки за %d-денний відрізок.</item>
+    </plurals>
+    <plurals name="club_num_members">
+        <item quantity="one">%d УЧАСНИК</item>
+        <item quantity="few">%d УЧАСНИКИ</item>
+        <item quantity="many">%d УЧАСНИКІВ</item>
+    </plurals>
+    <plurals name="clubs_others_played">
+        <item quantity="one">Зіграли: %1$s і %2$d інший</item>
+        <item quantity="few">Зіграли: %1$s і %2$d інших</item>
+        <item quantity="many">Зіграли: %1$s і %2$d інших</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="one">%d хвилина на день</item>
+        <item quantity="few">%d хвилини на день</item>
+        <item quantity="many">%d хвилин на день</item>
+    </plurals>
+    <plurals name="coach_on_streak">
+        <item quantity="one">Це ваш &lt;font color=\"#77c924\">&lt;b>%d день&lt;/b>&lt;/font> поспіль!</item>
+        <item quantity="few">Це ваш &lt;font color=\"#77c924\">&lt;b>%d день&lt;/b>&lt;/font> поспіль!</item>
+        <item quantity="many">Це ваш &lt;font color=\"#77c924\">&lt;b>%d день&lt;/b>&lt;/font> поспіль!</item>
+    </plurals>
+    <plurals name="coach_xp_a_day">
+        <item quantity="one">%d бал за день</item>
+        <item quantity="few">%d бали за день</item>
+        <item quantity="many">%d балів за день</item>
+    </plurals>
+    <plurals name="coach_xp_from_goal">
+        <item quantity="one">Ще &lt;font color=\"#ffbf23\">&lt;b>%d бал&lt;/b>&lt;/font> до досягнення мети.</item>
+        <item quantity="few">Ще &lt;font color=\"#ffbf23\">&lt;b>%d бали&lt;/b>&lt;/font> до досягнення мети</item>
+        <item quantity="many">Ще &lt;font color=\"#ffbf23\">&lt;b>%d балів&lt;/b>&lt;/font></item>
+    </plurals>
+    <plurals name="coach_xp_from_goal_no_color">
+        <item quantity="one">%d бал до досягнення мети</item>
+        <item quantity="few">%d бали до досягнення мети</item>
+        <item quantity="many">%d балів до досягнення мети</item>
+    </plurals>
+    <plurals name="cost_gems">
+        <item quantity="one">%d самоцвіт</item>
+        <item quantity="few">%d самоцвіти</item>
+        <item quantity="many">%d самоцвітів</item>
+    </plurals>
+    <plurals name="cost_lingots">
+        <item quantity="one">%d ЛІНГОТ</item>
+        <item quantity="few">%d ЛІНГ.</item>
+        <item quantity="many">%d ЛІНГ.</item>
+    </plurals>
+    <plurals name="current_level">
+        <item quantity="one">%d рівень</item>
+        <item quantity="few">%d рівні</item>
+        <item quantity="many">%d рівнів</item>
+    </plurals>
+    <plurals name="daily_goal_not_met">
+        <item quantity="one">Для досягнення щоденної цілі не вистачає %d бала!</item>
+        <item quantity="few">Для досягнення щоденної цілі не вистачає %d балів!</item>
+        <item quantity="many">Для досягнення щоденної цілі не вистачає %d балів!</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="one">%d-денний відрізок</item>
+        <item quantity="few">%d-денний відрізок</item>
+        <item quantity="many">%d-денний відрізок</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="one">%d коментар</item>
+        <item quantity="few">%dкоментарів</item>
+        <item quantity="many">%d</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="one">%d коментар приховано</item>
+        <item quantity="few">%d коментарі приховано</item>
+        <item quantity="many">%d коментарів</item>
+    </plurals>
+    <plurals name="earned_bonus_lingots">
+        <item quantity="one">Ви заробили бонусний лінгот!</item>
+        <item quantity="few">Ви заробили ще %d бонусні лінготи!</item>
+        <item quantity="many">Ви заробили ще %d бонусних лінготів!</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="one">Ви заробили лінгот!</item>
+        <item quantity="few">Ви заробили %d лінготи!</item>
+        <item quantity="many">Ви заробили %d лінготів!</item>
+    </plurals>
+    <plurals name="equip_for_gems">
+        <item quantity="one">ПОПОВНИТИ ШКАЛУ ЖИТТЯ ЗА %1$d %2$s</item>
+        <item quantity="few">ПОПОВНИТИ ШКАЛУ ЖИТТЯ ЗА %1$d %2$s</item>
+        <item quantity="many">ПОПОВНИТИ ШКАЛУ ЖИТТЯ ЗА %1$d %2$s</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="one">%d балів</item>
+        <item quantity="few">%d балів</item>
+        <item quantity="many">%d балів</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="one">Протримайтеся на відрізку 7 днів поспіль і ми подвоїмо вашу ставку в %d самоцвіт.</item>
+        <item quantity="few">Протримайтеся на відрізку 7 днів поспіль і ми подвоїмо вашу ставку в %d самоцвіти.</item>
+        <item quantity="many">Протримайтеся на відрізку 7 днів поспіль і ми подвоїмо вашу ставку в %d самоцвітів.</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="one">Ви подвоїли %d самоцвіт. Хочете зробити ще одну ставку?</item>
+        <item quantity="few">Ви подвоїли %d самоцвіти. Хочете зробити ще одну ставку?</item>
+        <item quantity="many">Ви подвоїли %d самоцвітів. Хочете зробити ще одну ставку?</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="one">Взяти цю річ за %d лінгот?</item>
+        <item quantity="few">Взяти цю річ за %d лінг.?</item>
+        <item quantity="many">Взяти цю річ за %d лінг.?</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="one">Отримати за %d самоцвіт?</item>
+        <item quantity="few">Отримати за %d самоцвіти?</item>
+        <item quantity="many">Отримати за %d самоцвітів?</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="one">Правильне рішення:</item>
+        <item quantity="few">Правильні рішення:</item>
+        <item quantity="many">Правильні рішення:</item>
+    </plurals>
+    <plurals name="health_plus">
+        <item quantity="one">ще %d</item>
+        <item quantity="few">ще %d</item>
+        <item quantity="many">ще %d</item>
+    </plurals>
+    <plurals name="health_refill_cta">
+        <item quantity="one">Поповнити на %1$d %2$s</item>
+        <item quantity="few">Поповнити на %1$d %2$s</item>
+        <item quantity="many">Поповнити на %1$d %2$s</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="one">МІСЯЦЬ</item>
+        <item quantity="few">МІСЯЦІ</item>
+        <item quantity="many">МІСЯЦІВ</item>
+    </plurals>
+    <plurals name="new_streak_after_goal_met">
+        <item quantity="one">Наразі ви на %d-денному відрізку!</item>
+        <item quantity="few">Наразі ви на %d-денному відрізку!</item>
+        <item quantity="many">Наразі ви на %d-денному відрізку!</item>
+    </plurals>
+    <plurals name="num_learners">
+        <item quantity="one">%s учень</item>
+        <item quantity="few">%s учня</item>
+        <item quantity="many">%s учнів</item>
+    </plurals>
+    <plurals name="num_older_captions">
+        <item quantity="one">%d попередній підпис</item>
+        <item quantity="few">%d попередніх підписи</item>
+        <item quantity="many">%d попередніх підписів</item>
+    </plurals>
+    <plurals name="num_older_comments">
+        <item quantity="one">%d попередній коментар</item>
+        <item quantity="few">%d попередні коментарі</item>
+        <item quantity="many">%d попередніх коментарів</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="one">%d</item>
+        <item quantity="few">%d</item>
+        <item quantity="many">%d</item>
+    </plurals>
+    <plurals name="offer_ends_days">
+        <item quantity="one">Термін дії пропозиції завершується через %d день.</item>
+        <item quantity="few">Термін дії пропозиції завершується через %d дні.</item>
+        <item quantity="many">Термін дії пропозиції завершується через %d днів.</item>
+    </plurals>
+    <plurals name="offer_ends_hours">
+        <item quantity="one">Пропозиція спливає через %d годину.</item>
+        <item quantity="few">Пропозиція спливає через %d години.</item>
+        <item quantity="many">Пропозиція спливає через %d годин.</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="one">ОТРИМАТИ ЗА %d ЛІНГОТ</item>
+        <item quantity="few">ОТРИМАТИ ЗА %d ЛІНГОТИ</item>
+        <item quantity="many">ОТРИМАТИ ЗА %d ЛІНГОТІВ</item>
+    </plurals>
+    <plurals name="placement_test_customize_course_already_know">
+        <item quantity="one">Ви вже опанували %d навичку!</item>
+        <item quantity="few">Ви вже опанували %d навички!</item>
+        <item quantity="many">%d навичок!</item>
+    </plurals>
+    <plurals name="profile_following_header">
+        <item quantity="one">ВИ ПІДПИСАНІ НА %d</item>
+        <item quantity="few">ВИ ПІДПИСАНІ НА %d</item>
+        <item quantity="many">ВИ ПІДПИСАНІ НА %d</item>
+    </plurals>
+    <plurals name="profile_language_header">
+        <item quantity="one">%d МОВА</item>
+        <item quantity="few">%d МОВ.</item>
+        <item quantity="many">%d МОВ.</item>
+    </plurals>
+    <plurals name="profile_streak_message">
+        <item quantity="one">На %d-денному відрізку</item>
+        <item quantity="few">На %d-денному відрізку</item>
+        <item quantity="many">На %d-денному відрізку</item>
+    </plurals>
+    <plurals name="skills_updated_title">
+        <item quantity="one">%d навик оновлено!</item>
+        <item quantity="few">%d навики оновлено!</item>
+        <item quantity="many">%d навиків оновлено!</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="one">%d слот відкрито</item>
+        <item quantity="few">%d слотів відкрито</item>
+        <item quantity="many">%d слотів відкрито</item>
+    </plurals>
+    <plurals name="slots_remaining">
+        <item quantity="one">Залишилось %d місце</item>
+        <item quantity="few">Залишилося %d місця</item>
+        <item quantity="many">Залишилося %d місць</item>
+    </plurals>
+    <plurals name="staying_on_track">
+        <item quantity="one">Ви тримаєтесь протягом %d дня</item>
+        <item quantity="few">Ви тримаєтесь протягом %d днів</item>
+        <item quantity="many">%d днів</item>
+    </plurals>
+    <plurals name="store_header">
+        <item quantity="one">У вас %s лінгот</item>
+        <item quantity="few">У вас %s лінг.</item>
+        <item quantity="many">У вас %s лінг.</item>
+    </plurals>
+    <plurals name="streak_continued">
+        <item quantity="one">Ви тримаєтесь на відрізку протягом &lt;font color=\"#77c924\">&lt;b>%d дня&lt;/b>&lt;/font></item>
+        <item quantity="few">Ви тримаєтесь на відрізку протягом &lt;font color=\"#77c924\">&lt;b>%d днів поспіль&lt;/b>&lt;/font></item>
+        <item quantity="many">&lt;font color=\"#77c924\">&lt;b>%d днів поспіль&lt;/b>&lt;/font></item>
+    </plurals>
+    <plurals name="streak_earn_back_fail_title">
+        <item quantity="one">Вам не вдалося відновити свій %d-денний відрізок.</item>
+        <item quantity="few">Вам не вдалося відновити свій %d-денний відрізок.</item>
+        <item quantity="many">Вам не вдалося відновити свій %d-денний відрізок.</item>
+    </plurals>
+    <plurals name="streak_earn_back_fail_title_new">
+        <item quantity="one">Вам не вдалося відновити свій бонусний відрізок у %d день.</item>
+        <item quantity="few">Вам не вдалося відновити свій бонусний відрізок у %d дні.</item>
+        <item quantity="many">Вам не вдалося відновити свій бонусний відрізок у %d днів.</item>
+    </plurals>
+    <plurals name="streak_earn_back_title">
+        <item quantity="one">Отакої! Ви втратили свій %d-денний відрізок.</item>
+        <item quantity="few">Отакої! Ви втратили свій %d-денний відрізок.</item>
+        <item quantity="many">Отакої! Ви втратили свій %d-денний відрізок.</item>
+    </plurals>
+    <plurals name="streak_earn_back_title_new">
+        <item quantity="one">На жаль, ви втратили свій бонусний відрізок у %d день.</item>
+        <item quantity="few">На жаль, ви втратили свій бонусний відрізок у %d дні.</item>
+        <item quantity="many">На жаль, ви втратили свій бонусний відрізок у %d днів.</item>
+    </plurals>
+    <plurals name="streak_earn_back_win_title">
+        <item quantity="one">Ви повернули свій %d-денний відрізок!</item>
+        <item quantity="few">Ви повернули свій %d-денний відрізок!</item>
+        <item quantity="many">Ви повернули свій %d-денний відрізок!</item>
+    </plurals>
+    <plurals name="streak_earn_back_win_title_new">
+        <item quantity="one">Ви відновили свій бонусний відрізок у %d день!</item>
+        <item quantity="few">Ви відновили свій бонусний відрізок у %d дні!</item>
+        <item quantity="many">Ви відновили свій бонусний відрізок у %d днів!</item>
+    </plurals>
+    <plurals name="streak_freeze_used_notification_message">
+        <item quantity="one">Досягніть своєї щоденної цілі, щоб продовжити %d-денний відрізок.</item>
+        <item quantity="few">Досягніть своєї щоденної цілі, щоб продовжити %d-денний відрізок.</item>
+        <item quantity="many">Досягніть своєї щоденної цілі, щоб продовжити %d-денний відрізок.</item>
+    </plurals>
+    <plurals name="streak_quantity">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дн.</item>
+        <item quantity="many">%d дн.</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="one">%d-денний відрізок утрачено!</item>
+        <item quantity="few">%d-денний відрізок утрачено!</item>
+        <item quantity="many">%d-денний відрізок утрачено!</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="one">Ви на %d-денному відрізку!</item>
+        <item quantity="few">Ви на %d-денному відрізку!</item>
+        <item quantity="many">Ви на %d-денному відрізку!</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="one">%d-денний відрізок утримано!</item>
+        <item quantity="few">%d-денний відрізок утримано!</item>
+        <item quantity="many">%d-денний відрізок утримано!</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="one">Ви подвоїли %d лінгот. Хочете зробити ще одну ставку?</item>
+        <item quantity="few">Ви подвоїли %d лінготи. Хочете зробити ще одну ставку?</item>
+        <item quantity="many">Ви подвоїли %d лінготів. Хочете зробити ще одну ставку?</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="one">СТАВКА %d САМОЦВІТ</item>
+        <item quantity="few">СТАВКА %d САМОЦВІТИ</item>
+        <item quantity="many">СТАВКА %d САМОЦВІТІВ</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="one">година</item>
+        <item quantity="few">години</item>
+        <item quantity="many">годин</item>
+    </plurals>
+    <plurals name="time_minutes">
+        <item quantity="one">хвилина</item>
+        <item quantity="few">хвилини</item>
+        <item quantity="many">хвилин</item>
+    </plurals>
+    <plurals name="time_seconds">
+        <item quantity="one">секунда</item>
+        <item quantity="few">секунди</item>
+        <item quantity="many">секунд</item>
+    </plurals>
+    <plurals name="timed_practice_rof_title_correct_answers">
+        <item quantity="one">%d правильна відповідь за запитання!</item>
+        <item quantity="few">%d правильних відповіді на запитання!</item>
+        <item quantity="many">%d правильних відповідей на запитання!</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="one">&lt;b>Виберіть правильний символ для \"%s\"&lt;/b></item>
+        <item quantity="few">&lt;b>Виберіть правильні символи для \"%s\"&lt;/b></item>
+        <item quantity="many">&lt;b>Виберіть правильні символи для \"%s\"&lt;/b></item>
+    </plurals>
+    <plurals name="user_completed_skill">
+        <item quantity="one">Користувач &lt;strong>%1$s&lt;/strong> здобув нову навичку.</item>
+        <item quantity="few">Користувач &lt;strong>%1$s&lt;/strong> здобув %2$d навички.</item>
+        <item quantity="many">Користувач &lt;strong>%1$s&lt;/strong> здобув %2$d навичок.</item>
+    </plurals>
+    <plurals name="user_did_lessons">
+        <item quantity="one">Користувач &lt;strong>%1$s&lt;/strong> пройшов уроки для опанування цієї навички.</item>
+        <item quantity="few">Користувач &lt;strong>%1$s&lt;/strong> пройшов уроки для опанування цих навичок.</item>
+        <item quantity="many">Користувач &lt;strong>%1$s&lt;/strong> пройшов уроки для опанування цих навичок.</item>
+    </plurals>
+    <plurals name="user_passed_multi_now_has">
+        <item quantity="one">Користувач &lt;strong>%1$s&lt;/strong> обійшов користувачів &lt;strong>%2$s&lt;/strong> та &lt;strong>%3$s&lt;/strong>, а також %4$d іншого й тепер має таку кількість балів: %5$d!</item>
+        <item quantity="few">Користувач &lt;strong>%1$s&lt;/strong> обійшов користувачів &lt;strong>%2$s&lt;/strong> та &lt;strong>%3$s&lt;/strong>, а також %4$d інших і тепер має таку кількість балів: %5$d XP!</item>
+        <item quantity="many">Користувач &lt;strong>%1$s&lt;/strong> обійшов користувачів &lt;strong>%2$s&lt;/strong> та &lt;strong>%3$s&lt;/strong>, а також %4$d інших і тепер має таку кількість балів: %5$d XP!</item>
+    </plurals>
+    <plurals name="user_reacted_multi">
+        <item quantity="one">Відреагував користувач %1$s та ще %2$d інший</item>
+        <item quantity="few">Відреагував користувач %1$s та ще %2$d інших</item>
+        <item quantity="many">Відреагував користувач %1$s та ще %2$d інших</item>
+    </plurals>
+    <plurals name="user_started_skill">
+        <item quantity="one">Користувач &lt;strong>%1$s&lt;/strong> почав опанування нової навички.</item>
+        <item quantity="few">Користувач &lt;strong>%1$s&lt;/strong> почав опанування %2$d нових навичок.</item>
+        <item quantity="many">Користувач &lt;strong>%1$s&lt;/strong> почав опанування %2$d нових навичок.</item>
+    </plurals>
+    <plurals name="user_streak">
+        <item quantity="one">Користувач &lt;strong>%1$s&lt;/strong> здобув &lt;span>%2$d-денний відрізок!&lt;/span></item>
+        <item quantity="few">Користувач &lt;strong>%1$s&lt;/strong> здобув &lt;span>%2$d-денний відрізок!&lt;/span></item>
+        <item quantity="many">Користувач &lt;strong>%1$s&lt;/strong> здобув &lt;span>%2$d-денний відрізок!&lt;/span></item>
+    </plurals>
+    <plurals name="xp_challenge_push_notification_title">
+        <item quantity="one">Випробування на %d бал починається вже зараз</item>
+        <item quantity="few">Випробування на %d бали починається вже зараз</item>
+        <item quantity="many">Випробування на %d балів починається вже зараз</item>
+    </plurals>
+    <plurals name="xp_challenge_title">
+        <item quantity="one">Випробування на %d бал</item>
+        <item quantity="few">Випробування на %d бали</item>
+        <item quantity="many">Випробування на %d балів</item>
+    </plurals>
+    <plurals name="xp_challenge_won_dialog_subtitle">
+        <item quantity="one">Для вас – %d сяючий лінгот!</item>
+        <item quantity="few">Для вас – %d сяючих лінготи!</item>
+        <item quantity="many">Для вас – %d сяючих лінготів!</item>
+    </plurals>
+    <plurals name="you_earned_gems">
+        <item quantity="one">Ви заробили самоцвіт!</item>
+        <item quantity="few">Ви заробили %d самоцвіти!</item>
+        <item quantity="many">Ви заробили %d самоцвітів!</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="one">Ви здобули самоцвіт!</item>
+        <item quantity="few">Ви здобули %d самоцвіти!</item>
+        <item quantity="many">Ви здобули %d самоцвітів!</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="one">Ви знайшли лінгот!</item>
+        <item quantity="few">Ви знайшли лінготи!</item>
+        <item quantity="many">Ви знайшли лінготи!</item>
+    </plurals>
+</resources>

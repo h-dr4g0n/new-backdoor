@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_lingot" android:title="Lingots" app:showAsAction="always" app:actionLayout="@layout/view_lingot_action" />
+    <item android:id="@id/menu_gem" android:title="Gems" app:showAsAction="always" app:actionLayout="@layout/view_gem_action" />
+    <item android:id="@id/menu_club_members" android:title="@string/view_members_button" app:showAsAction="always" app:actionLayout="@layout/view_members_action" />
+    <item android:id="@id/menu_create_a_profile" android:title="@string/action_create_a_profile" app:showAsAction="never" />
+    <item android:id="@id/menu_sign_in" android:title="@string/menu_action_sign_in" app:showAsAction="never" />
+    <item android:id="@id/menu_settings" android:title="@string/action_settings" app:showAsAction="never" />
+    <item android:id="@id/menu_progress_sharing" android:title="@string/title_activity_schools" app:showAsAction="never" />
+    <item android:id="@id/menu_feedback" android:title="@string/action_feedback" app:showAsAction="never" />
+    <item android:id="@id/menu_logout" android:title="@string/action_logout" app:showAsAction="never" />
+    <item android:id="@id/menu_debug" android:title="Debug options" app:showAsAction="never" />
+</menu>

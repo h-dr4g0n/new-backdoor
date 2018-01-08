@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/language_choice_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_border" android:layout_width="fill_parent" android:layout_height="@dimen/language_choice_divider_height_thin" android:layout_marginLeft="@dimen/language_choice_flag_column_width" />
+    <RelativeLayout android:id="@id/course_image_frame" android:background="@drawable/language_choice_frame" android:padding="2.0dip" android:layout_width="@dimen/language_choice_flag_container_size" android:layout_height="@dimen/language_choice_flag_container_size" android:layout_marginLeft="@dimen/language_choice_flag_size" android:layout_marginRight="0.0dip" android:layout_centerVertical="true">
+        <com.duolingo.view.DuoSvgImageView android:id="@id/course_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <com.duolingo.typeface.widget.DuoTextView android:id="@id/course_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/language_choice_flag_size" android:layout_marginRight="@dimen/language_choice_flag_size" android:layout_toLeftOf="@id/nothing" android:layout_toRightOf="@id/course_image_frame" android:layout_centerVertical="true" />
+</RelativeLayout>

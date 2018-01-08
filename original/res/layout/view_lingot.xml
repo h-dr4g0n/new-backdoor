@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.DuoSvgImageView android:layout_gravity="center" android:id="@id/lingot" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" app:svgSrc="@raw/lingot" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignLeft="@id/lingot" android:layout_alignTop="@id/lingot" android:layout_alignRight="@id/lingot" android:layout_alignBottom="@id/lingot">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.duolingo.tools.ScaleTextHeightView android:textStyle="bold" android:textColor="@color/black25" android:gravity="center" android:id="@id/num_lingots_earned" android:layout_width="fill_parent" android:layout_height="0.0dip" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

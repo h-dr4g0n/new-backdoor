@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/btn_select_vector_style" android:paddingLeft="@dimen/small_margin" android:paddingTop="@dimen/big_margin" android:paddingRight="@dimen/small_margin" android:paddingBottom="@dimen/big_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.widget.AutoScaleRadioButton android:layout_gravity="start|center" android:id="@id/radio" android:tag="radio" android:background="@drawable/small_radio_btn_vector_style" android:layout_width="@dimen/small_radio_btn_size" android:layout_height="@dimen/small_radio_btn_size" style="@style/SelectRadioStyle" />
+    <com.duolingo.typeface.widget.DuoTextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/text" android:tag="text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/large_margin" android:layout_marginRight="@dimen/large_margin" android:layout_marginStart="@dimen/large_margin" android:layout_marginEnd="@dimen/large_margin" />
+</FrameLayout>

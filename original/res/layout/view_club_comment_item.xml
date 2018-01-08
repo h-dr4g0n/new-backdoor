@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/club_event_card" android:paddingLeft="@dimen/club_event_card_padding" android:paddingRight="@dimen/club_event_card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/club_event_card_padding" android:layout_marginBottom="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.view.DuoSvgImageView android:id="@id/club_event_comment_avatar" android:layout_width="@dimen/club_event_comment_avatar_size" android:layout_height="@dimen/club_event_comment_avatar_size" android:layout_marginRight="@dimen/big_margin" android:layout_alignParentLeft="@bool/ltr_enabled" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/nothing" android:layout_toRightOf="@id/club_event_comment_avatar" android:layout_centerVertical="true">
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_event_comment_font_size" android:textStyle="bold" android:textColor="@color/new_gray" android:id="@id/club_event_comment_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.3" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_event_comment_font_size" android:ellipsize="end" android:id="@id/club_event_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.view.DuoSvgImageView android:id="@id/button_close" android:padding="@dimen/large_margin" android:layout_width="@dimen/iap_ads_free_button_close_size" android:layout_height="@dimen/iap_ads_free_button_close_size" android:layout_marginTop="@dimen/iap_ads_free_button_margin_top" app:svgSrc="@raw/button_close" />
+        <CheckBox android:id="@id/ad_content_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_ads_free_button_margin_top" android:text="Content" />
+        <CheckBox android:id="@id/ad_install_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_ads_free_button_margin_top" android:text="Install" />
+        <com.duolingo.view.DuoSvgImageView android:id="@id/button_refresh_ad" android:visibility="gone" android:layout_width="@dimen/iap_ads_free_button_close_size" android:layout_height="@dimen/iap_ads_free_button_close_size" android:layout_marginTop="@dimen/iap_ads_free_button_margin_top" app:svgSrc="@raw/ic_autorenew_black_24px" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.duolingo.view.LessonEndAdScreenView android:id="@id/ad_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large_margin" android:layout_marginRight="@dimen/large_margin">
+        <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/ad_free_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/large_margin" android:text="@string/action_remove_ads" android:layout_weight="1.0" app:buttonColor="@color/blue_premium_order" style="@style/App_ButtonStyle" />
+        <com.duolingo.typeface.widget.DuoButton android:textColor="@color/blue" android:gravity="center" android:id="@id/ad_skip_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/button_skip" android:layout_weight="1.0" style="@style/App_ButtonBlueOutline" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/App_ButtonFlatNoStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/small_margin" android:paddingBottom="@dimen/small_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.typeface.widget.DuoRadioButton android:gravity="center_vertical" android:id="@id/coach_goal_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/CoachRadioButtonStyle" />
+        <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/new_gray" android:gravity="end|center" android:id="@id/minutes_per_day" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/generic_margin" />
+    </LinearLayout>
+    <View android:id="@id/coach_goal_divider" android:background="@color/new_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

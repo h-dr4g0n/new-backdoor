@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.DuoOutfitView android:layout_gravity="bottom" android:id="@id/coach_duo" android:layout_width="@dimen/coach_duo_size" android:layout_height="@dimen/coach_duo_size" android:layout_marginLeft="@dimen/big_margin" android:layout_marginRight="0.0dip" android:layout_marginBottom="@dimen/coach_duo_margin" app:outfitPos="leftFacing" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:gravity="center" android:layout_gravity="center" android:id="@id/coach_message" android:padding="@dimen/big_margin" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/reward_chest_container" android:layout_width="@dimen/random_reward_small_chest_total_width" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.duolingo.view.DuoSvgImageView android:id="@id/reward_chest_tooltip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/random_reward_small_chest_tooltip_height" android:scaleType="fitCenter" app:svgSrc="@raw/tooltip_blue_with_icon" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:paddingBottom="@dimen/small_margin" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.duolingo.view.DuoSvgImageView android:id="@id/reward_tooltip_gem" android:visibility="gone" android:layout_width="@dimen/random_reward_tooltip_gem_size" android:layout_height="@dimen/random_reward_tooltip_gem_size" android:layout_marginLeft="@dimen/small_margin" android:layout_marginRight="@dimen/small_margin" app:svgSrc="@raw/gem" />
+                <com.duolingo.typeface.widget.DuoTextView android:textStyle="bold" android:textColor="@color/blue" android:id="@id/reward_tooltip_gem_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/small_margin" android:text="0" />
+            </LinearLayout>
+        </FrameLayout>
+        <RelativeLayout android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="@dimen/random_reward_small_chest_height">
+            <com.duolingo.view.DuoSvgImageView android:id="@id/chest_open_image" android:layout_width="fill_parent" android:layout_height="@dimen/random_reward_small_chest_height" app:svgSrc="@raw/chest_half" />
+            <LinearLayout android:id="@id/chest_closed_image" android:background="@color/new_gray_lightest" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="@dimen/random_reward_small_chest_height">
+                <com.duolingo.view.DuoSvgImageView android:layout_width="fill_parent" android:layout_height="@dimen/random_reward_small_chest_height" app:svgSrc="@raw/chest_closed" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:layout_gravity="center" android:id="@id/shadow_view" android:layout_width="@dimen/random_reward_small_chest_total_width" android:layout_height="9.0dip" />
+    </LinearLayout>
+</merge>

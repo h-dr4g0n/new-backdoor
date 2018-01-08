@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/ad_image_container" android:visibility="gone" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/ad_image_wrapper" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="140.0dip" />
+            <com.duolingo.typeface.widget.DuoTextView android:gravity="start|center" android:layout_gravity="end" android:id="@id/ad_label_blue" android:visibility="gone" android:layout_width="39.0dip" android:layout_height="16.0dip" android:text="@string/ads_label" style="@style/lessonEndAdLabelBlue" />
+            <com.duolingo.typeface.widget.DuoTextView android:gravity="start|center" android:layout_gravity="end" android:id="@id/ad_label_gray" android:visibility="gone" android:layout_width="39.0dip" android:layout_height="16.0dip" android:text="@string/ads_label_uppercase" style="@style/lessonEndAdLabelGray" />
+            <FrameLayout android:gravity="start|center" android:layout_gravity="end" android:id="@id/ad_logo_wrapper" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="-1.0dip" android:layout_marginRight="1.0dip" />
+            <View android:layout_gravity="bottom" android:id="@id/myRectangleView" android:background="@drawable/ad_image_border" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ad_content_container" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_weight="0.0">
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <ImageView android:id="@id/ad_icon" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginRight="10.0dip" android:contentDescription="adIcon" />
+                <FrameLayout android:id="@id/ad_icon_wrapper" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginRight="10.0dip" android:contentDescription="adIcon" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.duolingo.typeface.widget.DuoTextView android:gravity="start" android:id="@id/ad_headline_wide" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" style="@style/lessonEndLargeAdHeadline" />
+                    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/ad_stats" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.duolingo.tools.AutoScaleTextView android:gravity="center" android:layout_gravity="center" android:id="@id/ad_tagline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/lessonEndLargeAdTagline" />
+                        <com.duolingo.view.StarRatingView android:id="@id/ad_star_rating_view" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="20.0dip" />
+                        <com.duolingo.typeface.widget.DuoTextView android:id="@id/ad_price_separator" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="|" style="@style/lessonEndAdPriceSeparator" />
+                        <com.duolingo.typeface.widget.DuoTextView android:id="@id/ad_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/lessonEndAdPrice" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:gravity="start" android:id="@id/ad_body" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" android:lineSpacingExtra="7.0sp" />
+        </LinearLayout>
+        <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/ad_cta_button_wide" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/ad_card_margin" android:layout_weight="0.0" app:buttonColor="@color/blue" style="@style/App_ButtonStyle" />
+    </LinearLayout>
+    <View android:background="@drawable/grey_border_gradient" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</LinearLayout>

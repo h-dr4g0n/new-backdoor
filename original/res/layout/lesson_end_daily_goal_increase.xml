@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/new_gray_lightest" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/challenge_title_text_size" android:textStyle="bold" android:textColor="@color/new_gray_dark" android:gravity="center" android:id="@id/lesson_end_daily_goal_increase_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lesson_end_daily_goal_increase_challenge_yourself" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.1" />
+    <com.duolingo.view.CoachGoalSelectionView android:layout_gravity="center" android:id="@id/coach_goal_choice" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.1" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/duo_coach_goal_setup" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.view.DuoOutfitView android:gravity="center" android:layout_gravity="bottom" android:id="@id/duo" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_weight="0.4" app:outfitPos="leftFacing" />
+        <com.duolingo.typeface.widget.DuoTextView android:gravity="center" android:layout_gravity="bottom" android:id="@id/duo_speech_bubble_lesson_end" android:background="@drawable/speech_bubble_white_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/coach_change_later_reassurance" android:layout_weight="0.6" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.LessonLinearLayout android:orientation="vertical" android:id="@id/challenge_match" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.tools.AutoScaleTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_match" style="@style/ChallengeTitle" />
+    <include android:id="@id/title_spacer" layout="@layout/lesson_element_spacer" />
+    <com.duolingo.view.DuoScrollView android:id="@id/tokens_frame" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:centerOverflowAlignTop="true">
+        <com.duolingo.tools.BalancedFlowLayout android:gravity="center" android:layout_gravity="center" android:id="@id/tokens_container" android:paddingBottom="2.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.duolingo.view.DuoScrollView>
+</com.duolingo.view.LessonLinearLayout>

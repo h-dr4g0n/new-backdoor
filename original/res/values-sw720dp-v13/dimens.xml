@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_tree_side_padding">100.0dip</dimen>
+    <dimen name="home_side_width_max">400.0dip</dimen>
+    <dimen name="home_stat_W_size">30.0dip</dimen>
+    <dimen name="home_stat_W_text_size">25.0dip</dimen>
+    <dimen name="home_stat_size">45.0dip</dimen>
+    <dimen name="home_stat_size_half">20.0dip</dimen>
+</resources>

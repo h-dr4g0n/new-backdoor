@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.PercentFrameLayout android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:horizontalPadding="@fraction/activity_horizontal_padding_percent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/profile" android:paddingLeft="@dimen/large_margin" android:paddingTop="@dimen/huge_margin" android:paddingRight="@dimen/large_margin" android:paddingBottom="@dimen/huge_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large_margin" android:paddingEnd="@dimen/large_margin">
+            <com.duolingo.view.DuoSvgImageView android:id="@id/avatar" android:layout_width="@dimen/profile_avatar_size" android:layout_height="@dimen/profile_avatar_size" android:src="@drawable/avatar_none" android:scaleType="centerCrop" android:layout_alignParentLeft="@bool/ltr_enabled" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <View android:id="@id/margin" android:layout_width="@dimen/gigantic_margin" android:layout_height="fill_parent" android:layout_toLeftOf="@id/nothing" android:layout_toRightOf="@id/avatar" android:layout_toStartOf="@id/nothing" android:layout_toEndOf="@id/avatar" />
+            <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/nothing" android:layout_toRightOf="@id/margin" android:layout_centerVertical="true" android:layout_toStartOf="@id/nothing" android:layout_toEndOf="@id/margin" style="@style/NewProfileSectionTitle" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/stats_container" android:paddingBottom="@dimen/huge_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/new_gray_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="0.0dip" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/large_margin" android:paddingRight="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/huge_margin" android:paddingStart="@dimen/large_margin" android:paddingEnd="@dimen/large_margin">
+                <include android:id="@id/stats_lessons" layout="@layout/view_profile_stat" />
+                <View android:layout_width="@dimen/large_margin" android:layout_height="fill_parent" />
+                <include android:id="@id/stats_practices" layout="@layout/view_profile_stat" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/large_margin" android:paddingRight="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/huge_margin" android:paddingStart="@dimen/large_margin" android:paddingEnd="@dimen/large_margin">
+                <include android:id="@id/stats_hours" layout="@layout/view_profile_stat" />
+                <View android:layout_width="@dimen/large_margin" android:layout_height="fill_parent" />
+                <include android:id="@id/stats_words" layout="@layout/view_profile_stat" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/new_gray_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="0.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/achievements" android:padding="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/achievements_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/large_margin">
+                <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:textStyle="bold" android:id="@id/achievements_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/achievements_header" android:layout_alignParentLeft="@bool/ltr_enabled" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/xsmall_font_size" android:textColor="@color/new_gray" android:id="@id/achievements_counter" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/big_margin" android:layout_toRightOf="@id/achievements_title" android:layout_centerVertical="true" android:layout_marginStart="@dimen/big_margin" android:layout_toEndOf="@id/achievements_title" />
+                <com.duolingo.typeface.widget.DuoTextView android:id="@id/achievements_view_button" android:paddingLeft="@dimen/big_margin" android:paddingTop="@dimen/small_margin" android:paddingBottom="@dimen/small_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/action_view" android:layout_alignParentRight="@bool/ltr_enabled" android:layout_centerVertical="true" android:paddingStart="@dimen/big_margin" android:layout_alignParentEnd="true" style="@style/NewProfileButton" />
+            </RelativeLayout>
+            <android.support.v7.widget.RecyclerView android:gravity="center_horizontal" android:id="@id/achievements_items" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="@color/new_gray_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="0.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/leaderboard" android:padding="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/large_margin">
+                <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:textStyle="bold" android:id="@id/leaderboard_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_page_leaderboard_header" android:layout_alignParentLeft="@bool/ltr_enabled" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <com.duolingo.typeface.widget.DuoTextView android:id="@id/add_friend_button" android:paddingLeft="@dimen/big_margin" android:paddingTop="@dimen/small_margin" android:paddingBottom="@dimen/small_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/add" android:layout_alignParentRight="@bool/ltr_enabled" android:layout_centerVertical="true" android:paddingStart="@dimen/big_margin" android:layout_alignParentEnd="true" style="@style/NewProfileButton" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:orientation="vertical" android:id="@id/profile_page_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+</com.duolingo.view.PercentFrameLayout>

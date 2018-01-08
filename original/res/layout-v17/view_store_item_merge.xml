@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.typeface.widget.DuoTextView android:id="@id/store_item_name" android:layout_toLeftOf="@id/nothing" android:layout_toRightOf="@id/store_item_image" android:layout_alignParentTop="true" android:layout_toStartOf="@id/nothing" android:layout_toEndOf="@id/store_item_image" style="@style/StoreItemName" />
+    <com.duolingo.typeface.widget.DuoTextView android:id="@id/store_item_description" android:layout_toLeftOf="@id/nothing" android:layout_toRightOf="@id/store_item_image" android:layout_below="@id/store_item_name" android:layout_toStartOf="@id/nothing" android:layout_toEndOf="@id/store_item_image" style="@style/StoreItemDescription" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textStyle="bold" android:textColor="@color/btn_light_text_colors" android:id="@id/store_item_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/big_margin" android:layout_toLeftOf="@id/nothing" android:layout_toRightOf="@id/store_item_image" android:layout_below="@id/store_item_description" android:layout_toStartOf="@id/nothing" android:layout_toEndOf="@id/store_item_image" app:buttonColor="@color/blue" style="@style/App_ButtonCompact" />
+</merge>

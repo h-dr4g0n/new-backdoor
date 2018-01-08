@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.DuoListView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:id="@id/skill_tree_grid" android:focusable="false" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/gray_divider" android:dividerHeight="1.0px" android:headerDividersEnabled="false" android:smoothScrollbar="true" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

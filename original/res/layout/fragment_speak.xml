@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.LessonLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/challenge_speak" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.tools.AutoScaleTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_speak" style="@style/ChallengeTitle" />
+    <include android:id="@id/title_spacer" layout="@layout/lesson_element_spacer" />
+    <org.apmem.tools.layouts.FlowLayout android:gravity="center_vertical" android:id="@id/sentence_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/play_button" layout="@layout/view_speaker_small_w_margin" />
+    </org.apmem.tools.layouts.FlowLayout>
+    <include layout="@layout/lesson_element_spacer" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/regular_speak_group" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <include layout="@layout/layout_speak_button" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/lesson_element_spacer" />
+    <com.duolingo.typeface.widget.DuoButton android:textStyle="normal" android:textColor="@color/btn_dark_text_colors" android:gravity="center" android:id="@id/no_mic_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_speak_no_mic" style="@style/App_ButtonFlat" />
+</com.duolingo.view.LessonLinearLayout>

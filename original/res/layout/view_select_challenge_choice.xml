@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/text_option" android:background="@drawable/btn_select_vector_style" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.widget.AutoScaleRadioButton android:textColor="@color/vector_select_text_color" android:id="@id/radio" android:layout_width="fill_parent" android:layout_height="@dimen/pill_shaped_button_min_height" android:layout_marginLeft="@dimen/small_margin" android:layout_alignParentBottom="true" style="@style/SelectRadioStyle" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/text_container" android:paddingLeft="@dimen/big_margin" android:paddingTop="@dimen/big_margin" android:paddingRight="@dimen/big_margin" android:paddingBottom="@dimen/big_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+        <com.duolingo.tools.AutoScaleTextView android:textColor="@color/new_gray_dark" android:gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5" />
+    </LinearLayout>
+    <com.duolingo.view.DuoSvgImageView android:id="@id/image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_above="@id/radio" android:layout_alignParentTop="true" style="@style/SelectImageStyle" />
+</RelativeLayout>

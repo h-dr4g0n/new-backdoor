@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/large_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/gray_clubs" android:paddingTop="@dimen/biggest_margin" android:paddingBottom="@dimen/huge_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/club_event_card_margin" android:layout_marginRight="0.0dip" android:text="@string/user_post_start_button" android:layout_toLeftOf="@id/start_user_post_icon" android:layout_toRightOf="@id/nothing" android:layout_alignParentLeft="@bool/ltr_enabled" android:layout_alignParentTop="true" />
+    <com.duolingo.view.DuoSvgImageView android:id="@id/start_user_post_icon" android:layout_width="28.0dip" android:layout_height="27.0dip" android:layout_marginLeft="@dimen/club_event_card_margin" android:layout_marginRight="@dimen/club_event_card_margin" android:layout_alignParentRight="@bool/ltr_enabled" android:layout_centerVertical="true" app:svgSrc="@raw/clubs_new_post_icon" />
+    <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

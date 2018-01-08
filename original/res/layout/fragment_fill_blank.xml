@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.LessonLinearLayout android:orientation="vertical" android:id="@id/challenge_fill_blank" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.tools.AutoScaleTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/activity_vertical_margin" android:text="@string/title_fill_blank" style="@style/ChallengeTitle" />
+    <org.apmem.tools.layouts.FlowLayout android:gravity="center_vertical" android:id="@id/sentence_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/activity_vertical_margin" />
+    <com.duolingo.widget.NoNewlineEditText android:gravity="top" android:id="@id/text_input" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minLines="1" android:layout_weight="1.0" android:inputType="textCapSentences|textMultiLine" android:imeOptions="actionDone" android:imeActionLabel="@string/button_submit" android:imeActionId="@id/submit_action" app:layout_newLine="true" />
+</com.duolingo.view.LessonLinearLayout>

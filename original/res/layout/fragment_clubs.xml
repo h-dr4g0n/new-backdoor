@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.PercentFrameLayout android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.RecyclerView android:id="@id/social_feed_view" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ScrollView android:id="@id/native_splash" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/splash_header" android:background="@color/new_gray_lighter" android:padding="@dimen/big_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/large_font_size" android:gravity="center" android:id="@id/create_club_title" android:layout_marginTop="@dimen/large_margin" style="@style/ClubsHeading" />
+                <com.duolingo.typeface.widget.DuoTextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_margin" android:layout_marginBottom="@dimen/large_margin" android:text="@string/club_intro_desc" style="@style/App_TextAppearance" />
+                <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/xsmall_font_size" android:textStyle="bold" android:textColor="@color/btn_light_text_colors" android:gravity="center" android:id="@id/create_a_club" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/large_margin" android:layout_marginBottom="@dimen/small_margin" android:text="@string/create_club" app:buttonColor="@color/blue" style="@style/App_ButtonStyle" />
+                <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/xsmall_font_size" android:textStyle="bold" android:textColor="@color/btn_blue_text_colors" android:gravity="center" android:id="@id/enter_club_code_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large_margin" android:layout_marginTop="@dimen/small_margin" android:layout_marginRight="@dimen/large_margin" android:layout_marginBottom="@dimen/small_margin" android:text="@string/have_club_code" style="@style/App_ButtonFlat" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/big_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/large_font_size" android:id="@id/join_club_title" style="@style/ClubsHeading" />
+                <LinearLayout android:orientation="vertical" android:id="@id/public_clubs_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/list_divider" android:showDividers="middle" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/loading_screen" android:background="@color/new_gray_lightest" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/loading_spinner" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_margin="20.0dip" android:src="@drawable/clubs_loading_spinner" />
+        <ImageView android:id="@id/loading_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/clubs_disabled_by_schools" android:background="@color/new_gray_lightest" android:padding="@dimen/gigantic_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.duolingo.view.DuoSvgImageView android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginBottom="@dimen/huge_margin" app:svgSrc="@raw/clubs_disabled_by_schools" />
+        <com.duolingo.typeface.widget.DuoTextView android:textStyle="bold" android:textColor="@color/new_gray" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/clubs_disabled_by_schools" />
+    </LinearLayout>
+</com.duolingo.view.PercentFrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/new_gray_lightest" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.DuoLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" app:desiredWidth="@dimen/skill_tree_row_max_width">
+        <include layout="@layout/fragment_welcome_fork_options" />
+        <com.duolingo.view.DuoSvgImageView android:layout_gravity="center_horizontal" android:id="@id/duo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_horizontal_margin" android:scaleType="fitCenter" app:svgSrc="@raw/duo_happy_top_half" app:aspectRatioFromSvg="true" app:flipRtl="true" app:desiredWidth="@dimen/welcome_duo_desired_width" />
+    </com.duolingo.view.DuoLinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="graded_ribbon_land_y">39.999996%</fraction>
+    <fraction name="graded_ribbon_port_y">50.0%</fraction>
+    <fraction name="activity_horizontal_padding_percent">0.0%</fraction>
+    <fraction name="intro_horizontal_padding_percent">0.0%</fraction>
+</resources>

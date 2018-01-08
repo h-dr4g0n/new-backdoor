@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/more_courses_container" android:layout_width="fill_parent" android:layout_height="@dimen/language_choice_item_height" style="@style/App_ButtonFlatNoStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.view.DuoSvgImageView android:id="@id/more_courses_icon" android:layout_width="@dimen/language_choice_flag_size" android:layout_height="@dimen/language_choice_flag_size" android:layout_marginLeft="@dimen/language_choice_flag_size" android:layout_marginRight="0.0dip" android:layout_centerVertical="true" />
+    <com.duolingo.typeface.widget.DuoTextView android:id="@id/more_courses_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/language_choice_flag_column_width" android:layout_marginRight="0.0dip" android:layout_centerVertical="true" />
+    <com.duolingo.view.DuoSvgImageView android:id="@id/more_courses_triangle" android:layout_width="10.0dip" android:layout_height="5.0dip" android:layout_marginLeft="@dimen/language_choice_flag_size" android:layout_marginRight="@dimen/language_choice_flag_size" android:layout_alignParentRight="@bool/ltr_enabled" android:layout_centerVertical="true" />
+</RelativeLayout>

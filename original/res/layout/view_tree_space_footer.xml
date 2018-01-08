@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/home_tree_side_padding" android:paddingTop="@dimen/large_margin" android:paddingRight="@dimen/home_tree_side_padding" android:paddingBottom="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="@dimen/skill_tree_footer_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

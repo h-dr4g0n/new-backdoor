@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+    <com.duolingo.view.SkillTreeView android:id="@id/skill_tree" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.duolingo.view.DuoSvgImageView android:layout_gravity="right" android:id="@id/premium_logo" android:visibility="gone" android:layout_width="@dimen/skill_tree_plus_logo_size" android:layout_height="@dimen/skill_tree_plus_logo_size" app:svgSrc="@raw/home_plus_ribbon" />
+</FrameLayout>

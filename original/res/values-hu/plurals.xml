@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$s és %2$d további</item>
+        <item quantity="one">%1$s és %2$d további</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">Végezd el egy tanfolyam %d ismeretét</item>
+        <item quantity="one">Végezd el egy tanfolyam %d ismeretét</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">Költs el %d drágakövet</item>
+        <item quantity="one">Költs el %d drágakövet</item>
+    </plurals>
+    <plurals name="achievement_requirement_gold_skills">
+        <item quantity="other">Legyen egyszerre %d arany ismereted</item>
+        <item quantity="one">Legyen %d arany ismereted</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">Végezz el %d leckét vagy gyakorlást hiba nélkül</item>
+        <item quantity="one">Végezz el %d leckét vagy gyakorlást hiba nélkül</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">Költs el %d lingotot</item>
+        <item quantity="one">Költs el %d lingotot</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">Őrizz meg egy szériát %d napig</item>
+        <item quantity="one">Őrizz meg egy szériát %d napig</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">Érj el %d pontot egy nap alatt</item>
+        <item quantity="one">Érj el %d pontot egy nap alatt</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">Elvégezted egy tanfolyam %d ismeretét</item>
+        <item quantity="one">Elvégezted egy tanfolyam %d ismeretét</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">%d drágakövet költöttél</item>
+        <item quantity="one">%d drágakövet költöttél</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gold_skills">
+        <item quantity="other">Egyszerre volt %d arany ismereted</item>
+        <item quantity="one">Egyszerre volt %d arany ismereted</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">%d leckét vagy gyakorlást végeztél el hiba nélkül</item>
+        <item quantity="one">%d leckét vagy gyakorlást végeztél el hiba nélkül</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">%d lingotot költöttél</item>
+        <item quantity="one">%d lingotot költöttél</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">Megőriztél egy %d napos szériát</item>
+        <item quantity="one">Megőriztél egy %d napos szériát</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">%d pontot szereztél egy nap alatt</item>
+        <item quantity="one">%d pontot szereztél egy nap alatt</item>
+    </plurals>
+    <plurals name="badgeicon_banner_lesson">
+        <item quantity="other">&lt;font color=\"#ffbf23\">&lt;b>%d leckére&lt;/b>&lt;/font> vagy célod elérésétől</item>
+        <item quantity="one">&lt;font color=\"#ffbf23\">%d leckére&lt;b>&lt;/font> vagy célod elérésétől</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">Elírások vannak a válaszodban.</item>
+        <item quantity="one">Van egy elírás a válaszodban.</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">%d napos szériád védelmének fenntartásához szerezz be egy másikat.</item>
+        <item quantity="one">%d napos szériád védelmének fenntartásához szerezz be egy másikat.</item>
+    </plurals>
+    <plurals name="club_num_members">
+        <item quantity="other">%d TAG</item>
+        <item quantity="one">%d TAG</item>
+    </plurals>
+    <plurals name="clubs_others_played">
+        <item quantity="other">%1$s és további %2$d személy játszott</item>
+        <item quantity="one">%1$s és további %2$d személy játszott</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">napi %d perc</item>
+        <item quantity="one">napi %d perc</item>
+    </plurals>
+    <plurals name="coach_on_streak">
+        <item quantity="other">Jelenleg &lt;font color=\"#77c924\">&lt;b>%d napos szériánál&lt;/b>&lt;/font> tartasz!</item>
+        <item quantity="one">Jelenleg &lt;font color=\"#77c924\">&lt;b>%d napos szériánál&lt;/b>&lt;/font> tartasz!</item>
+    </plurals>
+    <plurals name="coach_xp_a_day">
+        <item quantity="other">Napi %d pont</item>
+        <item quantity="one">Napi %d pont</item>
+    </plurals>
+    <plurals name="coach_xp_from_goal">
+        <item quantity="other">&lt;font color=\"#ffbf23\">&lt;b>%d pont&lt;/b>&lt;/font> kell még a célod eléréséhez</item>
+        <item quantity="one">&lt;font color=\"#ffbf23\">&lt;b>%d pont&lt;/b>&lt;/font> kell még a célod eléréséhez</item>
+    </plurals>
+    <plurals name="coach_xp_from_goal_no_color">
+        <item quantity="other">%d pont kell még a célod eléréséhez</item>
+        <item quantity="one">%d pont kell még a célod eléréséhez</item>
+    </plurals>
+    <plurals name="cost_gems">
+        <item quantity="other">%d DRÁGAKŐ</item>
+        <item quantity="one">%d DRÁGAKŐ</item>
+    </plurals>
+    <plurals name="cost_lingots">
+        <item quantity="other">%d LINGOT</item>
+        <item quantity="one">%d LINGOT</item>
+    </plurals>
+    <plurals name="current_level">
+        <item quantity="other">%d. szint</item>
+        <item quantity="one">%d. szint</item>
+    </plurals>
+    <plurals name="daily_goal_not_met">
+        <item quantity="other">%d pont kell még, hogy elérd a napi célodat!</item>
+        <item quantity="one">%d pont kell még, hogy elérd a napi célodat!</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">%d napos széria</item>
+        <item quantity="one">%d napos széria</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">%d hozzászólás</item>
+        <item quantity="one">%d hozzászólás</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">%d hozzászólás elrejtve</item>
+        <item quantity="one">%d hozzászólás elrejtve</item>
+    </plurals>
+    <plurals name="earned_bonus_lingots">
+        <item quantity="other">Szereztél %d bónusz lingotot!</item>
+        <item quantity="one">Szereztél egy bónusz lingotot!</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">%d lingotot kaptál!</item>
+        <item quantity="one">1 lingotot kaptál!</item>
+    </plurals>
+    <plurals name="equip_for_gems">
+        <item quantity="other">SZEREZD BE %1$d %2$s DRÁGAKŐÉRT</item>
+        <item quantity="one">SZEREZD BE %1$d %2$s DRÁGAKŐÉRT</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">%d pont</item>
+        <item quantity="one">%d pont</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">Őrizd meg szériádat további 7 napon keresztül, és megduplázzuk a(z) %d drágaköves fogadásodat.</item>
+        <item quantity="one">Teljesítsd sorozatodat további 7 napon keresztül, és megduplázzuk az %d drágaköves fogadásodat.</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">Megdupláztad a(z) %d drágakövedet. Szeretnél új fogadást tenni?</item>
+        <item quantity="one">Megdupláztad az %d drágakövedet. Szeretnél új fogadást tenni?</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">Beszerzed %d lingotért?</item>
+        <item quantity="one">Beszerzed %d lingotért?</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">Beszerzed %d drágakőért?</item>
+        <item quantity="one">Beszerzed %d drágakőért?</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">Helyes megoldások:</item>
+        <item quantity="one">Helyes megoldás:</item>
+    </plurals>
+    <plurals name="health_plus">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+%d</item>
+    </plurals>
+    <plurals name="health_refill_cta">
+        <item quantity="other">Feltöltés: %1$d %2$s</item>
+        <item quantity="one">Feltöltés: %1$d %2$s</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">HÓNAP</item>
+        <item quantity="one">HÓNAP</item>
+    </plurals>
+    <plurals name="new_streak_after_goal_met">
+        <item quantity="other">Most már %d napos szériánál tartasz!</item>
+        <item quantity="one">Most már %d napos szériánál tartasz!</item>
+    </plurals>
+    <plurals name="num_learners">
+        <item quantity="other">%s tanuló</item>
+        <item quantity="one">%s tanuló</item>
+    </plurals>
+    <plurals name="num_older_captions">
+        <item quantity="other">%d korábbi felirat</item>
+        <item quantity="one">%d korábbi felirat</item>
+    </plurals>
+    <plurals name="num_older_comments">
+        <item quantity="other">%d korábbi hozzászólás</item>
+        <item quantity="one">%d korábbi hozzászólás</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="offer_ends_days">
+        <item quantity="other">Az ajánlat %d nap múlva ér véget.</item>
+        <item quantity="one">Az ajánlat %d nap múlva ér véget.</item>
+    </plurals>
+    <plurals name="offer_ends_hours">
+        <item quantity="other">Az ajánlat %d óra múlva ér véget.</item>
+        <item quantity="one">Az ajánlat %d óra múlva ér véget.</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">BESZERZÉS %d LINGOTÉRT</item>
+        <item quantity="one">BESZERZÉS %d LINGOTÉRT</item>
+    </plurals>
+    <plurals name="placement_test_customize_course_already_know">
+        <item quantity="other">Már %d ismeretanyagot tudsz!</item>
+        <item quantity="one">%d ismeretanyagot már tudsz!</item>
+    </plurals>
+    <plurals name="profile_following_header">
+        <item quantity="other">%d EMBERT KÖVET</item>
+        <item quantity="one">%d EMBERT KÖVET</item>
+    </plurals>
+    <plurals name="profile_language_header">
+        <item quantity="other">%d NYELV</item>
+        <item quantity="one">%d NYELV</item>
+    </plurals>
+    <plurals name="profile_streak_message">
+        <item quantity="other">%d napos szériában</item>
+        <item quantity="one">%d napos szériában</item>
+    </plurals>
+    <plurals name="skills_updated_title">
+        <item quantity="other">%d ismeret frissítve!</item>
+        <item quantity="one">%d ismeret frissítve!</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">%d üres hely van</item>
+        <item quantity="one">%d üres hely van</item>
+    </plurals>
+    <plurals name="slots_remaining">
+        <item quantity="other">%d hely van még</item>
+        <item quantity="one">%d hely van még</item>
+    </plurals>
+    <plurals name="staying_on_track">
+        <item quantity="other">Pályán maradás %d napig</item>
+        <item quantity="one">Pályán maradás %d napig</item>
+    </plurals>
+    <plurals name="store_header">
+        <item quantity="other">%s lingotod van</item>
+        <item quantity="one">%s lingotod van</item>
+    </plurals>
+    <plurals name="streak_continued">
+        <item quantity="other">&lt;font color=\"#77c924\">&lt;b>%d napos szériánál&lt;/b>&lt;/font> tartasz!</item>
+        <item quantity="one">&lt;font color=\"#77c924\">&lt;b>%d napos szériánál&lt;/b>&lt;/font> tartasz!</item>
+    </plurals>
+    <plurals name="streak_earn_back_fail_title">
+        <item quantity="other">Nem nyerted vissza %d napos szériádat!</item>
+        <item quantity="one">Nem nyerted vissza %d napos szériádat!</item>
+    </plurals>
+    <plurals name="streak_earn_back_fail_title_new">
+        <item quantity="other">Nem nyerted vissza %d napos szériádat!</item>
+        <item quantity="one">Nem nyerted vissza %d napos szériádat!</item>
+    </plurals>
+    <plurals name="streak_earn_back_title">
+        <item quantity="other">Ajaj, elvesztetted %d napos szériádat!</item>
+        <item quantity="one">Ajaj, elvesztetted %d napos szériádat!</item>
+    </plurals>
+    <plurals name="streak_earn_back_title_new">
+        <item quantity="other">Ajaj, elvesztetted %d napos szériádat!</item>
+        <item quantity="one">Ajaj, elvesztetted %d napos szériádat!</item>
+    </plurals>
+    <plurals name="streak_earn_back_win_title">
+        <item quantity="other">Visszanyerted %d napos szériádat!</item>
+        <item quantity="one">Visszanyerted %d napos szériádat!</item>
+    </plurals>
+    <plurals name="streak_earn_back_win_title_new">
+        <item quantity="other">Visszanyerted %d napos szériádat!</item>
+        <item quantity="one">Visszanyerted %d napos szériádat!</item>
+    </plurals>
+    <plurals name="streak_freeze_used_notification_message">
+        <item quantity="other">Teljesítsd napi célkitűzésed, hogy kibővíthesd %d napos szériád.</item>
+        <item quantity="one">Teljesítsd napi célkitűzésed, hogy kibővíthesd %d napos szériád.</item>
+    </plurals>
+    <plurals name="streak_quantity">
+        <item quantity="other">%d napos</item>
+        <item quantity="one">%d napos</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">Elveszett a(z) %d napos széria!</item>
+        <item quantity="one">Elveszett a(z) %d napos széria!</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">Jelenleg %d napos szériánál tartasz!</item>
+        <item quantity="one">Jelenleg %d napos szériánál tartasz!</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">A(z) %d napos széria helyreállítva!</item>
+        <item quantity="one">A(z) %d napos széria helyreállítva!</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">Megdupláztad a(z) %d lingotodat. Akarsz fogadni újból?</item>
+        <item quantity="one">Megdupláztad a(z) %d lingotodat. Akarsz fogadni újból?</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">FOGADÁS %d DRÁGAKŐBEN</item>
+        <item quantity="one">FOGADÁS %d DRÁGAKŐBEN</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%d ó</item>
+        <item quantity="one">%d ó</item>
+    </plurals>
+    <plurals name="time_minutes">
+        <item quantity="other">%d p</item>
+        <item quantity="one">%d p</item>
+    </plurals>
+    <plurals name="time_seconds">
+        <item quantity="other">%d mp</item>
+        <item quantity="one">%d mp</item>
+    </plurals>
+    <plurals name="timed_practice_rof_title_correct_answers">
+        <item quantity="other">%d kérdés helyes!</item>
+        <item quantity="one">%d kérdés helyes!</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>Válaszd ki a megfelelő írásjegyeket ehhez: „%s”&lt;/b></item>
+        <item quantity="one">&lt;b>Válaszd ki a megfelelő írásjegyet ehhez: „%s”&lt;/b></item>
+    </plurals>
+    <plurals name="user_completed_skill">
+        <item quantity="other">&lt;strong>%1$s&lt;/strong> teljesített %2$d ismeretanyagot!</item>
+        <item quantity="one">&lt;strong>%1$s&lt;/strong> teljesített egy ismeretanyagot!</item>
+    </plurals>
+    <plurals name="user_did_lessons">
+        <item quantity="other">&lt;strong>%1$s&lt;/strong> leckéket végzett el ezekben az ismeretanyagokban.</item>
+        <item quantity="one">&lt;strong>%1$s&lt;/strong> leckéket végzett el ebben az ismeretanyagban.</item>
+    </plurals>
+    <plurals name="user_passed_multi_now_has">
+        <item quantity="other">&lt;strong>%1$s&lt;/strong> megelőzte &lt;strong>%2$s&lt;/strong>, &lt;strong>%3$s&lt;/strong> felhasználókat és %4$d másikat, jelenleg pedig %5$d pontja van!</item>
+        <item quantity="one">&lt;strong>%1$s&lt;/strong> megelőzte &lt;strong>%2$s&lt;/strong>, &lt;strong>%3$s&lt;/strong> felhasználókat és még %4$d másikat, jelenleg pedig %5$d pontja van!</item>
+    </plurals>
+    <plurals name="user_reacted_multi">
+        <item quantity="other">%1$s és %2$d másik ember hozzászólt</item>
+        <item quantity="one">%1$s és %2$d másik ember hozzászólt</item>
+    </plurals>
+    <plurals name="user_started_skill">
+        <item quantity="other">&lt;strong>%1$s&lt;/strong> %2$d új ismeretanyagba kezdett!!</item>
+        <item quantity="one">&lt;strong>%1$s&lt;/strong> új ismeretanyagba kezdett!</item>
+    </plurals>
+    <plurals name="user_streak">
+        <item quantity="other">&lt;strong>%1$s&lt;/strong> &lt;span>%2$d napos szériát&lt;/span> ért el!</item>
+        <item quantity="one">&lt;strong>%1$s&lt;/strong> &lt;span>%2$d napos szériát&lt;/span> ért el!</item>
+    </plurals>
+    <plurals name="xp_challenge_push_notification_title">
+        <item quantity="other">A(z) %d pontos erőpróba most kezdődik</item>
+        <item quantity="one">Az %d pontos erőpróba most kezdődik</item>
+    </plurals>
+    <plurals name="xp_challenge_title">
+        <item quantity="other">%d pontos erőpróba</item>
+        <item quantity="one">%d pontos erőpróba</item>
+    </plurals>
+    <plurals name="xp_challenge_won_dialog_subtitle">
+        <item quantity="other">%d ragyogó lingot a jutalmad!</item>
+        <item quantity="one">%d ragyogó lingot a jutalmad!</item>
+    </plurals>
+    <plurals name="you_earned_gems">
+        <item quantity="other">%d drágakövet kaptál!</item>
+        <item quantity="one">Egy drágakövet kaptál!</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">%d drágakövet találtál!</item>
+        <item quantity="one">Egy drágakövet találtál!</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">Találtál %d lingotot!</item>
+        <item quantity="one">Találtál egy lingotot!</item>
+    </plurals>
+</resources>

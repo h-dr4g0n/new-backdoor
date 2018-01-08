@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/blue" android:paddingBottom="@dimen/huge_margin" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.duolingo.view.DuoSvgImageView android:id="@id/tiny_splash" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_alignParentTop="true" app:svgSrc="@raw/tinycards_ad" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/large_font_size" android:textColor="@color/white" android:gravity="center" android:id="@id/tiny_text" android:padding="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tinycards_description" android:layout_below="@id/tiny_splash" />
+        <com.duolingo.typeface.widget.DuoTextView android:textStyle="bold" android:textColor="@color/blue" android:gravity="center" android:id="@id/get_tinycards_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/huge_margin" android:text="@string/action_get_tinycards" android:layout_above="@id/not_now_button" android:textAllCaps="true" style="@style/App_ButtonStyle" />
+        <com.duolingo.typeface.widget.DuoTextView android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/not_now_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/not_now" android:layout_alignParentBottom="true" android:textAllCaps="true" style="@style/App_ButtonFlat" />
+    </RelativeLayout>
+</ScrollView>

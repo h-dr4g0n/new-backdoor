@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@color/new_gray_lightest" android:padding="@dimen/club_member_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <com.duolingo.view.DuoSvgImageView android:layout_gravity="center" android:id="@id/club_badge" android:layout_width="@dimen/club_badge_size" android:layout_height="@dimen/club_badge_size" android:scaleType="centerCrop" />
+                <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:textStyle="bold" android:gravity="center" android:id="@id/club_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_margin" />
+                <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:gravity="center" android:id="@id/club_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_margin" />
+            </LinearLayout>
+            <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_member_heading_font_size" android:textStyle="bold" android:textColor="@color/blue" android:gravity="end" android:id="@id/club_edit" android:paddingLeft="@dimen/large_margin" android:paddingTop="@dimen/large_margin" android:paddingBottom="@dimen/large_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clubs_edit" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/club_member_margin" android:paddingTop="@dimen/club_member_margin" android:paddingRight="@dimen/club_member_margin" android:paddingBottom="@dimen/generic_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_member_font_size" android:textStyle="bold" android:id="@id/weekly_leaderboard_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/weekly_leaderboard" />
+            <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_member_heading_font_size" android:textStyle="bold" android:textColor="@color/blue" android:gravity="end" android:id="@id/club_invite" android:paddingLeft="@dimen/large_margin" android:paddingTop="@dimen/large_margin" android:paddingBottom="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/clubs_invite" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView android:id="@id/club_members_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

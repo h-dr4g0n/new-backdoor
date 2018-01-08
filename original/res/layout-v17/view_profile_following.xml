@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="100.0dip" android:textDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/avatar_with_frame" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_margin="17.0dip" android:layout_alignParentLeft="@bool/ltr_enabled" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+        <ImageView android:layout_gravity="center" android:id="@id/avatar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.duolingo.typeface.widget.DuoTextView android:textAppearance="@style/ProfileTitle" android:id="@id/display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/nothing" android:layout_toRightOf="@id/avatar_with_frame" android:layout_centerVertical="true" android:layout_toStartOf="@id/nothing" android:layout_toEndOf="@id/avatar_with_frame" />
+</RelativeLayout>

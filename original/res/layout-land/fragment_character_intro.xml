@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.LessonLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.tools.AutoScaleTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ChallengeTitle" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.1" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.8">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.duolingo.tools.FixedAspectRatioFrameLayout android:id="@id/flashcard" android:background="@drawable/flashcard" android:layout_width="wrap_content" android:layout_height="fill_parent" app:aspectRatioWidth="9" app:aspectRatioHeight="10" style="@style/CharacterFlashcardStyle">
+            <LinearLayout android:gravity="end|center|top" android:orientation="horizontal" android:id="@id/play_button_container" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <com.duolingo.tools.FixedAspectRatioFrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.2" app:aspectRatioWidth="1" app:aspectRatioHeight="1">
+                    <com.duolingo.view.DuoSvgImageView android:id="@id/play_button" android:background="@drawable/btn_circle_blue" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:iconScale="0.6" app:svgSrc="@raw/speaker_white" app:flipRtl="true" />
+                </com.duolingo.tools.FixedAspectRatioFrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:weightSum="1.0">
+                <com.duolingo.tools.AutoScaleTextView android:textSize="300.0sp" android:textColor="@color/new_gray_dark" android:gravity="center" android:id="@id/character" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.5" />
+            </LinearLayout>
+        </com.duolingo.tools.FixedAspectRatioFrameLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/options" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/generic_margin">
+            <FrameLayout android:id="@id/option_container1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small_margin">
+                <include layout="@layout/view_challenge_text_selection_start_align" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/option_container2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin">
+                <include layout="@layout/view_challenge_text_selection_start_align" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/option_container3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_margin">
+                <include layout="@layout/view_challenge_text_selection_start_align" />
+            </FrameLayout>
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.1" />
+</com.duolingo.view.LessonLinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top" android:orientation="vertical" android:background="@color/new_gray_lightest" android:paddingLeft="@dimen/large_margin" android:paddingTop="@dimen/biggest_margin" android:paddingRight="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/large_font_size" android:textStyle="bold" android:gravity="start" android:id="@id/prompt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_margin" android:layout_marginBottom="@dimen/large_margin" android:textIsSelectable="true" />
+    <org.apmem.tools.layouts.FlowLayout android:id="@id/prompt_flow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/huge_margin" />
+    <LinearLayout android:orientation="vertical" android:id="@id/speaker_layout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.view.CircleIconImageView android:layout_gravity="center_horizontal" android:id="@id/speaker_image" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="@dimen/biggest_margin" android:layout_marginBottom="@dimen/biggest_margin" android:scaleType="fitCenter" app:backgroundColor="@color/blue" app:svgSrc="@raw/speaker_white" />
+        <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <com.duolingo.typeface.widget.DuoEditText android:gravity="top" android:id="@id/response_text" android:background="@color/white" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="5" android:inputType="textMultiLine" style="@android:style/Widget.EditText" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_margin">
+        <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/blue" android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="@dimen/pill_shaped_button_min_height" android:layout_marginLeft="@dimen/large_margin" android:layout_marginRight="@dimen/large_margin" android:text="@string/action_cancel" android:layout_weight="1.0" style="@style/App_ButtonFlat" />
+        <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/white" android:id="@id/submit" android:layout_width="0.0dip" android:layout_height="@dimen/pill_shaped_button_min_height" android:text="@string/action_submit" android:layout_weight="1.0" app:buttonColor="@color/blue" style="@style/App_ButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

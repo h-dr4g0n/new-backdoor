@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/club_event_user_post" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:padding="@dimen/club_event_card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.view.DuoSvgImageView android:id="@id/club_event_avatar" android:layout_width="@dimen/club_event_avatar_size" android:layout_height="@dimen/club_event_avatar_size" android:layout_alignParentLeft="@bool/ltr_enabled" android:layout_centerVertical="true" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_event_time_font_size" android:textColor="@color/new_gray_light" android:gravity="end" android:id="@id/club_event_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="@bool/ltr_enabled" android:layout_centerVertical="true" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_event_comment_detail_font_size" android:textStyle="bold" android:textColor="@color/new_gray" android:id="@id/club_event_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigger_margin" android:layout_marginRight="@dimen/bigger_margin" android:layout_toLeftOf="@id/club_event_time" android:layout_toRightOf="@id/club_event_avatar" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_event_comment_detail_font_size" android:ellipsize="end" android:autoLink="all" android:id="@id/clubs_user_post" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/club_event_card_padding" android:layout_marginRight="@dimen/club_event_card_padding" android:lineSpacingMultiplier="1.1" android:textIsSelectable="true" />
+    <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/huge_margin" />
+</LinearLayout>

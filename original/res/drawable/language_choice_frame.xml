@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/new_gray_lighter" />
+    <size android:height="@dimen/language_choice_flag_container_size" android:width="@dimen/language_choice_flag_container_size" />
+</shape>

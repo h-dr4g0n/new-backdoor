@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/large_font_size" android:textStyle="bold" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/huge_margin" android:text="@string/out_of_health_title" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/huge_margin" android:layout_marginBottom="@dimen/huge_margin" android:text="@string/out_of_health_text" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/huge_margin">
+        <com.duolingo.typeface.widget.DuoTextView android:id="@id/free_refill_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refill_for_free" app:buttonColor="@color/blue" style="@style/SubmitButtonStyle" />
+        <com.duolingo.view.DuoSvgImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/health_button_icon_size" android:layout_height="@dimen/health_button_icon_size" android:layout_marginLeft="@dimen/medium_margin" app:svgSrc="@raw/health_white" />
+    </FrameLayout>
+</merge>

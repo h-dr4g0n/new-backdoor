@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/club_event_leaderboard" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/club_event_leaderboard_gold" layout="@layout/view_club_event_leaderboard_row" />
+        <include android:id="@id/club_event_leaderboard_silver" layout="@layout/view_club_event_leaderboard_row" />
+        <include android:id="@id/club_event_leaderboard_bronze" layout="@layout/view_club_event_leaderboard_row" />
+        <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

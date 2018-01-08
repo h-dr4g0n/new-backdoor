@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/skill_root" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SkillPageSpacingTop">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/skill_activity_spacing_empty" />
+        <ImageView android:id="@id/skill_icon" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" android:layout_weight="@integer/skill_activity_spacing_icon" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/skill_activity_spacing_empty" />
+        <com.duolingo.view.PercentFrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/lesson_badge_offset_negative" android:layout_weight="@integer/skill_activity_spacing_card" app:horizontalPadding="@fraction/activity_horizontal_padding_percent" app:pushPadding="true">
+            <com.duolingo.app.skill.SkillPagerWrapper android:id="@id/lesson_carousel_wrapper" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.duolingo.app.skill.AspectRatioViewPager android:layout_gravity="center" android:id="@id/lesson_carousel" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+            </com.duolingo.app.skill.SkillPagerWrapper>
+            <ProgressBar android:layout_gravity="center" android:id="@id/loading_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+        </com.duolingo.view.PercentFrameLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/skill_activity_spacing_empty" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/test_out_button" android:paddingTop="@dimen/big_margin" android:paddingBottom="@dimen/big_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/big_margin" android:layout_marginRight="@dimen/big_margin" android:layout_marginBottom="@dimen/huge_margin" android:text="@string/lesson_test_button" style="@style/App_ButtonFlat" />
+    </LinearLayout>
+</RelativeLayout>

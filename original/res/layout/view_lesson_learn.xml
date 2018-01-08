@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.PercentFrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:horizontalPadding="@fraction/activity_horizontal_padding_percent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/title_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/lesson_end_title_text_size" android:textColor="@color/new_gray_dark" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_lesson_learned" />
+            <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/lesson_end_title_text_size" android:textStyle="bold" android:textColor="@color/new_gray_dark" android:gravity="center" android:id="@id/title_skill_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Basics 1!" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.duolingo.view.CircleIconPopView android:gravity="center" android:id="@id/icon_pop" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="6.0" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:textColor="@color/new_gray_dark" android:gravity="center" android:id="@id/skill_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/big_margin" android:text="@string/skill_learned_message" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.1" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</com.duolingo.view.PercentFrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textStyle="bold" android:textColor="@color/red" android:id="@id/error_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large_margin" android:layout_marginTop="@dimen/large_margin" android:layout_marginRight="@dimen/large_margin" android:text="@string/user_post_failed" />
+    <com.duolingo.typeface.widget.ClubsEditText android:gravity="top" android:id="@id/new_post_text" android:padding="@dimen/large_margin" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:hint="@string/user_post_hint" android:layout_weight="1.0" android:inputType="textCapSentences|textMultiLine" />
+    <View android:id="@id/name_list_divider" android:background="@color/gray_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <android.support.v7.widget.RecyclerView android:id="@id/name_list" android:background="@color/new_gray_lightest" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

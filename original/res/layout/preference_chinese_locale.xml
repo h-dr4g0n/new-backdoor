@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:orientation="horizontal" android:id="@id/preference_chinese_locale" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.duolingo.typeface.widget.DuoRadioButton android:id="@id/simplified" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="简体" style="@style/CoachRadioButtonStyle" />
+    <com.duolingo.typeface.widget.DuoRadioButton android:id="@id/traditional" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="繁體" style="@style/CoachRadioButtonStyle" />
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</RadioGroup>

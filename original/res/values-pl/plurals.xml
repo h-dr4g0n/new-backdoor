@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="one">%1$s i %2$d inne</item>
+        <item quantity="few">%1$s i %2$d inne</item>
+        <item quantity="many">%1$s i %2$d innych</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="one">Ukończ %d temat szkolenia</item>
+        <item quantity="few">Ukończ %d tematy szkolenia</item>
+        <item quantity="many">Ukończ %d tematów szkolenia</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="one">Wydaj %d klejnot</item>
+        <item quantity="few">Wydaj %d klejnoty</item>
+        <item quantity="many">Wydaj %d klejnotów</item>
+    </plurals>
+    <plurals name="achievement_requirement_gold_skills">
+        <item quantity="one">Uzyskaj złoty status dla %d tematu</item>
+        <item quantity="few">Uzyskaj złoty status dla %d tematów jednocześnie</item>
+        <item quantity="many">Uzyskaj złoty status dla %d tematów jednocześnie</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="one">Ukończ %d lekcję lub ćwiczenie, nie popełniając żadnego błędu</item>
+        <item quantity="few">Ukończ %d lekcje lub ćwiczenia, nie popełniając żadnego błędu</item>
+        <item quantity="many">Ukończ %d lekcji lub ćwiczeń, nie popełniając żadnego błędu</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="one">Wydaj %d lingota</item>
+        <item quantity="few">Wydaj %d lingoty</item>
+        <item quantity="many">Wydaj %d lingotów</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="one">Kontynuuj naukę przez %d dzień</item>
+        <item quantity="few">Kontynuuj naukę przez %d dni z rzędu</item>
+        <item quantity="many">Kontynuuj naukę przez %d dni z rzędu</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="one">Zdobądź %d pkt w jeden dzień</item>
+        <item quantity="few">Zdobądź %d pkt w jeden dzień</item>
+        <item quantity="many">Zdobądź %d pkt w jeden dzień</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="one">Ukończyłeś %d temat kursu</item>
+        <item quantity="few">Ukończyłeś %d tematy kursu</item>
+        <item quantity="many">Ukończyłeś %d tematów kursu</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="one">Wydałeś %d klejnot</item>
+        <item quantity="few">Wydałeś %d klejnoty</item>
+        <item quantity="many">Wydałeś %d klejnotów</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gold_skills">
+        <item quantity="one">Uzyskałeś złoty status dla %d tematu</item>
+        <item quantity="few">Uzyskałeś złoty status dla %d tematów jednocześnie</item>
+        <item quantity="many">Uzyskałeś złoty status dla %d tematów jednocześnie</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="one">Ukończyłeś bezbłędnie %d lekcję lub ćwiczenie</item>
+        <item quantity="few">Ukończyłeś bezbłędnie %d lekcje lub ćwiczenia</item>
+        <item quantity="many">Ukończyłeś bezbłędnie %d lekcji lub ćwiczeń</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="one">Wydałeś %d lingota</item>
+        <item quantity="few">Wydałeś %d lingoty</item>
+        <item quantity="many">Wydałeś %d lingotów</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="one">Kontynuowałeś naukę przez %d dzień z rzędu</item>
+        <item quantity="few">Kontynuowałeś naukę przez %d dni z rzędu</item>
+        <item quantity="many">Kontynuowałeś naukę przez %d dni z rzędu</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="one">Zdobyłeś %d pkt w ciągu dnia</item>
+        <item quantity="few">Zdobyłeś %d pkt w ciągu dnia</item>
+        <item quantity="many">Zdobyłeś %d pkt w ciągu dnia</item>
+    </plurals>
+    <plurals name="badgeicon_banner_lesson">
+        <item quantity="one">&lt;font color=\"#ffbf23\">&lt;b>%d lekcja&lt;/b>&lt;/font> dzieli Cię od osiągnięcia celu</item>
+        <item quantity="few">&lt;font color=\"#ffbf23\">&lt;b>%d lekcje&lt;/b>&lt;/font> dzielą Cię od osiągnięcia celu</item>
+        <item quantity="many">&lt;font color=\"#ffbf23\">&lt;b>%d lekcji&lt;/b>&lt;/font> dzieli Cię od osiągnięcia celu</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="one">Masz literówkę w tłumaczeniu.</item>
+        <item quantity="few">Masz literówki w tłumaczeniu.</item>
+        <item quantity="many">Masz literówek w tłumaczeniu.</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="one">Zdobądź kolejną, aby nie stracić %d dnia nauki z rzędu.</item>
+        <item quantity="few">Zdobądź kolejną, aby nie stracić %d dni nauki z rzędu.</item>
+        <item quantity="many">Zdobądź kolejną, aby nie stracić %d dni nauki z rzędu.</item>
+    </plurals>
+    <plurals name="club_num_members">
+        <item quantity="one">%d CZŁONEK</item>
+        <item quantity="few">%d CZŁONKÓW</item>
+        <item quantity="many">%d CZŁONKÓW</item>
+    </plurals>
+    <plurals name="clubs_others_played">
+        <item quantity="one">%1$s i %2$d inny użytkownik podpisali</item>
+        <item quantity="few">%1$s i %2$d innych użytkowników podpisało</item>
+        <item quantity="many">%1$s i %2$d innych użytkowników podpisało</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="one">%d min. dziennie</item>
+        <item quantity="few">%d min. dziennie</item>
+        <item quantity="many">%d min. dziennie</item>
+    </plurals>
+    <plurals name="coach_on_streak">
+        <item quantity="one">Masz &lt;font color=\"#77c924\">&lt;b>%d dzień nauki z rzędu&lt;/b>&lt;/font>!</item>
+        <item quantity="few">Masz &lt;font color=\"#77c924\">&lt;b>%d dni nauki z rzędu&lt;/b>&lt;/font>!</item>
+        <item quantity="many">Masz &lt;font color=\"#77c924\">&lt;b>%d dni nauki z rzędu&lt;/b>&lt;/font>!</item>
+    </plurals>
+    <plurals name="coach_xp_a_day">
+        <item quantity="one">%d pkt/dzień</item>
+        <item quantity="few">%d pkt/dzień</item>
+        <item quantity="many">%d pkt/dzień</item>
+    </plurals>
+    <plurals name="coach_xp_from_goal">
+        <item quantity="one">&lt;font color=\"#ffbf23\">&lt;b>%d pkt&lt;/b>&lt;/font> do celu dziennego</item>
+        <item quantity="few">&lt;font color=\"#ffbf23\">&lt;b>%d pkt&lt;/b>&lt;/font> do celu dziennego</item>
+        <item quantity="many">&lt;font color=\"#ffbf23\">&lt;b>%d pkt&lt;/b>&lt;/font> do celu dziennego</item>
+    </plurals>
+    <plurals name="coach_xp_from_goal_no_color">
+        <item quantity="one">%d punkt do osiągnięcia dziennego celu</item>
+        <item quantity="few">%d punkty do osiągnięcia dziennego celu</item>
+        <item quantity="many">%d punktów do osiągnięcia dziennego celu</item>
+    </plurals>
+    <plurals name="cost_gems">
+        <item quantity="one">%d KLEJNOT</item>
+        <item quantity="few">%d KLEJNOTY</item>
+        <item quantity="many">%d KLEJNOTÓW</item>
+    </plurals>
+    <plurals name="cost_lingots">
+        <item quantity="one">%d LINGOT</item>
+        <item quantity="few">%d LINGOTY</item>
+        <item quantity="many">%d LINGOTÓW</item>
+    </plurals>
+    <plurals name="current_level">
+        <item quantity="one">Poziom %d</item>
+        <item quantity="few">Poziom %d</item>
+        <item quantity="many">Poziom %d</item>
+    </plurals>
+    <plurals name="daily_goal_not_met">
+        <item quantity="one">%d punkt dzieli Cię od osiągnięcia dziennego celu!</item>
+        <item quantity="few">%d punkty dzielą Cię od osiągnięcia dziennego celu!</item>
+        <item quantity="many">%d punktów dzieli Cię od osiągnięcia dziennego celu!</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="one">%d dzień nauki z rzędu</item>
+        <item quantity="few">%d dni nauki z rzędu</item>
+        <item quantity="many">%d dni nauki z rzędu</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="one">%d komentarz</item>
+        <item quantity="few">%d komentarze</item>
+        <item quantity="many">%d komentarzy</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="one">%d ukryty komentarz</item>
+        <item quantity="few">%d ukryte komentarze</item>
+        <item quantity="many">%d ukrytych komentarzy</item>
+    </plurals>
+    <plurals name="earned_bonus_lingots">
+        <item quantity="one">Zdobyłeś bonusowego lingota!</item>
+        <item quantity="few">Zdobyłeś %d bonusowe lingoty!</item>
+        <item quantity="many">Zdobyłeś %d bonusowych lingotów!</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="one">Dostałeś lingota!</item>
+        <item quantity="few">Dostałeś %d lingoty!</item>
+        <item quantity="many">Dostałeś %d lingotów!</item>
+    </plurals>
+    <plurals name="equip_for_gems">
+        <item quantity="one">WŁĄCZ ZA %1$d %2$s</item>
+        <item quantity="few">WŁĄCZ ZA %1$d %2$s</item>
+        <item quantity="many">WŁĄCZ ZA %1$d %2$s</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="one">%d pkt</item>
+        <item quantity="few">%d pkt</item>
+        <item quantity="many">%d pkt</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="one">Kontynuuj naukę przez następnych 7 dni z rzędu, a podwoimy postawiony przez Ciebie %d klejnot.</item>
+        <item quantity="few">Kontynuuj naukę przez następnych 7 dni z rzędu, a podwoimy postawione przez Ciebie %d klejnoty.</item>
+        <item quantity="many">Kontynuuj naukę przez następnych 7 dni z rzędu, a podwoimy liczbę postawionych przez Ciebie %d klejnotów.</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="one">Podwoiłeś stawkę zakładu o %d klejnot. Chcesz dokonać kolejnego zakładu?</item>
+        <item quantity="few">Podwoiłeś stawkę zakładu o %d klejnoty. Chcesz dokonać kolejnego zakładu?</item>
+        <item quantity="many">Podwoiłeś stawkę zakładu o %d klejnotów. Chcesz dokonać kolejnego zakładu?</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="one">Kupić za %d lingot?</item>
+        <item quantity="few">Kupić za %d lingoty?</item>
+        <item quantity="many">Kupić za %d lingotów?</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="one">Chcesz kupić tę pozycję za %d klejnot?</item>
+        <item quantity="few">Chcesz kupić tę pozycję za %d klejnoty?</item>
+        <item quantity="many">Chcesz kupić tę pozycję za %d klejnotów?</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="one">Prawidłowe rozwiązanie:</item>
+        <item quantity="few">Prawidłowe rozwiązania:</item>
+        <item quantity="many">Prawidłowe rozwiązania:</item>
+    </plurals>
+    <plurals name="health_plus">
+        <item quantity="one">+%d</item>
+        <item quantity="few">+%d</item>
+        <item quantity="many">+%d</item>
+    </plurals>
+    <plurals name="health_refill_cta">
+        <item quantity="one">Uzupełnij za %1$d %2$s</item>
+        <item quantity="few">Uzupełnij za %1$d %2$s</item>
+        <item quantity="many">Uzupełnij za %1$d %2$s</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="one">MIESIĄC</item>
+        <item quantity="few">MIESIĄCE</item>
+        <item quantity="many">MIESIĘCY</item>
+    </plurals>
+    <plurals name="new_streak_after_goal_met">
+        <item quantity="one">To %d dzień nauki z rzędu!</item>
+        <item quantity="few">To %d dni nauki z rzędu!</item>
+        <item quantity="many">To %d dni nauki z rzędu!</item>
+    </plurals>
+    <plurals name="num_learners">
+        <item quantity="one">%s uczeń</item>
+        <item quantity="few">%s uczniów</item>
+        <item quantity="many">%s uczniów</item>
+    </plurals>
+    <plurals name="num_older_captions">
+        <item quantity="one">%d starszy podpis</item>
+        <item quantity="few">%d starsze podpisy</item>
+        <item quantity="many">%d starszych podpisów</item>
+    </plurals>
+    <plurals name="num_older_comments">
+        <item quantity="one">%d starszy komentarz</item>
+        <item quantity="few">%d starsze komentarze</item>
+        <item quantity="many">%d starszych komentarzy</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="one">%d</item>
+        <item quantity="few">%d</item>
+        <item quantity="many">%d</item>
+    </plurals>
+    <plurals name="offer_ends_days">
+        <item quantity="one">Oferta kończy się za %d dzień.</item>
+        <item quantity="few">Oferta kończy się za %d dni.</item>
+        <item quantity="many">Oferta kończy się za %d dni.</item>
+    </plurals>
+    <plurals name="offer_ends_hours">
+        <item quantity="one">Oferta kończy się za %d godzinę.</item>
+        <item quantity="few">Oferta kończy się za %d godziny.</item>
+        <item quantity="many">Oferta kończy się za %d godzin.</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="one">WŁĄCZ ZA %d LINGOTA</item>
+        <item quantity="few">WŁĄCZ ZA %d LINGOTY</item>
+        <item quantity="many">WŁĄCZ ZA %d LINGOTÓW</item>
+    </plurals>
+    <plurals name="placement_test_customize_course_already_know">
+        <item quantity="one">Znasz już %d temat!</item>
+        <item quantity="few">Znasz już %d tematy!</item>
+        <item quantity="many">Znasz już %d tematów!</item>
+    </plurals>
+    <plurals name="profile_following_header">
+        <item quantity="one">OBSERWUJE %d</item>
+        <item quantity="few">OBSERWUJE %d</item>
+        <item quantity="many">OBSERWUJE %d</item>
+    </plurals>
+    <plurals name="profile_language_header">
+        <item quantity="one">%d JĘZYK</item>
+        <item quantity="few">%d JĘZYKI</item>
+        <item quantity="many">%d JĘZYKI</item>
+    </plurals>
+    <plurals name="profile_streak_message">
+        <item quantity="one">Ma %d dzień z rzędu</item>
+        <item quantity="few">Ma %d dni z rzędu</item>
+        <item quantity="many">Ma %d dni z rzędu</item>
+    </plurals>
+    <plurals name="skills_updated_title">
+        <item quantity="one">Zaktualizowano %d temat!</item>
+        <item quantity="few">Zaktualizowano %d tematy!</item>
+        <item quantity="many">Zaktualizowano %d tematów!</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="one">%d wolne miejsce</item>
+        <item quantity="few">%d wolne miejsca</item>
+        <item quantity="many">%d wolnych miejsc</item>
+    </plurals>
+    <plurals name="slots_remaining">
+        <item quantity="one">%d wolne miejsce</item>
+        <item quantity="few">%d wolne miejsca</item>
+        <item quantity="many">%d wolnych miejsc</item>
+    </plurals>
+    <plurals name="staying_on_track">
+        <item quantity="one">Na szlaku od %d dnia</item>
+        <item quantity="few">Na szlaku od %d dni</item>
+        <item quantity="many">Na szlaku od %d dni</item>
+    </plurals>
+    <plurals name="store_header">
+        <item quantity="one">Masz %s lingota</item>
+        <item quantity="few">Masz %s lingoty</item>
+        <item quantity="many">Masz %s lingotów</item>
+    </plurals>
+    <plurals name="streak_continued">
+        <item quantity="one">Masz &lt;font color=\"#77c924\">&lt;b>%d dzień&lt;/b>&lt;/font> nauki z rzędu!</item>
+        <item quantity="few">Masz &lt;font color=\"#77c924\">&lt;b>%d dni&lt;/b>&lt;/font> nauki z rzędu!</item>
+        <item quantity="many">Masz &lt;font color=\"#77c924\">&lt;b>%d dni&lt;/b>&lt;/font> nauki z rzędu!</item>
+    </plurals>
+    <plurals name="streak_earn_back_fail_title">
+        <item quantity="one">Nie odzyskałeś %d dnia nauki z rzędu!</item>
+        <item quantity="few">Nie odzyskałeś %d dni nauki z rzędu!</item>
+        <item quantity="many">Nie odzyskałeś %d dni nauki z rzędu!</item>
+    </plurals>
+    <plurals name="streak_earn_back_fail_title_new">
+        <item quantity="one">Nie odzyskałeś %d dnia nauki z rzędu!</item>
+        <item quantity="few">Nie odzyskałeś %d dni nauki z rzędu!</item>
+        <item quantity="many">Nie odzyskałeś %d dni nauki z rzędu!</item>
+    </plurals>
+    <plurals name="streak_earn_back_title">
+        <item quantity="one">Ups, straciłeś %d dzień nauki z rzędu!</item>
+        <item quantity="few">Ups, straciłeś %d dni nauki z rzędu!</item>
+        <item quantity="many">Ups, straciłeś %d dzień nauki z rzędu!</item>
+    </plurals>
+    <plurals name="streak_earn_back_title_new">
+        <item quantity="one">Ups, straciłeś %d dzień nauki z rzędu!</item>
+        <item quantity="few">Ups, straciłeś %d dni nauki z rzędu!</item>
+        <item quantity="many">Ups, straciłeś %d dni nauki z rzędu!</item>
+    </plurals>
+    <plurals name="streak_earn_back_win_title">
+        <item quantity="one">Odzyskałeś %d dzień nauki z rzędu!</item>
+        <item quantity="few">Odzyskałeś %d dni nauki z rzędu!</item>
+        <item quantity="many">Odzyskałeś %d dni nauki z rzędu!</item>
+    </plurals>
+    <plurals name="streak_earn_back_win_title_new">
+        <item quantity="one">Odzyskałeś %d dzień nauki z rzędu!</item>
+        <item quantity="few">Odzyskałeś %d dni nauki z rzędu!</item>
+        <item quantity="many">Odzyskałeś %d dni nauki z rzędu!</item>
+    </plurals>
+    <plurals name="streak_freeze_used_notification_message">
+        <item quantity="one">Osiągnij swój dzienny cel i zwiększ liczbę dni nauki z rzędu (%d).</item>
+        <item quantity="few">Osiągnij swój dzienny cel i zwiększ liczbę dni nauki z rzędu (%d).</item>
+        <item quantity="many">Osiągnij swój dzienny cel i zwiększ liczbę dni nauki z rzędu (%d).</item>
+    </plurals>
+    <plurals name="streak_quantity">
+        <item quantity="one">%d dzień</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dni</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="one">%d dzień nauki stracony!</item>
+        <item quantity="few">%d dni nauki z rzędu stracone!</item>
+        <item quantity="many">%d dni nauki z rzędu straconych!</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="one">Masz %d dzień nauki!</item>
+        <item quantity="few">Masz %d dni nauki z rzędu!</item>
+        <item quantity="many">Masz %d dni nauki z rzędu!</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="one">Przywrócono %d dzień nauki!</item>
+        <item quantity="few">Przywrócono %d dni nauki z rzędu!</item>
+        <item quantity="many">Przywrócono %d dni nauki z rzędu!</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="one">Podwoiłeś stawkę zakładu o %d lingot. Chcesz dokonać kolejnego zakładu?</item>
+        <item quantity="few">Podwoiłeś stawkę zakładu o %d lingoty. Chcesz dokonać kolejnego zakładu?</item>
+        <item quantity="many">Podwoiłeś stawkę zakładu o %d lingotów. Chcesz dokonać kolejnego zakładu?</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="one">ZAKŁAD O %d KLEJNOT</item>
+        <item quantity="few">ZAKŁAD O %d KLEJNOTY</item>
+        <item quantity="many">ZAKŁAD O %d KLEJNOTÓW</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="one">%dh</item>
+        <item quantity="few">%dh</item>
+        <item quantity="many">%dh</item>
+    </plurals>
+    <plurals name="time_minutes">
+        <item quantity="one">%dm</item>
+        <item quantity="few">%dm</item>
+        <item quantity="many">%dm</item>
+    </plurals>
+    <plurals name="time_seconds">
+        <item quantity="one">%ds</item>
+        <item quantity="few">%ds</item>
+        <item quantity="many">%ds</item>
+    </plurals>
+    <plurals name="timed_practice_rof_title_correct_answers">
+        <item quantity="one">%d odpowiedź prawidłowa!</item>
+        <item quantity="few">%d odpowiedzi prawidłowe!</item>
+        <item quantity="many">%d odpowiedzi prawidłowych!</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="one">&lt;b>Wybierz prawidłowy znak dla “%s”&lt;/b></item>
+        <item quantity="few">&lt;b>Wybierz prawidłowe znaki dla “%s”&lt;/b></item>
+        <item quantity="many">&lt;b>Wybierz prawidłowe znaki dla “%s”&lt;/b></item>
+    </plurals>
+    <plurals name="user_completed_skill">
+        <item quantity="one">&lt;strong>%1$s&lt;/strong> ukończył(-a) temat!</item>
+        <item quantity="few">&lt;strong>%1$s&lt;/strong> ukończył(-a) %2$d tematy!</item>
+        <item quantity="many">&lt;strong>%1$s&lt;/strong> ukończył(-a) %2$d tematów!</item>
+    </plurals>
+    <plurals name="user_did_lessons">
+        <item quantity="one">&lt;strong>%1$s&lt;/strong> brał(a) udział w lekcjach dotyczących tego tematu.</item>
+        <item quantity="few">&lt;strong>%1$s&lt;/strong> brało udział w lekcjach dotyczących tego tematu.</item>
+        <item quantity="many">&lt;strong>%1$s&lt;/strong> brali(-ły) udział w lekcjach dotyczących tego tematu.</item>
+    </plurals>
+    <plurals name="user_passed_multi_now_has">
+        <item quantity="one">&lt;strong>%1$s&lt;/strong> wyprzedził(-a) użytkownika &lt;strong>%2$s&lt;/strong>, &lt;strong>%3$s&lt;/strong> i %4$d innego użytkownika i ma teraz %5$d pkt!</item>
+        <item quantity="few">&lt;strong>%1$s&lt;/strong> wyprzedził(-a) użytkownika &lt;strong>%2$s&lt;/strong>, &lt;strong>%3$s&lt;/strong> i %4$d innych użytkowników i ma teraz %5$d pkt!</item>
+        <item quantity="many">&lt;strong>%1$s&lt;/strong> wyprzedził(-a) użytkownika &lt;strong>%2$s&lt;/strong>, &lt;strong>%3$s&lt;/strong> i %4$d innych użytkowników i ma teraz %5$d pkt!</item>
+    </plurals>
+    <plurals name="user_reacted_multi">
+        <item quantity="one">%1$s i %2$d inny użytkownik zareagowali</item>
+        <item quantity="few">%1$s i %2$d innych zareagowało</item>
+        <item quantity="many">%1$s i %2$d innych zareagowało</item>
+    </plurals>
+    <plurals name="user_started_skill">
+        <item quantity="one">&lt;strong>%1$s&lt;/strong> zaczyna naukę nowego tematu!</item>
+        <item quantity="few">&lt;strong>%1$s&lt;/strong> zaczyna naukę %2$d nowych tematów!</item>
+        <item quantity="many">&lt;strong>%1$s&lt;/strong> zaczyna naukę %2$d nowych tematów!</item>
+    </plurals>
+    <plurals name="user_streak">
+        <item quantity="one">&lt;strong>%1$s&lt;/strong> kontynuuje naukę przez &lt;span>%2$d dzień!&lt;/span></item>
+        <item quantity="few">&lt;strong>%1$s&lt;/strong> kontynuuje naukę przez &lt;span>%2$d dni z rzędu!&lt;/span></item>
+        <item quantity="many">&lt;strong>%1$s&lt;/strong> kontynuuje naukę przez &lt;span>%2$d dni z rzędu!&lt;/span></item>
+    </plurals>
+    <plurals name="xp_challenge_push_notification_title">
+        <item quantity="one">Wyzwanie umożliwiające zdobycie %d pkt zaczyna się teraz</item>
+        <item quantity="few">Wyzwanie umożliwiające zdobycie %d pkt zaczyna się teraz</item>
+        <item quantity="many">Wyzwanie umożliwiające zdobycie %d pkt zaczyna się teraz</item>
+    </plurals>
+    <plurals name="xp_challenge_title">
+        <item quantity="one">Wyzwanie umożliwiające zdobycie %d pkt</item>
+        <item quantity="few">Wyzwanie umożliwiające zdobycie %d pkt</item>
+        <item quantity="many">Wyzwanie umożliwiające zdobycie %d pkt</item>
+    </plurals>
+    <plurals name="xp_challenge_won_dialog_subtitle">
+        <item quantity="one">%d błyszczący lingot dla Ciebie!</item>
+        <item quantity="few">%d błyszczące lingoty dla Ciebie!</item>
+        <item quantity="many">%d błyszczących lingotów dla Ciebie!</item>
+    </plurals>
+    <plurals name="you_earned_gems">
+        <item quantity="one">Zdobyłeś klejnot!</item>
+        <item quantity="few">Zdobyłeś %d klejnoty!</item>
+        <item quantity="many">Zdobyłeś %d klejnotów!</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="one">Znalazłeś klejnot!</item>
+        <item quantity="few">Znalazłeś %d klejnoty!</item>
+        <item quantity="many">Znalazłeś %d klejnotów!</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="one">Znalazłeś lingota!</item>
+        <item quantity="few">Znalazłeś %d lingoty!</item>
+        <item quantity="many">Znalazłeś %d lingotów!</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="quit_button_margin">5.0dip</dimen>
+    <dimen name="quit_button_margin_negative">-5.0dip</dimen>
+    <dimen name="quit_button_margin_negative_large">-7.0dip</dimen>
+    <dimen name="submit_button_padding">5.0dip</dimen>
+</resources>

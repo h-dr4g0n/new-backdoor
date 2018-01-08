@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.SkillTreeBonusRowView android:background="@color/skill_tree_bonus_background" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/skill_node_font_size" android:textStyle="bold" android:textColor="@color/skill_tree_bonus_text" android:gravity="center" android:id="@id/title_bonus_skills" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_margin" android:text="@string/title_bonus_skills" />
+        <com.duolingo.view.DuoLinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/skill_tree_row_nodep" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3.0" app:desiredWidth="@dimen/skill_tree_row_max_width" app:boundWidthByMinScreenDimension="true">
+            <com.duolingo.view.SkillNodeView android:id="@id/skill_node_1" android:padding="@dimen/large_margin" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.9" />
+            <com.duolingo.view.SkillNodeView android:id="@id/bonus_skill_node_1" android:padding="@dimen/large_margin" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.9" />
+            <com.duolingo.view.SkillNodeView android:id="@id/skill_node_2" android:padding="@dimen/large_margin" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.9" />
+            <com.duolingo.view.SkillNodeView android:id="@id/bonus_skill_node_2" android:padding="@dimen/large_margin" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.9" />
+            <com.duolingo.view.SkillNodeView android:id="@id/skill_node_3" android:padding="@dimen/large_margin" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.9" />
+            <com.duolingo.view.SkillNodeView android:id="@id/bonus_skill_node_3" android:padding="@dimen/large_margin" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.9" />
+        </com.duolingo.view.DuoLinearLayout>
+    </LinearLayout>
+</com.duolingo.view.SkillTreeBonusRowView>

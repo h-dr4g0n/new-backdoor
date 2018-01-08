@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.duolingo.tools.FlexibleTableLayout android:id="@id/options" android:layout_width="fill_parent" android:layout_height="wrap_content" app:horizontalSpacing="@dimen/small_margin" app:verticalSpacing="@dimen/small_margin" app:maxFirstRow="3"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+</merge>

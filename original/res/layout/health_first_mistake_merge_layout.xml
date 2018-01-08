@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/large_font_size" android:textStyle="bold" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/huge_margin" android:text="@string/first_mistake_title" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/huge_margin" android:layout_marginBottom="@dimen/huge_margin" android:text="@string/first_mistake_text" />
+    <com.duolingo.typeface.widget.DuoTextView android:id="@id/keep_going_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/huge_margin" android:text="@string/keep_going" app:buttonColor="@color/green_leaf" style="@style/SubmitButtonStyle" />
+</merge>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/text_container" android:padding="@dimen/huge_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="7.0">
+            <com.duolingo.view.DuoSvgImageView android:id="@id/logo" android:layout_width="fill_parent" android:layout_height="@dimen/premium_logo_height" android:layout_marginBottom="@dimen/medium_margin" android:scaleType="fitStart" app:svgSrc="@raw/duolingo_branded_plus_logo" />
+            <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textColor="@color/white" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/large_margin" android:text="@string/premium_offer_message" />
+            <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textStyle="bold" android:textColor="@color/blue" android:id="@id/learn_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" app:buttonColor="@color/white" style="@style/App_ButtonCompact" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" />
+    </LinearLayout>
+    <LinearLayout android:padding="@dimen/huge_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/text_container" android:layout_alignBottom="@id/text_container">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.duolingo.view.DuoSvgImageView android:id="@id/duo" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="fitEnd" android:layout_weight="1.0" app:svgSrc="@raw/duo_space" app:flipRtl="true" />
+    </LinearLayout>
+</merge>

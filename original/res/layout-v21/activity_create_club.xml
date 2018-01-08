@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/new_gray_lightest" android:focusable="true" android:focusableInTouchMode="true" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/create_a_club_frame" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/huge_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.duolingo.typeface.widget.DuoTextView android:layout_marginTop="@dimen/big_margin" android:layout_marginBottom="@dimen/large_margin" android:text="@string/name_club" style="@style/ClubsHeading" />
+            <com.duolingo.typeface.widget.DuoEditText android:id="@id/club_name_input" android:background="@color/transparent" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/clubs_name_hint" android:inputType="text" android:imeOptions="actionNext" android:backgroundTint="@color/transparent" style="@android:style/Widget.EditText" />
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/big_margin" android:layout_marginBottom="@dimen/medium_margin" />
+            <com.duolingo.typeface.widget.DuoTextView android:id="@id/name_character_count" style="@style/ClubsCharacterCount" />
+            <com.duolingo.typeface.widget.DuoTextView android:layout_marginTop="@dimen/gigantic_margin" android:layout_marginBottom="@dimen/large_margin" android:text="@string/describe_club" style="@style/ClubsHeading" />
+            <com.duolingo.typeface.widget.DuoEditText android:id="@id/club_description_input" android:background="@color/transparent" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/clubs_description_hint" android:inputType="text" android:imeOptions="actionDone" android:backgroundTint="@color/transparent" style="@android:style/Widget.EditText" />
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/medium_margin" android:layout_marginBottom="@dimen/medium_margin" />
+            <com.duolingo.typeface.widget.DuoTextView android:id="@id/description_character_count" style="@style/ClubsCharacterCount" />
+            <com.duolingo.typeface.widget.DuoTextView android:layout_marginTop="@dimen/gigantic_margin" android:layout_marginBottom="@dimen/large_margin" android:text="@string/club_public_title" style="@style/ClubsHeading" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/gray_clubs_darker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/club_public_desc" android:layout_toLeftOf="@id/public_club_switch" android:layout_alignParentLeft="true" android:layout_toStartOf="@id/public_club_switch" android:layout_alignParentStart="true" style="@style/App_TextAppearance" />
+                <android.support.v7.widget.SwitchCompat android:id="@id/public_club_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_alignParentRight="@bool/ltr_enabled" android:layout_alignParentEnd="true" style="@style/App_SwitchStyle" />
+            </RelativeLayout>
+            <com.duolingo.typeface.widget.DuoTextView android:layout_marginTop="@dimen/enormous_margin" android:layout_marginBottom="@dimen/huge_margin" android:text="@string/select_badge" style="@style/ClubsHeading" />
+            <com.duolingo.view.BadgePickerView android:id="@id/badge_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" app:numColumns="@integer/num_club_badge_columns" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/create_a_club_frame" android:background="@color/new_gray_lightest" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/xsmall_font_size" android:textStyle="bold" android:textColor="@color/btn_light_text_colors" android:gravity="center" android:id="@id/create_a_club" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/big_margin" android:text="@string/create" app:buttonColor="@color/blue" style="@style/App_ButtonStyle" />
+    </FrameLayout>
+</RelativeLayout>

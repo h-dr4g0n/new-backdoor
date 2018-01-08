@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/new_gray_lightest" android:layout_width="fill_parent" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/gray_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="@dimen/huge_margin" android:layout_width="fill_parent" android:layout_height="@dimen/menu_drawer_height">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.duolingo.view.ActivatedSvgImageView android:id="@id/crown_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true" app:svgSrc="@raw/crown_drawer" app:secondarySvgSrc="@raw/crown_inactive" app:aspectRatioFromSvg="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignLeft="@id/crown_icon" android:layout_alignRight="@id/crown_icon">
+                <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.16883117" />
+                <com.duolingo.tools.AutoScaleTextView android:textSize="@dimen/xlarge_font_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/crowns_count" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_margin="@dimen/large_margin" android:includeFontPadding="false" android:layout_weight="0.83116883" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:layout_width="@dimen/big_margin" android:layout_height="wrap_content" />
+        <com.duolingo.typeface.widget.DuoTextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/crowns_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/crowns_message" />
+    </LinearLayout>
+</LinearLayout>

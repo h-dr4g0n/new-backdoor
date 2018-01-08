@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/big_margin" android:paddingRight="@dimen/big_margin" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/menu_font_size" android:textStyle="bold" android:textColor="@color/btn_blue_text_colors" android:layout_gravity="center_vertical" android:id="@id/club_post_action_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_post_action" android:textAllCaps="true" />
+    <ProgressBar android:layout_gravity="end|center" android:id="@id/loading_status" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" style="?android:attr/progressBarStyle" />
+</LinearLayout>

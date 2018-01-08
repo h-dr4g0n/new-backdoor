@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.app.skill.SkillCardView android:gravity="center" android:layout_gravity="center" android:id="@id/skill_card" android:paddingTop="@dimen/lesson_badge_offset" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:padding="0.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/card_checkmark_triangle" android:layout_width="@dimen/lesson_badge_offset" android:layout_height="@dimen/lesson_badge_offset" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/lesson_badge_offset_negative" android:layout_marginRight="-1.0px" android:layout_toLeftOf="@id/card_checkmark" android:layout_toRightOf="@id/nothing" android:layout_alignTop="@id/card_back" />
+        <com.duolingo.view.DuoLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/card_back" android:background="@drawable/card_white_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8">
+                <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <com.duolingo.tools.AutoScaleTextView android:textSize="@dimen/skill_card_title_font_size" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center" android:id="@id/card_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lesson_title" android:maxLines="1" android:layout_weight="0.0" />
+                <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/skill_card_body_font_size" android:textColor="@color/black_text" android:gravity="center" android:id="@id/card_words" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="5.0" />
+                <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <FrameLayout android:id="@id/card_button" android:paddingLeft="@dimen/health_button_horizontal_padding" android:paddingRight="@dimen/health_button_horizontal_padding" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/App_ButtonStyle">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.duolingo.view.CircleHealthView android:id="@id/circle_health_view" android:visibility="gone" android:layout_width="@dimen/health_button_icon_size" android:layout_height="@dimen/health_button_icon_size" />
+                        <View android:layout_width="@dimen/big_margin" android:layout_height="0.0dip" />
+                        <com.duolingo.tools.AutoScaleTextView android:textSize="@dimen/skill_card_body_font_size" android:textStyle="bold" android:textColor="@color/btn_light_text_colors" android:gravity="center" android:id="@id/card_button_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/skill_strengthen_button" android:maxLines="1" android:layout_weight="1.0" />
+                        <com.duolingo.view.SkillStrengthView android:layout_gravity="center" android:id="@id/card_button_strength_unsegmented" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="0.0dip" app:aspectRatio="4.0" app:unfilledColor="@color/skill_strength_bar_white" />
+                        <View android:layout_width="@dimen/big_margin" android:layout_height="0.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </com.duolingo.view.DuoLinearLayout>
+        <com.duolingo.view.DuoSvgImageView android:id="@id/card_checkmark" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/lesson_badge_offset_negative" android:layout_marginRight="@dimen/lesson_badge_offset" android:scaleType="fitXY" android:adjustViewBounds="true" android:cropToPadding="false" android:layout_alignLeft="@id/nothing" android:layout_alignTop="@id/card_back" android:layout_alignRight="@id/card_back" app:bakeSvg="true" app:svgSrc="@raw/lesson_badge" />
+    </RelativeLayout>
+</com.duolingo.app.skill.SkillCardView>

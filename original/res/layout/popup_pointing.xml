@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/arrow_top" android:layout_width="32.0dip" android:layout_height="16.0dip" />
+    <FrameLayout android:id="@id/content_container" android:background="@drawable/card_white_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-1.0dip" />
+    <View android:id="@id/arrow_bottom" android:layout_width="32.0dip" android:layout_height="16.0dip" android:layout_marginTop="@dimen/card_btn_drop_height_negative" />
+</LinearLayout>

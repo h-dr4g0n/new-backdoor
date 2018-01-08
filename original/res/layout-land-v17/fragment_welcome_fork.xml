@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/new_gray_lightest" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.DuoLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/activity_horizontal_margin" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.duolingo.view.DuoSvgImageView android:layout_gravity="center_vertical" android:id="@id/duo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin" android:scaleType="fitCenter" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/activity_horizontal_margin" app:svgSrc="@raw/duo_happy" app:aspectRatioFromSvg="true" app:flipRtl="true" app:desiredWidth="@dimen/welcome_duo_desired_width" />
+            <include layout="@layout/fragment_welcome_fork_options" />
+        </LinearLayout>
+    </com.duolingo.view.DuoLinearLayout>
+</ScrollView>

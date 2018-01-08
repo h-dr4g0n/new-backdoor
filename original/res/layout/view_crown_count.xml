@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/menu_divider_padding" android:paddingRight="@dimen/menu_divider_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/App_ButtonFlatNoStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.ActivatedSvgImageView android:layout_gravity="center" android:id="@id/crown_icon" android:paddingTop="@dimen/menu_icon_vertical_padding" android:paddingBottom="@dimen/menu_icon_vertical_padding" android:layout_width="@dimen/menu_icon_size" android:layout_height="@dimen/menu_icon_size" android:layout_marginLeft="-3.0dip" android:scaleType="fitCenter" app:iconScale="0.8" app:svgSrc="@raw/crown_header" app:secondarySvgSrc="@raw/crown_inactive" />
+    <View android:layout_width="@dimen/medium_margin" android:layout_height="wrap_content" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/menu_font_size" android:textStyle="bold" android:textColor="@color/gold_crowns" android:layout_gravity="center_vertical" android:id="@id/crowns_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

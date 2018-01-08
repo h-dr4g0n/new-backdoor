@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="300.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.view.LanguageChoiceView android:id="@id/language_picker" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/language_dialog_title_height" android:layout_marginBottom="@dimen/language_choice_item_height" />
+    <TextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/dialog_title" android:background="@color/blue" android:paddingLeft="@dimen/language_dialog_title_padding" android:paddingRight="@dimen/language_dialog_title_padding" android:layout_width="fill_parent" android:layout_height="@dimen/language_dialog_title_height" android:layout_alignParentTop="true" style="@style/ActionBarTitle" />
+    <Button android:textStyle="normal" android:textColor="@color/black" android:gravity="center" android:id="@id/cancel_button" android:background="@color/new_gray_lightest" android:layout_width="fill_parent" android:layout_height="@dimen/language_choice_item_height" android:text="@string/action_cancel" android:layout_alignParentBottom="true" style="@style/Widget.AppCompat.Button.Borderless" />
+</RelativeLayout>

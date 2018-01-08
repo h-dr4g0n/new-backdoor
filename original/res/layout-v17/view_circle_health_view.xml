@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.HeartSegmentsView android:id="@id/heart_segment_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.duolingo.view.DuoSvgImageView android:id="@id/heart_full" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:svgSrc="@raw/health_full" />
+    <com.duolingo.view.DuoSvgImageView android:id="@id/heart_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:svgSrc="@raw/health_empty" />
+    <com.duolingo.tools.AutoScaleTextView android:textStyle="bold" android:textColor="@color/red_health" android:gravity="center" android:id="@id/health_view_text" android:paddingTop="1.0dip" android:paddingRight="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="2.0dip" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:textColor="@color/new_gray_dark" android:gravity="center" android:id="@id/message" android:paddingTop="@dimen/huge_margin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

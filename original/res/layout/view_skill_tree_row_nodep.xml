@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.SkillTreeRowView android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.duolingo.view.DuoLinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/skill_tree_row_nodep" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="3.0" app:desiredWidth="@dimen/skill_tree_row_max_width" app:boundWidthByMinScreenDimension="true">
+            <com.duolingo.view.SkillNodeView android:id="@id/skill_node_1" android:padding="@dimen/large_margin" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.9" />
+            <com.duolingo.view.SkillNodeView android:id="@id/skill_node_2" android:padding="@dimen/large_margin" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.9" />
+            <com.duolingo.view.SkillNodeView android:id="@id/skill_node_3" android:padding="@dimen/large_margin" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.9" />
+        </com.duolingo.view.DuoLinearLayout>
+    </LinearLayout>
+    <com.duolingo.view.SkillCheckpointButton android:layout_gravity="center" android:id="@id/skill_tree_row_shortcut_nodep" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginBottom="25.0dip" style="@style/ShortcutText" />
+</com.duolingo.view.SkillTreeRowView>

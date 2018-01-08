@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/menu_divider_padding" android:paddingRight="@dimen/menu_divider_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/App_ButtonFlatNoStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.DuoSvgImageView android:layout_gravity="center" android:id="@id/shield_icon" android:paddingTop="@dimen/menu_icon_vertical_padding" android:paddingBottom="@dimen/menu_icon_vertical_padding" android:layout_width="wrap_content" android:layout_height="@dimen/menu_icon_size" android:layout_marginLeft="-3.0dip" android:adjustViewBounds="true" android:layout_marginStart="-3.0dip" app:svgSrc="@raw/fluency_shield" app:aspectRatioFromSvg="true" />
+    <View android:layout_width="@dimen/small_margin" android:layout_height="wrap_content" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/menu_font_size" android:textStyle="bold" android:textColor="@color/green_leaf" android:layout_gravity="center_vertical" android:id="@id/fluency_score_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

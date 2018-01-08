@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/icon_container" android:layout_width="@dimen/max_circle_size" android:layout_height="@dimen/max_circle_size">
+        <com.duolingo.view.CircleIconImageView android:id="@id/back_icon" android:layout_width="wrap_content" android:layout_height="0.0dip" android:adjustViewBounds="true" android:layout_weight="0.8" app:aspectRatio="1.0" />
+        <com.duolingo.view.SkillStrengthView android:id="@id/strength_unsegmented" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.2" app:aspectRatio="4.0" app:unfilledColor="@color/skill_strength_bar_unfilled_unsegmented" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center|top" android:orientation="vertical" android:clipChildren="false" android:layout_width="@dimen/max_circle_size" android:layout_height="@dimen/max_circle_size">
+        <com.duolingo.view.CircleIconImageView android:id="@id/front_icon" android:layout_width="wrap_content" android:layout_height="0.0dip" android:adjustViewBounds="true" android:layout_weight="0.8" app:aspectRatio="1.0" />
+        <com.duolingo.view.SkillStrengthView android:id="@id/strength_unsegmented_spacer" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.2" app:aspectRatio="4.0" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="@dimen/huge_margin" android:paddingTop="@dimen/huge_margin" android:paddingRight="@dimen/huge_margin" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:id="@id/header" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" style="@style/ListHeaderText" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:textColor="@color/red_dark" android:id="@id/extra_header_message" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" style="@style/ListHeaderText" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/items" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/divider" android:background="@color/new_gray_light" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</merge>

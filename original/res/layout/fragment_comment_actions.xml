@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/comment_actions" android:background="@color/white" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.typeface.widget.DuoTextView android:id="@id/action_delete" android:background="?selectableItemBackground" android:padding="@dimen/huge_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_delete" />
+    <com.duolingo.typeface.widget.DuoTextView android:id="@id/action_report" android:background="?selectableItemBackground" android:padding="@dimen/huge_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_report" />
+    <com.duolingo.typeface.widget.DuoTextView android:id="@id/action_cancel" android:background="?selectableItemBackground" android:padding="@dimen/huge_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_cancel" />
+</LinearLayout>

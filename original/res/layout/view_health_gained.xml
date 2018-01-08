@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/larger_font_size" android:textStyle="bold" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/huge_margin" android:text="@string/you_gained_health" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:layout_gravity="center" android:layout_width="@dimen/health_segments_size" android:layout_height="@dimen/health_segments_size">
+        <com.duolingo.view.HeartSegmentsView android:id="@id/heart_segment_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.duolingo.view.DuoSvgImageView android:layout_gravity="center" android:id="@id/heart_full" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:svgSrc="@raw/health_full" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.duolingo.typeface.widget.DuoTextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/huge_margin" android:text="@string/start_new_lessons" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabMode">fixed</item>
+        <item name="tabGravity">center</item>
+    </style>
+    <style name="GradedViewStyle">
+        <item name="android:layout_width">450.0dip</item>
+    </style>
+    <style name="SkillPathSpacer">
+        <item name="android:layout_weight">2.0</item>
+    </style>
+</resources>

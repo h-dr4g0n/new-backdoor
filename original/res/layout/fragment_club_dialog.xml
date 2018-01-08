@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/gray_container_background" android:paddingLeft="@dimen/large_margin" android:paddingTop="@dimen/gigantic_margin" android:paddingRight="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/xsmall_font_size" android:textColor="@color/white" android:id="@id/ok_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gigantic_margin" android:text="@string/ok_got_it" app:buttonColor="@color/blue" style="@style/App_ButtonStyle" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/xsmall_font_size" android:textColor="@color/btn_blue_text_colors" android:id="@id/cancel_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_margin" android:layout_marginBottom="@dimen/small_margin" android:text="@string/action_close_caps" style="@style/App_ButtonFlat" />
+</LinearLayout>

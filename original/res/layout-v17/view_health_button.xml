@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.view.CircleHealthView android:id="@id/circle_health_view" android:layout_width="@dimen/health_button_icon_size" android:layout_height="@dimen/health_button_icon_size" android:layout_alignParentLeft="@bool/ltr_enabled" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textStyle="bold" android:textColor="@color/gray_clubs_darker" android:gravity="center" android:id="@id/button_text" android:layout_width="fill_parent" android:layout_height="@dimen/pill_shaped_button_min_height" android:layout_marginLeft="@dimen/health_button_icon_size" android:layout_marginStart="@dimen/health_button_icon_size" />
+</merge>

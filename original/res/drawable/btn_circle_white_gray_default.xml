@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:dither="true" android:shape="oval">
+            <corners android:radius="@dimen/card_btn_corner" />
+            <solid android:color="@color/white_button_enabled" />
+            <stroke android:width="2.0dip" android:color="@color/new_gray_lightest" />
+            <padding android:left="@dimen/card_btn_padding" android:top="@dimen/card_btn_padding" android:right="@dimen/card_btn_padding" android:bottom="@dimen/card_btn_padding" />
+        </shape>
+    </item>
+</layer-list>

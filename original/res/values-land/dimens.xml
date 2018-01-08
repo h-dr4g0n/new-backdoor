@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">8.0dip</dimen>
+    <dimen name="challenge_text_size">17.0sp</dimen>
+    <dimen name="challenge_title_text_size">22.0sp</dimen>
+    <dimen name="lesson_end_title_text_size">22.0sp</dimen>
+    <dimen name="submit_button_padding">9.0dip</dimen>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <item type="dimen" name="earned_lingot_chest_bottom_guide">0.25</item>
+    <item type="dimen" name="earned_lingot_chest_top_guide">0.0</item>
+    <item type="dimen" name="earned_lingots_anim_top_guide">0.15</item>
+    <dimen name="health_segments_size">140.0dip</dimen>
+    <item type="dimen" name="podcast_ad_center_guide">0.05</item>
+    <dimen name="streak_repair_dialog_button_padding">10.0dip</dimen>
+    <dimen name="streak_repair_dialog_margin">15.0dip</dimen>
+    <dimen name="streak_repair_duo_size_half">0.0dip</dimen>
+    <dimen name="submit_button_margin">15.0dip</dimen>
+    <dimen name="you_earned_margin">0.0dip</dimen>
+</resources>

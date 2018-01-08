@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.CircleHealthView android:layout_gravity="center" android:id="@id/circle_health_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/gigantic_margin" android:layout_weight="3.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="4.0">
+        <LinearLayout android:gravity="end" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.duolingo.typeface.widget.DuoTextView android:textStyle="bold" android:textColor="@color/blue" android:gravity="center" android:id="@id/gem_number_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="720" />
+            <com.duolingo.view.DuoSvgImageView android:id="@id/corner_gem" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="@dimen/medium_margin" android:layout_marginRight="@dimen/medium_margin" app:svgSrc="@raw/gem_icon_blue" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/large_font_size" android:textStyle="bold" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/large_margin" />
+        <com.duolingo.typeface.widget.DuoTextView android:gravity="center" android:id="@id/message_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/large_margin" />
+        <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/blue" android:id="@id/equip_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_margin" android:layout_marginBottom="@dimen/large_margin" style="@style/App_ButtonBlueOutline" />
+        <com.duolingo.typeface.widget.DuoButton android:textColor="@color/blue" android:id="@id/try_later_button" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/App_ButtonFlat" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

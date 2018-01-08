@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.LessonLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.tools.AutoScaleTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_listen" style="@style/ChallengeTitle" />
+    <include android:id="@id/title_spacer" layout="@layout/lesson_element_spacer" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/speaker_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/listen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="6.0" style="@style/ListenButtonWideStyle">
+            <com.duolingo.view.DuoSvgImageView android:layout_gravity="center" android:layout_width="32.0dip" android:layout_height="24.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/generic_margin" android:scaleType="fitCenter" app:svgSrc="@raw/speaker_white" app:flipRtl="true" />
+            <com.duolingo.typeface.widget.DuoTextView android:textAppearance="@style/ChallengeBoldText" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/button_listen" />
+        </LinearLayout>
+        <View android:id="@id/listen_button_divider" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/slow_listen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="6.0" style="@style/ListenButtonWideStyle">
+            <com.duolingo.view.DuoSvgImageView android:layout_gravity="center" android:layout_width="32.0dip" android:layout_height="24.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/generic_margin" android:scaleType="fitCenter" app:svgSrc="@raw/speaker_slow_white" app:flipRtl="true" />
+            <com.duolingo.typeface.widget.DuoTextView android:textAppearance="@style/ChallengeBoldText" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/button_listen_slower" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/text_spacer_top" layout="@layout/lesson_element_spacer" />
+    <com.duolingo.tools.AutoScaleTextView android:textSize="@dimen/challenge_text_size" android:textColor="@color/new_gray_dark" android:id="@id/sentence" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <org.apmem.tools.layouts.FlowLayout android:gravity="center_vertical" android:id="@id/question_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/text_spacer_bottom" android:visibility="gone" layout="@layout/lesson_element_spacer" />
+    <com.duolingo.widget.NoNewlineEditText android:gravity="top" android:id="@id/text_input" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="1" android:layout_weight="1.0" android:inputType="textCapSentences|textMultiLine" android:imeOptions="actionDone" android:imeActionLabel="@string/button_submit" android:imeActionId="@id/submit_action" />
+    <com.duolingo.view.TapInputView android:id="@id/tap_input_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:paddingInternal="@dimen/activity_vertical_margin" />
+    <com.duolingo.tools.FormOptionsScrollView android:id="@id/options_container" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linear_selection_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.view.DuoSvgImageView android:id="@id/image1" android:tag="image" android:layout_width="@dimen/listen_select_button_size" android:layout_height="@dimen/listen_select_button_size" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/listen_select_button_margin" android:scaleType="fitCenter" style="@style/ListenSelectButtonStyle" />
+        <com.duolingo.view.DuoSvgImageView android:id="@id/image2" android:tag="image" android:layout_width="@dimen/listen_select_button_size" android:layout_height="@dimen/listen_select_button_size" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/listen_select_button_margin" android:scaleType="fitCenter" style="@style/ListenSelectButtonStyle" />
+        <com.duolingo.view.DuoSvgImageView android:id="@id/image3" android:tag="image" android:layout_width="@dimen/listen_select_button_size" android:layout_height="@dimen/listen_select_button_size" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/listen_select_button_margin" android:scaleType="fitCenter" style="@style/ListenSelectButtonStyle" />
+        <com.duolingo.view.DuoSvgImageView android:id="@id/image4" android:tag="image" android:layout_width="@dimen/listen_select_button_size" android:layout_height="@dimen/listen_select_button_size" android:scaleType="fitCenter" style="@style/ListenSelectButtonStyle" />
+    </LinearLayout>
+    <include android:id="@id/button_spacer" layout="@layout/lesson_element_spacer" />
+    <com.duolingo.typeface.widget.DuoButton android:textStyle="normal" android:textColor="@color/btn_dark_text_colors" android:gravity="center" android:id="@id/disable_listen_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_listen_disable" style="@style/App_ButtonFlat" />
+</com.duolingo.view.LessonLinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/microphone_clip_background">
+        <level-list>
+            <item android:maxLevel="0">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/card_btn_corner" />
+                    <solid android:color="@android:color/transparent" />
+                </shape>
+            </item>
+            <item android:maxLevel="1">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/card_btn_corner" />
+                    <solid android:color="@color/speak_button_background" />
+                </shape>
+            </item>
+        </level-list>
+    </item>
+    <item android:id="@id/microphone_clip">
+        <clip android:gravity="bottom" android:clipOrientation="vertical">
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/card_btn_corner" />
+                <solid android:color="@color/speak_button_foreground" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

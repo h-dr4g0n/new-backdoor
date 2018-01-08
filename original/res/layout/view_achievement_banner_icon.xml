@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.view.DuoSvgImageView android:id="@id/achievement_banner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <com.duolingo.view.AchievementStarView android:id="@id/star_1" android:layout_width="20.0dip" android:layout_height="wrap_content" />
+    <com.duolingo.view.AchievementStarView android:id="@id/star_2" android:layout_width="20.0dip" android:layout_height="wrap_content" />
+    <com.duolingo.view.AchievementStarView android:id="@id/star_3" android:layout_width="20.0dip" android:layout_height="wrap_content" />
+</FrameLayout>

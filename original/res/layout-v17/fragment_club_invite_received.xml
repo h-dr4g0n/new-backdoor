@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="150.0dip" android:layout_height="136.0dip">
+        <ImageView android:id="@id/avatar" android:layout_width="128.0dip" android:layout_height="128.0dip" android:layout_centerInParent="true" />
+        <View android:background="@drawable/club_invite_avatar_border" android:layout_width="130.0dip" android:layout_height="130.0dip" android:layout_centerInParent="true" />
+        <com.duolingo.view.DuoSvgImageView android:id="@id/club_badge" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_alignParentRight="@bool/ltr_enabled" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.duolingo.typeface.widget.DuoTextView android:gravity="center" android:id="@id/title" android:layout_marginTop="@dimen/huge_margin" android:lineSpacingMultiplier="1.1" style="@style/ClubsHeading" />
+    <com.duolingo.typeface.widget.DuoTextView android:gravity="center" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/big_margin" />
+</LinearLayout>

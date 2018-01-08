@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">8.0dip</dimen>
+    <dimen name="challenge_text_size">17.0sp</dimen>
+    <dimen name="challenge_title_text_size">22.0sp</dimen>
+    <dimen name="lesson_end_title_text_size">22.0sp</dimen>
+    <dimen name="activity_horizontal_margin">8.0dip</dimen>
+    <dimen name="activity_horizontal_margin_half">4.0dip</dimen>
+    <dimen name="anti_vertical_margin">-8.0dip</dimen>
+    <dimen name="autoscale_smallest_font_size">3.0sp</dimen>
+    <item type="dimen" name="card_btn_corner">@dimen/card_corner</item>
+    <item type="dimen" name="card_btn_drop_height">@dimen/card_drop_height</item>
+    <dimen name="card_btn_drop_height_negative">-3.0dip</dimen>
+    <dimen name="card_btn_padding">6.0dip</dimen>
+    <dimen name="card_corner">2.0dip</dimen>
+    <dimen name="card_drop_height">3.0dip</dimen>
+    <dimen name="card_padding">8.0dip</dimen>
+    <dimen name="max_circle_size">300.0dip</dimen>
+    <dimen name="recognition_result_bottom_margin">40.0dip</dimen>
+    <dimen name="recognition_result_bottom_padding">10.0dip</dimen>
+    <dimen name="small_mic_button_margin">15.0dip</dimen>
+    <dimen name="small_mic_button_width">50.0dip</dimen>
+</resources>

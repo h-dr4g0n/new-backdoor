@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="App_TextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/default_font_size</item>
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="App_TextAppearanceLight" parent="@style/App_TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="ChallengeBoldText" parent="@style/App_TextAppearance">
+        <item name="android:textSize">@dimen/challenge_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/new_gray_dark</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="ChallengeRegularText" parent="@style/App_TextAppearance">
+        <item name="android:textSize">@dimen/challenge_text_size</item>
+        <item name="android:textColor">@color/new_gray_dark</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="ChallengeText" parent="@style/App_TextAppearance">
+        <item name="android:textSize">@dimen/challenge_text_size</item>
+        <item name="android:textColor">@color/new_gray_dark</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>

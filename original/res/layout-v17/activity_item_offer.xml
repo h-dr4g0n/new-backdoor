@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/LessonFrame"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.typeface.widget.DuoTextView android:textAppearance="@style/LessonEndTitle" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="7.0">
+        <com.duolingo.view.DuoSvgImageView android:id="@id/weekend_amulet_rays" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:svgSrc="@raw/weekend_amulet_rays" />
+        <com.duolingo.view.DuoSvgImageView android:id="@id/streak_freeze" android:padding="@dimen/small_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:svgSrc="@raw/streak_freeze_session_end" />
+        <com.duolingo.view.DuoSvgImageView android:gravity="center" android:id="@id/weekend_amulet" android:padding="@dimen/small_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/large_margin" app:svgSrc="@raw/weekend_amulet" />
+        <com.duolingo.view.DuoSvgImageView android:id="@id/streak_wager" android:padding="@dimen/small_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:svgSrc="@raw/streak_wager" />
+        <com.duolingo.view.DuoSvgImageView android:id="@id/streak_wager_3" android:padding="@dimen/small_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:svgSrc="@raw/streak_wager_3" />
+    </FrameLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:gravity="center" android:layout_gravity="center" android:id="@id/item_explanation" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.duolingo.view.DuoRelativeLayout android:gravity="center" android:id="@id/equip_item_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/big_margin" app:buttonColor="@color/blue" style="@style/App_ButtonStyle">
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/equip_item_button_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ProgressBar android:id="@id/loading_status" android:visibility="gone" android:layout_width="@dimen/progress_spinner_size" android:layout_height="@dimen/progress_spinner_size" android:indeterminate="true" android:layout_alignParentRight="@bool/ltr_enabled" android:layout_alignParentEnd="true" style="?android:attr/progressBarStyleLarge" />
+    </com.duolingo.view.DuoRelativeLayout>
+    <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/blue" android:gravity="center" android:id="@id/cancel_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/big_margin" android:text="@string/no_thanks" style="@style/App_ButtonFlat" />
+</LinearLayout>

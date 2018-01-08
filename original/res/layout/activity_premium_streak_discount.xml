@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/gray_container_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/larger_font_size" android:textStyle="bold" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/streak_offer_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_margin" android:text="@string/premium_feature_ten_day_streak_offer" />
+    <View android:id="@id/top_spacer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <RelativeLayout android:id="@id/sign_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0">
+        <com.duolingo.view.AdjustHeightBoundsImageView android:id="@id/coupon_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" app:svgSrc="@raw/coupon_shape" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/text_vertical_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/coupon_shape" android:layout_alignBottom="@id/coupon_shape" android:layout_centerHorizontal="true">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.5" />
+            <com.duolingo.view.DuoSvgImageView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/premium_discount_logo_height" app:svgSrc="@raw/dark_plus_logo" />
+            <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/xxlarge_font_size" android:textStyle="bold" android:textColor="@color/orange_goal_dark" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/ten_percent_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/generic_margin" />
+            <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/default_font_size" android:textStyle="bold" android:textColor="@color/gray_clubs" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/valid_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/bottom_spacer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.25" />
+    <LinearLayout android:orientation="vertical" android:id="@id/button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/huge_margin">
+        <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/white" android:id="@id/claim_offer_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/huge_margin" android:text="@string/action_learn_more_caps" app:buttonColor="@color/blue" style="@style/App_ButtonStyle" />
+        <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/blue" android:id="@id/no_thanks" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/not_now" style="@style/SubmitButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.DuoSvgImageView android:id="@id/logo" android:layout_width="fill_parent" android:layout_height="@dimen/premium_logo_height" android:layout_marginTop="@dimen/huge_margin" android:layout_marginBottom="@dimen/medium_margin" app:svgSrc="@raw/dark_plus_logo" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/large_font_size" android:textStyle="bold" android:textColor="@color/orange_goal_dark" android:gravity="center" android:id="@id/discount_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/generic_margin" android:text="@string/premium_feature_ten_day_discount" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textColor="@color/black" android:gravity="center" android:id="@id/feature_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/large_margin" android:text="@string/premium_offer_message" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_weight="1.0">
+        <com.duolingo.view.AdjustHeightBoundsImageView android:id="@id/fire_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="fitStart" android:layout_weight="1.0" app:svgSrc="@raw/fire_left" app:flipRtl="true" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/xsmall_font_size" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/claim_offer_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_margin" android:text="@string/discount_cta" android:layout_weight="1.0" app:buttonColor="@color/orange_goal_dark" style="@style/App_ButtonCompact" />
+        <com.duolingo.view.AdjustHeightBoundsImageView android:id="@id/fire_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="fitEnd" android:layout_weight="1.0" app:svgSrc="@raw/fire_right" app:flipRtl="true" />
+    </LinearLayout>
+</merge>

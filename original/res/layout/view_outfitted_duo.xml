@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.DuoSvgImageView android:id="@id/duo_outfitted" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" app:svgSrc="@raw/duo_nude" app:flipRtl="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

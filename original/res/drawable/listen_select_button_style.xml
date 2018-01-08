@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/listen_select_button_blue_default" />
+    <item android:drawable="@drawable/listen_select_button_blue_default" android:state_hovered="true" />
+    <item android:state_focused="true" android:drawable="@drawable/listen_select_button_blue_default" />
+    <item android:state_selected="true" android:drawable="@drawable/listen_select_button_blue_outline" />
+    <item android:state_enabled="false" android:drawable="@drawable/listen_select_button_gray_outline" />
+    <item android:drawable="@drawable/listen_select_button_gray_outline" />
+</selector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="num_club_badge_columns">8</integer>
+    <integer name="premium_offer_spacer_weight">2</integer>
+    <integer name="skill_activity_spacing_card">432</integer>
+    <integer name="skill_activity_spacing_empty">86</integer>
+    <integer name="skill_activity_spacing_icon">309</integer>
+</resources>

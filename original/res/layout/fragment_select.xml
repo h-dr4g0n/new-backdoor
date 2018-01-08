@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.LessonLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/challenge_select" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.tools.AutoScaleTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ChallengeTitle" />
+    <include android:id="@id/speaker_spacer" layout="@layout/lesson_element_spacer" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/speaker_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="3.0">
+        <com.duolingo.view.DuoSvgImageView android:layout_gravity="center_horizontal" android:id="@id/play_button" android:background="@drawable/btn_circle_white" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_weight="1.0" app:iconScale="0.7" app:svgSrc="@raw/speaker_white" app:flipRtl="true" app:aspectRatio="1.0" />
+    </LinearLayout>
+    <include layout="@layout/lesson_element_spacer" />
+    <com.duolingo.view.SelectChallengeSelectionView android:id="@id/selection" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.duolingo.view.LessonLinearLayout>

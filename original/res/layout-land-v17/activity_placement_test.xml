@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/lesson_pager" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.PercentFrameLayout android:id="@id/lesson_root" android:layout_width="fill_parent" android:layout_height="fill_parent" app:horizontalPadding="@fraction/activity_horizontal_padding_percent" style="@style/LessonFrame">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/session_container" android:paddingLeft="@dimen/lesson_activity_horizontal_margin" android:paddingRight="@dimen/lesson_activity_horizontal_margin" android:visibility="visible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/LessonContainerStyle">
+            <include layout="@layout/include_lesson_strength_bar" />
+            <include android:id="@id/progress_spacer_below" layout="@layout/lesson_spacer" />
+            <FrameLayout android:id="@id/element_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="88.0" />
+            <include android:id="@id/button_spacer" layout="@layout/lesson_spacer" />
+            <FrameLayout android:id="@id/buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:id="@id/submit_and_skip_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/black_text" android:gravity="center" android:id="@id/skip_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/lesson_activity_horizontal_margin" android:text="@string/button_skip" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/lesson_activity_horizontal_margin" style="@style/SubmitButtonStyle" />
+                    <com.duolingo.typeface.widget.DuoSubmitButton android:id="@id/submit_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/button_submit" android:layout_weight="1.0" app:buttonColor="@color/green_leaf" style="@style/SubmitButtonStyle" />
+                </LinearLayout>
+                <com.duolingo.typeface.widget.DuoTextView android:id="@id/continue_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_continue" app:buttonColor="@color/green_leaf" style="@style/SubmitButtonStyle" />
+            </FrameLayout>
+        </LinearLayout>
+    </com.duolingo.view.PercentFrameLayout>
+    <com.duolingo.view.DragContainer android:id="@id/shadow" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.duolingo.view.GradedView android:layout_gravity="start|center" android:id="@id/graded_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:desiredWidth="@dimen/graded_view_max_width" />
+    </com.duolingo.view.DragContainer>
+    <FrameLayout android:id="@id/session_end_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/LessonFrame" />
+    <ImageView android:id="@id/lesson_image_transition" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/light_gray" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_status" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+</FrameLayout>

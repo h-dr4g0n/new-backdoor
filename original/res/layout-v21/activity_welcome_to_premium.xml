@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="@drawable/gradient_linear_blue_reverse" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.DuoSvgImageView android:layout_width="fill_parent" android:layout_height="fill_parent" app:svgSrc="@raw/stars_bg" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/huge_margin" android:layout_above="@id/got_it_button" android:layout_alignParentTop="true">
+        <com.duolingo.view.AdjustHeightBoundsImageView android:id="@id/space_duo" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:transitionName="space_duo" app:svgSrc="@raw/duo_spaceman_no_bg_centered" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/larger_font_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/big_margin" android:text="@string/welcome_to_premium_title" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:textColor="@color/white" android:gravity="center" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/big_margin" android:layout_marginRight="@dimen/big_margin" android:text="@string/welcome_to_premium_message" />
+    </LinearLayout>
+    <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/blue" android:id="@id/got_it_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/huge_margin" android:text="@string/got_it" android:layout_alignParentBottom="true" style="@style/App_ButtonStyle" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="end" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.typeface.widget.DuoTextView android:textStyle="bold" android:textColor="@color/blue" android:gravity="center" android:id="@id/gem_number_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="720" />
+        <com.duolingo.view.DuoSvgImageView android:id="@id/corner_gem" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="@dimen/medium_margin" android:layout_marginRight="@dimen/medium_margin" app:svgSrc="@raw/gem_small" />
+    </LinearLayout>
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/larger_font_size" android:textStyle="bold" android:gravity="center" android:id="@id/gems_earned_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/you_earned_margin" android:text="You earned gems!" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.duolingo.view.DuoSvgImageView android:id="@id/center_gem1" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true" app:svgSrc="@raw/gem_small" />
+        <com.duolingo.view.DuoSvgImageView android:id="@id/center_gem2" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true" app:svgSrc="@raw/gem_small" />
+        <com.duolingo.view.DuoSvgImageView android:id="@id/center_gem3" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true" app:svgSrc="@raw/gem_small" />
+        <com.duolingo.view.DuoSvgImageView android:id="@id/center_gem4" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true" app:svgSrc="@raw/gem_small" />
+        <com.duolingo.view.DuoSvgImageView android:layout_width="280.0dip" android:layout_height="280.0dip" android:layout_centerInParent="true" app:svgSrc="@raw/pile_of_gems" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.view.DuoSvgImageView android:gravity="center" android:id="@id/club_member_avatar" android:layout_width="@dimen/club_member_leave_avatar_size" android:layout_height="@dimen/club_member_leave_avatar_size" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:textStyle="bold" android:gravity="center" android:id="@id/confirm_leave_club" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gigantic_margin" android:text="@string/confirm_leave_club" />
+</LinearLayout>

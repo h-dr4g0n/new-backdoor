@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$s 和其他 %2$d 項成就</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">完成了課程中的 %d 項技能</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">使用 %d 顆寶石</item>
+    </plurals>
+    <plurals name="achievement_requirement_gold_skills">
+        <item quantity="other">同時讓 %d 項技能都變成金色</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">正確無誤地完成了 %d 個課程單元或練習</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">使用 %d lingot</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">保持 %d 天連勝</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">一天賺取 %d 經驗</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">你完成了課程中的 %d 項技能</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">你使用了 %d 顆寶石</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gold_skills">
+        <item quantity="other">你已同時讓 %d 項技能都變成金色</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">你正確無誤地完成了 %d 個課程單元或練習</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">你使用了 %d lingot</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">您保持了 %d 天連勝的成績</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">你一天賺取了 %d 經驗</item>
+    </plurals>
+    <plurals name="badgeicon_banner_lesson">
+        <item quantity="other">距離完成每日目標還差 &lt;font color=\"#ffbf23\">&lt;b>%d 單元&lt;/b>&lt;/font></item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">你有錯別字哦</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">再去買一個連勝激凍，保持您 %d 天連勝的地位。</item>
+    </plurals>
+    <plurals name="club_num_members">
+        <item quantity="other">%d 個成員</item>
+    </plurals>
+    <plurals name="clubs_others_played">
+        <item quantity="other">%1$s 和其他 %2$d 位成員已參與</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">每天 %d 分鐘</item>
+    </plurals>
+    <plurals name="coach_on_streak">
+        <item quantity="other">你已經連勝 &lt;font color=\"#77c924\">&lt;b>%d 天&lt;/font>啦！</item>
+    </plurals>
+    <plurals name="coach_xp_a_day">
+        <item quantity="other">每天 %d 經驗</item>
+    </plurals>
+    <plurals name="coach_xp_from_goal">
+        <item quantity="other">距離完成每日目標還差 &lt;font color=\"#ffbf23\">&lt;b>%d&lt;/b>&lt;/font> 經驗</item>
+    </plurals>
+    <plurals name="coach_xp_from_goal_no_color">
+        <item quantity="other">距離目標還有 %d 經驗</item>
+    </plurals>
+    <plurals name="cost_gems">
+        <item quantity="other">%d 顆寶石</item>
+    </plurals>
+    <plurals name="cost_lingots">
+        <item quantity="other">%d lingot</item>
+    </plurals>
+    <plurals name="current_level">
+        <item quantity="other">%d 級</item>
+    </plurals>
+    <plurals name="daily_goal_not_met">
+        <item quantity="other">距離每日目標還差 %d 經驗！</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">%d 天連勝</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">%d 條評論</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">隱藏了%d條評論</item>
+    </plurals>
+    <plurals name="earned_bonus_lingots">
+        <item quantity="other">你獲得了另一個 %d lingot獎勵！</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">你獲得了 %d lingot！</item>
+    </plurals>
+    <plurals name="equip_for_gems">
+        <item quantity="other">裝備 %1$d 顆 %2$s</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">%d 經驗</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">保持 7 天連勝，使你的 %d 顆寶石籌碼翻倍。</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">你的 %d 顆寶石翻倍了。是否要押其他籌碼？</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">使用 %d lingot購買？</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">要使用 %d 顆寶石獲取此物品嗎？</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">正確答案：</item>
+    </plurals>
+    <plurals name="health_plus">
+        <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="health_refill_cta">
+        <item quantity="other">使用 %1$d 顆 %2$s 來重新注入生命值</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">個月</item>
+    </plurals>
+    <plurals name="new_streak_after_goal_met">
+        <item quantity="other">你已經保持連勝 %d 天啦！</item>
+    </plurals>
+    <plurals name="num_learners">
+        <item quantity="other">%s 名學習者</item>
+    </plurals>
+    <plurals name="num_older_captions">
+        <item quantity="other">%d 條舊描述文字</item>
+    </plurals>
+    <plurals name="num_older_comments">
+        <item quantity="other">%d 條舊評論</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="offer_ends_days">
+        <item quantity="other">優惠將於 %d 天後結束。</item>
+    </plurals>
+    <plurals name="offer_ends_hours">
+        <item quantity="other">優惠將於 %d 小時後結束。</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">裝備 %d lingot</item>
+    </plurals>
+    <plurals name="placement_test_customize_course_already_know">
+        <item quantity="other">你已經掌握了 %d 個技能啦！</item>
+    </plurals>
+    <plurals name="profile_following_header">
+        <item quantity="other">關注 %d 人</item>
+    </plurals>
+    <plurals name="profile_language_header">
+        <item quantity="other">%d 種語言</item>
+    </plurals>
+    <plurals name="profile_streak_message">
+        <item quantity="other">%d 天連勝</item>
+    </plurals>
+    <plurals name="skills_updated_title">
+        <item quantity="other">%d 項技能已更新！</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">還可添加 %d 個特殊技能</item>
+    </plurals>
+    <plurals name="slots_remaining">
+        <item quantity="other">剩餘 %d 個空位</item>
+    </plurals>
+    <plurals name="staying_on_track">
+        <item quantity="other">%d 天連勝</item>
+    </plurals>
+    <plurals name="store_header">
+        <item quantity="other">你有 %s lingot</item>
+    </plurals>
+    <plurals name="streak_continued">
+        <item quantity="other">你現在已經連勝 &lt;font color=\"#77c924\">&lt;b>%d 天&lt;/b>&lt;/font>咯！</item>
+    </plurals>
+    <plurals name="streak_earn_back_fail_title">
+        <item quantity="other">你並沒賺回 %d 天的連勝戰績！</item>
+    </plurals>
+    <plurals name="streak_earn_back_fail_title_new">
+        <item quantity="other">你並沒賺回 %d 天的連勝戰績！</item>
+    </plurals>
+    <plurals name="streak_earn_back_title">
+        <item quantity="other">糟糕！你失去了 %d 天的連勝戰績！</item>
+    </plurals>
+    <plurals name="streak_earn_back_title_new">
+        <item quantity="other">糟糕！你失去了 %d 天的連勝戰績！</item>
+    </plurals>
+    <plurals name="streak_earn_back_win_title">
+        <item quantity="other">你已賺回 %d 天的連勝戰績！</item>
+    </plurals>
+    <plurals name="streak_earn_back_win_title_new">
+        <item quantity="other">你已賺回 %d 天的連勝戰績！</item>
+    </plurals>
+    <plurals name="streak_freeze_used_notification_message">
+        <item quantity="other">完成每日目標來延續你的 %d 天連勝戰績。</item>
+    </plurals>
+    <plurals name="streak_quantity">
+        <item quantity="other">%d 天</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">失去了 %d 天連勝的戰績！</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">你已保持 %d 天連勝！</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">已修復 %d 天連勝！</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">你的 %d lingot翻倍了。是否要押其他籌碼？</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">讓 %d 顆寶石籌碼翻倍</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="other">%d小時</item>
+    </plurals>
+    <plurals name="time_minutes">
+        <item quantity="other">%d 分鐘</item>
+    </plurals>
+    <plurals name="time_seconds">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="timed_practice_rof_title_correct_answers">
+        <item quantity="other">答對了 %d 題！</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>請為「%s」選擇正確的字元&lt;/b></item>
+    </plurals>
+    <plurals name="user_completed_skill">
+        <item quantity="other">&lt;strong>%1$s&lt;/strong> 完成了 %2$d 項技能！</item>
+    </plurals>
+    <plurals name="user_did_lessons">
+        <item quantity="other">&lt;strong>%1$s&lt;/strong> 學習了以下技能模塊中的課程。</item>
+    </plurals>
+    <plurals name="user_passed_multi_now_has">
+        <item quantity="other">&lt;strong>%1$s&lt;/strong> 超過了 &lt;strong>%2$s&lt;/strong>、&lt;strong>%3$s&lt;/strong> 和其他 %4$d 名學員，目前已擁有 %5$d 經驗！</item>
+    </plurals>
+    <plurals name="user_reacted_multi">
+        <item quantity="other">%1$s 和其他 %2$d 人已回應</item>
+    </plurals>
+    <plurals name="user_started_skill">
+        <item quantity="other">&lt;strong>%1$s&lt;/strong> 開啟了 %2$d 項新技能！</item>
+    </plurals>
+    <plurals name="user_streak">
+        <item quantity="other">&lt;strong>%1$s&lt;/strong> 連勝 &lt;span>%2$d 天！ &lt;/span></item>
+    </plurals>
+    <plurals name="xp_challenge_push_notification_title">
+        <item quantity="other">%d 經驗挑戰現在開始</item>
+    </plurals>
+    <plurals name="xp_challenge_title">
+        <item quantity="other">%d 經驗挑戰</item>
+    </plurals>
+    <plurals name="xp_challenge_won_dialog_subtitle">
+        <item quantity="other">送你 %d 個閃耀的lingot！</item>
+    </plurals>
+    <plurals name="you_earned_gems">
+        <item quantity="other">你已賺取 %d 顆寶石！</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">你找到了 %d 顆寶石！</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">你找到了 %d lingot！</item>
+    </plurals>
+</resources>

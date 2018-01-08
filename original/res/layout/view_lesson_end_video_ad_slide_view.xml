@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:horizontalPadding="@fraction/activity_horizontal_padding_percent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/ad_slide_horizontal_padding" android:paddingTop="@dimen/ad_slide_vertical_padding" android:paddingRight="@dimen/ad_slide_horizontal_padding" android:paddingBottom="@dimen/ad_slide_vertical_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.duolingo.typeface.widget.DuoTextView android:textAppearance="@style/LessonEndTitle" android:textStyle="bold" android:gravity="center" android:id="@id/title" android:paddingBottom="@dimen/lesson_end_title_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:layout_gravity="center" android:id="@id/video_ad_button_container" android:layout_height="@dimen/ad_video_button_container_height" android:layout_marginLeft="@dimen/ad_video_button_container_margin_horizontal" android:layout_marginRight="@dimen/ad_video_button_container_margin_horizontal" style="@style/VideoAdScreen">
+                <com.duolingo.view.DuoSvgImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ads_video_button_background_scaled" android:scaleType="fitXY" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/ad_video_play_button_margin_vertical" android:layout_marginBottom="@dimen/ad_video_play_button_margin_vertical">
+                    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <com.duolingo.view.DuoSvgImageView android:layout_gravity="center" android:id="@id/video_ad_play_button" android:layout_width="@dimen/ad_video_play_button_dimen" android:layout_height="@dimen/ad_video_play_button_dimen" app:svgSrc="@raw/video_ad_play_button" />
+                    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/xsmall_font_size" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/video_ad_play_button_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ad_video_play_button_text_margin_top" />
+                    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/xsmall_font_size" android:textStyle="bold" android:textColor="@color/blue" android:gravity="center" android:layout_gravity="center" android:id="@id/skip_button" android:paddingTop="@dimen/submit_button_padding" android:paddingBottom="@dimen/submit_button_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/not_now" />
+    </LinearLayout>
+</FrameLayout>

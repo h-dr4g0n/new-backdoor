@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.PercentFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:horizontalPadding="@fraction/activity_horizontal_padding_percent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.duolingo.typeface.widget.DuoTextView android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_failed" style="@style/LessonFailTitle" />
+        <com.duolingo.typeface.widget.DuoTextView android:layout_gravity="center_horizontal" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subtitle_failed" style="@style/LessonFailSubtitle" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.2" />
+        <com.duolingo.view.DuoOutfitView android:layout_gravity="center_horizontal" android:id="@id/crying_duo" android:layout_width="@dimen/max_circle_size" android:layout_height="0.0dip" android:layout_weight="0.6" app:outfitPos="crying" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.2" />
+        <com.duolingo.view.DuoRelativeLayout android:gravity="center" android:id="@id/buy_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginBottom="@dimen/big_margin" app:buttonColor="@color/blue" style="@style/App_ButtonStyle">
+            <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/buy_button_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ProgressBar android:id="@id/loading_status" android:visibility="gone" android:layout_width="@dimen/progress_spinner_size" android:layout_height="@dimen/progress_spinner_size" android:indeterminate="true" android:layout_alignParentRight="@bool/ltr_enabled" style="?android:attr/progressBarStyleLarge" />
+        </com.duolingo.view.DuoRelativeLayout>
+        <com.duolingo.typeface.widget.DuoTextView android:id="@id/continue_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:text="@string/button_continue" app:buttonColor="@color/green_leaf" style="@style/SubmitButtonStyle" />
+    </LinearLayout>
+</com.duolingo.view.PercentFrameLayout>

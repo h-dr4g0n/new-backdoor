@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.duolingo.view.DuoSvgImageView android:gravity="center" android:id="@id/dead_fire" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" app:svgSrc="@raw/streak_icon_inactive" />
+        <com.duolingo.view.DuoSvgImageView android:gravity="center" android:id="@id/fire" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_alignLeft="@id/dead_fire" android:layout_alignTop="@id/dead_fire" android:layout_alignRight="@id/dead_fire" android:layout_alignBottom="@id/dead_fire" android:layout_alignStart="@id/dead_fire" android:layout_alignEnd="@id/dead_fire" app:svgSrc="@raw/streak_icon_active" />
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.05" />
+    <com.duolingo.tools.AutoScaleTextView android:textSize="@dimen/medium_font_size" android:textStyle="bold" android:textColor="@color/black10" android:gravity="center" android:layout_gravity="center" android:id="@id/streak_label" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

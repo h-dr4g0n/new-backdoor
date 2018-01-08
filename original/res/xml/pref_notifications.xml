@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/title_notifications" android:key="@string/pref_key_cat_notifications">
+        <com.duolingo.preference.NotificationPreference android:layout="@layout/preference_item" android:title="@string/setting_practice_reminder" android:key="@string/pref_key_practice" android:widgetLayout="@layout/preference_widget_notification" />
+        <com.duolingo.preference.NotificationTimePreference android:layout="@layout/preference_item" android:title="@string/setting_notification_time" android:key="@string/pref_key_notification_time" android:widgetLayout="@layout/preference_widget_notification_time" android:positiveButtonText="@string/action_ok" android:negativeButtonText="@string/action_cancel" />
+        <com.duolingo.preference.NotificationPreference android:layout="@layout/preference_item" android:title="@string/setting_new_follower" android:key="@string/pref_key_follow" android:widgetLayout="@layout/preference_widget_notification" />
+        <com.duolingo.preference.NotificationPreference android:layout="@layout/preference_item" android:title="@string/setting_passed" android:key="@string/pref_key_passed" android:widgetLayout="@layout/preference_widget_notification" />
+        <com.duolingo.preference.NotificationPreference android:layout="@layout/preference_item" android:title="@string/setting_clubs_activity" android:key="@string/pref_key_clubs" android:widgetLayout="@layout/preference_widget_notification" />
+    </PreferenceCategory>
+</PreferenceScreen>

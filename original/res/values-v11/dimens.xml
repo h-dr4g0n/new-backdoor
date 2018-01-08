@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_height">?android:actionBarSize</dimen>
+    <item type="dimen" name="skill_page_top_padding">@dimen/actionbar_height</item>
+</resources>

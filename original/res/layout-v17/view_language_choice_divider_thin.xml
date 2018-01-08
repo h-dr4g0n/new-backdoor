@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/black10" android:layout_width="fill_parent" android:layout_height="@dimen/language_choice_divider_height_thin" android:layout_marginLeft="@dimen/language_choice_flag_column_width" android:layout_marginStart="@dimen/language_choice_flag_column_width" />
+</RelativeLayout>

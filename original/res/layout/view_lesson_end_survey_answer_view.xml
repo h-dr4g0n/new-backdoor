@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.typeface.widget.DuoTextView android:textColor="@color/new_gray_dark" android:background="@drawable/btn_lesson_end_survey_answer_disabled" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/medium_margin" style="@style/LessonEndSurveyButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

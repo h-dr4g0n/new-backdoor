@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.view.DuoSvgImageView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/club_member_avatar" android:layout_width="@dimen/club_member_leave_avatar_size" android:layout_height="@dimen/club_member_leave_avatar_size" android:layout_marginBottom="@dimen/biggest_margin" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:textStyle="bold" android:gravity="center" android:id="@id/club_member_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/huge_margin" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textColor="@color/gray_clubs" android:gravity="center" android:id="@id/club_member_streak" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small_margin" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textColor="@color/gray_clubs" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/club_member_xp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

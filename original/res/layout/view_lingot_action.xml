@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/big_margin" android:paddingRight="@dimen/big_margin" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/menu_font_size" android:textStyle="bold" android:textColor="@color/red" android:layout_gravity="center_vertical" android:id="@id/num_lingots_earned" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:layout_width="@dimen/big_margin" android:layout_height="wrap_content" />
+    <com.duolingo.view.DuoSvgImageView android:layout_gravity="center" android:id="@id/shield_icon" android:paddingTop="@dimen/menu_icon_vertical_padding" android:paddingBottom="@dimen/menu_icon_vertical_padding" android:layout_width="wrap_content" android:layout_height="@dimen/menu_icon_size" app:svgSrc="@raw/lingot" app:aspectRatioFromSvg="true" />
+</LinearLayout>

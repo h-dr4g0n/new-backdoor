@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.DuoViewPager android:id="@id/slides" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/continue_button_wrapper" />
+    <com.duolingo.view.PercentFrameLayout android:id="@id/continue_button_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/submit_button_margin" android:layout_alignParentBottom="true" app:horizontalPadding="@fraction/activity_horizontal_padding_percent">
+        <com.duolingo.typeface.widget.DuoTextView android:layout_gravity="center_horizontal" android:id="@id/continue_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:text="@string/button_continue" app:buttonColor="@color/green_leaf" style="@style/SubmitButtonStyle" />
+    </com.duolingo.view.PercentFrameLayout>
+</RelativeLayout>

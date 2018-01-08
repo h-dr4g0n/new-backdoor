@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.LessonLinearLayout android:orientation="vertical" android:id="@id/challenge_form" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.tools.AutoScaleTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_form" style="@style/ChallengeTitle" />
+    <include android:id="@id/title_spacer" layout="@layout/lesson_element_spacer" />
+    <org.apmem.tools.layouts.FlowLayout android:id="@id/sentence_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title" />
+    <include layout="@layout/lesson_element_spacer" />
+    <com.duolingo.view.DuoScrollView android:id="@id/options_container" android:focusable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/options" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.duolingo.view.DuoScrollView>
+</com.duolingo.view.LessonLinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.LessonLinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.tools.AutoScaleTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_name" style="@style/ChallengeTitle" />
+    <include android:id="@id/title_spacer" layout="@layout/lesson_element_spacer" />
+    <com.duolingo.view.DuoSvgImageView android:id="@id/image_svg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitCenter" android:layout_weight="1.0" />
+    <com.duolingo.view.ImageFlopLayout android:id="@id/linear_selection_container" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/image1" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NameImageViewStyle" />
+        <ImageView android:id="@id/image2" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NameImageViewStyle" />
+        <ImageView android:id="@id/image3" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NameImageViewStyle" />
+        <ImageView android:id="@id/image4" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NameImageViewStyle" />
+    </com.duolingo.view.ImageFlopLayout>
+    <include layout="@layout/lesson_element_spacer" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/input_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.duolingo.typeface.widget.DuoEditText android:gravity="top" android:id="@id/word_input" android:layout_width="0.0dip" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1.0" android:inputType="text" android:imeOptions="flagNoExtractUi" android:imeActionLabel="@string/button_submit" android:imeActionId="@id/submit_action" />
+    </LinearLayout>
+</com.duolingo.view.LessonLinearLayout>

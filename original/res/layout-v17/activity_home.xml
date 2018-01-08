@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.DuoDrawerLayout android:id="@id/drawer_layout" android:background="@color/new_gray_lightest" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/new_gray_lightest" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:layout_alignParentTop="true" app:titleTextAppearance="@style/HomeToolbarTitleStyle">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.duolingo.tools.AutoScaleTextView android:textSize="@dimen/menu_font_size" android:textColor="@color/new_gray_dark" android:gravity="center_vertical" android:id="@id/menu_title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" />
+                <LinearLayout android:id="@id/menu_streak" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <include layout="@layout/view_vertical_gray_divider" />
+                    <include layout="@layout/view_streak_count" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/menu_fluency" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <include layout="@layout/view_vertical_gray_divider" />
+                    <include layout="@layout/view_fluency_score" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/menu_crowns" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <include layout="@layout/view_vertical_gray_divider" />
+                    <include layout="@layout/view_crown_count" />
+                </LinearLayout>
+                <include android:id="@id/home_menu_divider" layout="@layout/view_vertical_gray_divider" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+        <View android:id="@id/toolbar_modal_divider" android:background="@color/gray_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/thick_divider_size" android:layout_below="@id/toolbar" />
+        <com.duolingo.view.XpChallengeModalView android:orientation="horizontal" android:id="@id/toolbar_modal" android:background="@color/new_gray_lightest" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar_modal_divider" />
+        <View android:id="@id/toolbar_shadow" android:background="@drawable/shadow_tabs" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_below="@id/toolbar_modal" />
+        <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@id/loading_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyleLarge" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/sliding_tabs_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.duolingo.typeface.widget.DuoTabLayout android:gravity="fill" android:layout_gravity="center" android:id="@id/sliding_tabs" android:background="@color/new_gray_lightest" android:layout_width="fill_parent" android:layout_height="@dimen/tab_bar_height" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fragment_container_learn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/sliding_tabs_frame" android:layout_below="@id/toolbar_modal" />
+        <FrameLayout android:id="@id/fragment_container_health" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/sliding_tabs_frame" android:layout_below="@id/toolbar" />
+        <FrameLayout android:id="@id/fragment_container_friends" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/sliding_tabs_frame" android:layout_below="@id/toolbar" />
+        <FrameLayout android:id="@id/fragment_container_clubs" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/sliding_tabs_frame" android:layout_below="@id/toolbar" />
+        <FrameLayout android:id="@id/fragment_container_shop" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/sliding_tabs_frame" android:layout_below="@id/toolbar" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/retry_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.duolingo.typeface.widget.DuoTextView android:gravity="center" android:id="@id/retry_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/retry_prompt" />
+            <com.duolingo.typeface.widget.DuoButton android:id="@id/retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_retry" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/banner_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.duolingo.view.CoachBannerView android:id="@id/coach_banner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <View android:id="@id/tabbar_shadow" android:background="@drawable/reverse_shadow_tabs" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_above="@id/sliding_tabs_frame" />
+        <android.support.design.widget.FloatingActionButton android:id="@id/practice_fab" android:visibility="invisible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" android:src="@drawable/strengthen_white" android:layout_above="@id/tabbar_shadow" android:layout_alignParentRight="@bool/ltr_enabled" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:id="@id/menu_drawer_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar" android:layout_alignParentBottom="true">
+            <RelativeLayout android:id="@id/menu_drawers" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:id="@id/backdrop" android:background="@color/black50" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+                <include android:id="@id/streak_drawer" layout="@layout/view_streak_drawer" />
+                <include android:id="@id/random_rewards_drawer" layout="@layout/view_random_rewards_drawer" />
+                <include android:id="@id/fluency_drawer" layout="@layout/view_fluency_drawer" />
+                <include android:id="@id/crowns_drawer" layout="@layout/view_crowns_drawer" />
+            </RelativeLayout>
+            <View android:id="@id/border_cover" android:background="@color/new_gray_lightest" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.duolingo.view.DuoListView android:scrollbarStyle="outsideOverlay" android:layout_gravity="start" android:id="@id/side_panel" android:background="@color/action_bar_light_default" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:divider="@null" android:dividerHeight="0.0dip" app:desiredWidth="@dimen/home_side_width_max" style="@style/App_ListViewStyle" />
+</com.duolingo.view.DuoDrawerLayout>

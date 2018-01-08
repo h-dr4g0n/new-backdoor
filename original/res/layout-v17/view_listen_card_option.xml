@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/option_container" android:background="@drawable/listen_card_option_background" android:padding="0.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/medium_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/radio_container" android:padding="@dimen/listen_card_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.duolingo.view.DuoSvgImageView android:layout_gravity="center" android:id="@id/radio_icon" android:layout_width="@dimen/listen_card_radio_button_size_small" android:layout_height="@dimen/listen_card_radio_button_size_small" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <View android:id="@id/spacer" android:background="@drawable/background_spacer" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:id="@id/sound_container" android:padding="@dimen/listen_card_button_padding" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.duolingo.view.DuoSvgImageView android:id="@id/sound_icon" android:layout_width="@dimen/listen_card_speaker_button_size_small" android:layout_height="@dimen/listen_card_speaker_button_size_small" android:layout_marginRight="@dimen/big_margin" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/big_margin" app:flipRtl="true" />
+        <com.duolingo.tools.AutoScaleTextView android:textSize="@dimen/medium_font_size" android:textColor="@color/bistate_text_color" android:id="@id/sound_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/check_container" android:padding="@dimen/listen_card_button_padding" android:visibility="gone" android:layout_width="@dimen/listen_card_check_mark_size" android:layout_height="@dimen/listen_card_check_mark_size">
+        <com.duolingo.view.DuoSvgImageView android:layout_gravity="center" android:id="@id/check_icon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" app:svgSrc="@raw/check_green" />
+    </FrameLayout>
+</LinearLayout>

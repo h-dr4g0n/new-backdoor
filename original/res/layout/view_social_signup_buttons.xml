@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/LoginFormContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.typeface.widget.DuoButton android:textColor="@color/gray_google" android:id="@id/google_login_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:buttonColor="@color/white" style="@style/App_ButtonStyle" />
+    <View android:layout_width="@dimen/splash_buttons_gap" android:layout_height="0.0dip" />
+    <com.duolingo.typeface.widget.DuoButton android:textColor="@color/white" android:id="@id/fb_login_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:buttonColor="@color/blue_facebook" style="@style/App_ButtonStyle" />
+</LinearLayout>

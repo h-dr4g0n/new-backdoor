@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="challenge_elements_margin">10.0dip</dimen>
+    <dimen name="half_challenge_elements_margin">5.0dip</dimen>
+    <dimen name="big_margin">20.0dip</dimen>
+</resources>

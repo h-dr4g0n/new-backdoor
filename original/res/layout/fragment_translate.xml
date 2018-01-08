@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.LessonLinearLayout android:orientation="vertical" android:id="@id/challenge_translate" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.tools.AutoScaleTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/activity_vertical_margin" android:text="@string/title_translate" style="@style/ChallengeTitle" />
+    <org.apmem.tools.layouts.FlowLayout android:gravity="center_vertical" android:id="@id/sentence_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/activity_vertical_margin">
+        <include android:id="@id/play_button" layout="@layout/view_speaker_small_w_margin" />
+    </org.apmem.tools.layouts.FlowLayout>
+    <com.duolingo.widget.NoNewlineEditText android:gravity="top" android:id="@id/text_input" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minLines="1" android:layout_weight="1.0" android:inputType="textCapSentences|textMultiLine" android:imeOptions="actionDone" android:imeActionLabel="@string/button_submit" android:imeActionId="@id/submit_action" app:layout_newLine="true" />
+    <com.duolingo.view.TapInputView android:id="@id/tap_input_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:paddingInternal="@dimen/activity_vertical_margin" />
+</com.duolingo.view.LessonLinearLayout>

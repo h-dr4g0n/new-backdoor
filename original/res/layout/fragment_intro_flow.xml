@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="40.0dip" android:layout_marginBottom="30.0dip">
+                <com.duolingo.view.DuoSvgImageView android:layout_gravity="center|right|top" android:id="@id/top_cloud" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1.0" app:svgSrc="@raw/white_cloud" />
+                <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5" />
+                <com.duolingo.view.DuoSvgImageView android:layout_gravity="center|right|top" android:id="@id/mid_cloud" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1.0" app:svgSrc="@raw/white_cloud" />
+                <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.9" />
+                <com.duolingo.view.DuoSvgImageView android:layout_gravity="bottom|center|left" android:id="@id/bottom_cloud" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1.0" app:svgSrc="@raw/white_cloud" />
+            </LinearLayout>
+            <com.duolingo.view.DuoViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="30.0dip" />
+            <com.duolingo.view.ScrollCirclesView android:layout_gravity="bottom|center" android:id="@id/intro_scroll" android:layout_width="120.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" app:portions="4" app:circleColor="@color/white" app:scaleOnScroll="0.5" />
+        </FrameLayout>
+        <com.duolingo.view.PercentFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="25.0dip" app:horizontalPadding="@fraction/activity_horizontal_padding_percent">
+            <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/button_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/blue" android:gravity="center" android:id="@id/start_learning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" android:text="@string/start_learning" style="@style/App_ButtonStyle" />
+                <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/white" android:gravity="center" android:id="@id/current_user" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" android:text="@string/current_user" style="@style/App_ButtonFlat" />
+            </LinearLayout>
+        </com.duolingo.view.PercentFrameLayout>
+    </LinearLayout>
+</FrameLayout>

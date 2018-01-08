@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:focusableInTouchMode="true" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/header_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_alignParentTop="true" />
+    <android.support.v7.widget.RecyclerView android:id="@id/comments_view" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/text_entry_layout" android:layout_below="@id/header_image" android:layout_alignWithParentIfMissing="true" />
+    <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/name_list" />
+    <android.support.v7.widget.RecyclerView android:id="@id/name_list" android:background="@color/new_gray_lightest" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/text_entry_layout" />
+    <View android:id="@id/input_divider" android:background="@drawable/list_divider" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/text_entry_layout" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/text_entry_layout" android:background="@color/white" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:elevation="15.0dip">
+        <HorizontalScrollView android:scrollbarSize="4.0dip" android:layout_gravity="center_vertical" android:id="@id/canned_comments_scroll" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/canned_comments" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </HorizontalScrollView>
+        <com.duolingo.view.DuoSvgImageView android:layout_gravity="center" android:id="@id/toggle_canned_button" android:background="@drawable/toggle_canned_comments_background" android:padding="@dimen/small_margin" android:layout_width="21.0dip" android:layout_height="26.0dip" android:layout_margin="@dimen/big_margin" app:svgSrc="@raw/clubs_canned_comment_arrow" app:flipRtl="true" />
+        <com.duolingo.typeface.widget.ClubsEditText android:textSize="@dimen/medium_font_size" android:gravity="bottom" android:id="@id/new_comment_text" android:scrollbars="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/new_comment_placeholder" android:maxLines="3" android:layout_weight="1.0" android:inputType="textCapSentences|textMultiLine" android:imeOptions="actionNone" />
+        <com.duolingo.view.DuoSvgImageView android:layout_gravity="bottom" android:id="@id/send_button" android:layout_width="@dimen/club_event_comment_send_button_size" android:layout_height="@dimen/club_event_comment_send_button_size" android:layout_margin="@dimen/big_margin" app:svgSrc="@raw/airplane_send_button_inactive" app:flipRtl="true" />
+    </LinearLayout>
+</RelativeLayout>

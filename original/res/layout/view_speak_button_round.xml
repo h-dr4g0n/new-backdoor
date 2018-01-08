@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.DuoSvgImageView android:id="@id/speak_button" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/btn_circle_white_gray" />
+    <ImageView android:id="@id/speak_meter" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/microphone_meter_blue_circle" android:scaleType="fitCenter" />
+    <ProgressBar android:id="@id/speak_working_spinner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminateDrawable="@drawable/gradient_ring_blue" style="?android:attr/progressBarStyleLarge" />
+    <com.duolingo.view.DuoSvgImageView android:id="@id/speak_icon_inactive" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" app:iconScale="0.6" app:svgSrc="@raw/microphone_inactive" />
+    <com.duolingo.view.DuoSvgImageView android:id="@id/speak_icon_active" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" app:iconScale="0.6" app:svgSrc="@raw/microphone_active" />
+</merge>

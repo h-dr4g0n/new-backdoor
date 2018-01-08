@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="num_club_badge_columns">8</integer>
+    <integer name="premium_offer_spacer_weight">0</integer>
+    <integer name="skill_card_max_lines_lesson">2</integer>
+    <integer name="skill_card_max_lines_practice">3</integer>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/gray_clubs_lighter" android:padding="@dimen/club_event_card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.view.DuoSvgImageView android:id="@id/club_event_leaderboard_medal" android:layout_width="@dimen/club_event_leaderboard_medal_size" android:layout_height="@dimen/club_event_leaderboard_medal_size" android:scaleType="fitCenter" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_event_leaderboard_font_size" android:textStyle="bold" android:id="@id/club_event_leaderboard_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large_margin" android:layout_marginRight="@dimen/large_margin" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_event_leaderboard_font_size" android:textStyle="bold" android:textColor="@color/gold" android:gravity="end" android:id="@id/club_event_leaderboard_xp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

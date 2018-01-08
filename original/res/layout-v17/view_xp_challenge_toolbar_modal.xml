@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.view.XpChallengeRandomRewardsView android:id="@id/chests_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/claim_container" android:paddingLeft="@dimen/large_margin" android:paddingTop="@dimen/large_margin" android:paddingRight="@dimen/large_margin" android:paddingBottom="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.view.DuoSvgImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/xp_challenge_chest_icon_size" android:layout_height="wrap_content" android:layout_marginRight="@dimen/huge_margin" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_marginEnd="@dimen/huge_margin" app:svgSrc="@raw/chest_closed_static" />
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.8">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/progress_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textStyle="bold" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/big_margin" />
+                <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/small_font_size" android:textStyle="bold" android:textColor="@color/new_gray" android:id="@id/countdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/big_margin" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.duolingo.view.ProgressBarView android:layout_gravity="center_vertical" android:id="@id/progress_bar" android:layout_width="0.0dip" android:layout_height="10.0dip" android:layout_weight="1.0" app:progressBarHeight="@dimen/xp_challenge_progress_bar_height" app:progressBarColor="@color/gold" app:progressBarShine="true" />
+                    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/xsmall_font_size" android:textStyle="bold" android:textColor="@color/new_gray" android:gravity="end|center" android:id="@id/progress" android:layout_width="@dimen/xp_challenge_progress_bar_progress_view_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/big_margin" android:maxLines="1" android:layout_marginStart="@dimen/big_margin" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.duolingo.typeface.widget.DuoTextView android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/claim_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:buttonColor="@color/blue" style="@style/App_ButtonStyle" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

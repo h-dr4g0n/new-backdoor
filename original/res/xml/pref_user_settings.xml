@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:id="@id/user_settings_pref_category" android:title="@string/title_your_profile">
+        <com.duolingo.preference.DuoAvatarPreference android:layout="@layout/preference_item_user_setting" android:title="@string/setting_photo" android:key="@string/pref_key_avatar" android:positiveButtonText="@string/action_ok" android:negativeButtonText="@string/action_cancel" android:dialogLayout="@layout/preference_password_dialog" />
+        <com.duolingo.preference.DuoFullnamePreference android:layout="@layout/preference_item_user_setting" android:title="@string/setting_name" android:key="@string/pref_key_fullname" android:positiveButtonText="@string/action_ok" android:negativeButtonText="@string/action_cancel" />
+        <com.duolingo.preference.DuoUsernamePreference android:layout="@layout/preference_item_user_setting" android:title="@string/setting_username" android:key="@string/pref_key_username" android:positiveButtonText="@string/action_ok" android:negativeButtonText="@string/action_cancel" />
+        <com.duolingo.preference.DuoEmailPreference android:layout="@layout/preference_item_user_setting" android:title="@string/setting_email" android:key="@string/pref_key_email" android:positiveButtonText="@string/action_ok" android:negativeButtonText="@string/action_cancel" />
+        <com.duolingo.preference.DuoPasswordPreference android:layout="@layout/preference_item_user_setting" android:title="@string/setting_password" android:key="@string/pref_key_password" android:positiveButtonText="@string/action_ok" android:negativeButtonText="@string/action_cancel" android:dialogLayout="@layout/preference_password_dialog" />
+    </PreferenceCategory>
+</PreferenceScreen>

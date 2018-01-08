@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.typeface.widget.DuoTextView android:paddingTop="@dimen/choice_token_padding_top" android:paddingBottom="@dimen/choice_token_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" style="@style/WordOptionStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

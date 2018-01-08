@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:paddingLeft="@dimen/generic_margin" android:paddingTop="@dimen/generic_margin" android:paddingRight="@dimen/generic_margin" android:paddingBottom="@dimen/generic_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/App_ButtonFlatNoStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/avatar_with_frame" android:layout_width="@dimen/leaderboard_avatar_frame" android:layout_height="@dimen/leaderboard_avatar_frame" android:layout_marginLeft="0.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentLeft="@bool/ltr_enabled" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:id="@id/avatar" android:layout_width="@dimen/leaderboard_avatar_size" android:layout_height="@dimen/leaderboard_avatar_size" />
+        <ImageView android:id="@id/avatar_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/leaderboard_avatar_frame" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/nothing" android:layout_toRightOf="@id/avatar_with_frame" android:layout_centerVertical="true">
+        <com.duolingo.typeface.widget.DuoTextView android:textAppearance="@style/LeaderboardUsernameStyle" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small_margin" />
+        <com.duolingo.typeface.widget.DuoTextView android:textAppearance="@style/LeaderboardSubtextStyle" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/leaderboard_alone_subtitle" />
+    </LinearLayout>
+</RelativeLayout>

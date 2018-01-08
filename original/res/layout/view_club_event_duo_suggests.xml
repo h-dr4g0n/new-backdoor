@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/club_event_duo_suggests" android:layout_width="fill_parent" android:layout_height="@dimen/club_event_banner_size" android:layout_margin="0.0dip">
+        <com.duolingo.view.DuoSvgImageView android:id="@id/club_event_duo_suggests_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_centerInParent="true" app:svgSrc="@raw/clubs_duo_suggests" />
+        <View android:id="@id/spacer" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+        <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/xxlarge_font_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/clubs_duo_suggests_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-30.0dip" android:layout_toRightOf="@id/spacer" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:textIsSelectable="true" />
+    </RelativeLayout>
+</merge>

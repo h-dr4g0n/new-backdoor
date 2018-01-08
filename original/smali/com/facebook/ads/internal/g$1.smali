@@ -1,0 +1,8 @@
+.class synthetic Lcom/facebook/ads/internal/g$1;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/facebook/ads/internal/g;
+.end annotation

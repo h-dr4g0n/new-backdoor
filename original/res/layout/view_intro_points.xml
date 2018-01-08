@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.view.PercentFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:horizontalPadding="@fraction/intro_horizontal_padding_percent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View style="@style/IntroFlowSpacer" />
+        <LinearLayout style="@style/IntroFlowImageWrapper">
+            <com.duolingo.view.DuoSvgImageView app:svgSrc="@raw/intro_progress" style="@style/IntroFlowImage" />
+        </LinearLayout>
+        <View style="@style/IntroFlowDivider" />
+        <com.duolingo.typeface.widget.DuoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/intro_points" style="@style/IntroFlowSubtitle" />
+        <View style="@style/IntroFlowSpacer" />
+    </LinearLayout>
+</com.duolingo.view.PercentFrameLayout>

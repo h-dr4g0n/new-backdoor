@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.view.DuoSvgImageView android:id="@id/benefit_duo_image" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/big_margin" android:layout_weight="1.0" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/medium_font_size" android:textColor="@color/white" android:gravity="center" android:id="@id/sales_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/huge_margin" />
+</LinearLayout>

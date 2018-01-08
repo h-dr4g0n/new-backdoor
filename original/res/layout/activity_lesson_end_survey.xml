@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/lesson_background_gray" android:padding="@dimen/large_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/ad_slide_horizontal_padding" android:paddingRight="@dimen/ad_slide_horizontal_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.duolingo.view.DuoSvgImageView android:layout_gravity="center_vertical" android:id="@id/survey_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitCenter" android:layout_weight="3.0" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.duolingo.typeface.widget.DuoTextView android:textAppearance="@style/LessonEndTitle" android:textStyle="bold" android:gravity="center" android:id="@id/survey_question" android:paddingBottom="@dimen/lesson_end_title_padding_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:id="@id/survey_answers_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="3.0" />
+    </LinearLayout>
+    <com.duolingo.typeface.widget.DuoTextView android:enabled="false" android:layout_gravity="bottom" android:id="@id/continue_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_continue" app:buttonColor="@color/green_leaf" style="@style/SubmitButtonStyle" />
+</FrameLayout>

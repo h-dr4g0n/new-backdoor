@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/ad_choices_black" />
+    <padding android:left="3.0dip" android:top="1.0dip" android:right="3.0dip" android:bottom="1.0dip" />
+    <corners android:topLeftRadius="@dimen/ad_label_radius" android:topRightRadius="@dimen/ad_label_radius" android:bottomLeftRadius="@dimen/ad_label_radius" android:bottomRightRadius="@dimen/ad_label_radius" />
+</shape>

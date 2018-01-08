@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.view.DuoSvgImageView android:id="@id/club_member_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/large_margin" android:layout_marginTop="@dimen/medium_margin" android:layout_marginRight="0.0dip" android:layout_marginBottom="@dimen/medium_margin" android:layout_marginStart="@dimen/large_margin" android:layout_marginEnd="0.0dip" />
+    <com.duolingo.typeface.widget.DuoTextView android:textSize="@dimen/club_member_font_size" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/club_member_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large_margin" android:layout_marginRight="@dimen/large_margin" android:maxLines="1" android:layout_weight="1.0" android:textDirection="locale" />
+</LinearLayout>

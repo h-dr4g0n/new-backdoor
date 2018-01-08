@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/new_gray_lighter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/button_container" android:layout_alignParentTop="true">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.duolingo.view.CircleHealthView android:id="@id/circle_health_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/huge_margin" android:layout_weight="6.0" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/button_container" android:background="@color/new_gray_lightest" android:padding="@dimen/huge_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.duolingo.view.HealthButtonView android:id="@id/practice_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/huge_margin" style="@style/App_ButtonGrayOutline" />
+        <com.duolingo.view.HealthButtonView android:id="@id/refill_button" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/App_ButtonGrayOutline" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/progress_container" android:background="@color/black50" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyleLarge" />
+    </RelativeLayout>
+</RelativeLayout>
